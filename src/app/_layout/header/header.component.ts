@@ -26,6 +26,7 @@ export class HeaderComponent implements OnInit {
         this.navigateToHome();
     }
 
+    // home navigation
     navigateToHome() {
         this._router.navigateByUrl('home');
         this.isHomeSelected = true;
@@ -34,6 +35,7 @@ export class HeaderComponent implements OnInit {
         this.isFindUsSelected = false;
     }
 
+    // services navigation
     navigateToServices() {
         this._router.navigateByUrl('services');
         this.isHomeSelected = false;
@@ -42,6 +44,7 @@ export class HeaderComponent implements OnInit {
         this.isFindUsSelected = false;
     }
 
+    // items navigation
     navigateToTeam() {
         this._router.navigateByUrl('team');
         this.isHomeSelected = false;
@@ -50,6 +53,7 @@ export class HeaderComponent implements OnInit {
         this.isFindUsSelected = false;
     }
 
+    // find us navigation
     navigateToContact() {
         this._router.navigateByUrl('contact');
         this.isHomeSelected = false;
