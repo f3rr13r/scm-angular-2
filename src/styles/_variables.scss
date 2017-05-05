@@ -1,0 +1,20 @@
+/*------------
+Variables:
+- For use throughout the app.
+To use any of these you must import this stylesheet into the component stylesheet.
+------------*/
+
+
+/*-- typography --*/
+
+$scm-blue: #002E52;
+$scm-grey: #888888;
+$scm-light-blue: #1B5DD1;
+$scm-light-off-white: #F1F1F1;
+
+/*-- font family --*/
+
+$scm-font-helvetica-neue: "Helvetica Neue";
+$scm-font-helvetica: "Helvetica";
+$scm-font-arial: "Arial";
+$scm-font-fallback: "sans-serif";
