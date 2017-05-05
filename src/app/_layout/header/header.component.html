@@ -1,8 +1,8 @@
 <div class="header">
-    <button (click)="navigateToHome()" class="header--link header--link--option">Home</button>
-    <button (click)="navigateToServices()" class="header--link header--link--option">Services</button>
+    <button (click)="navigateToHome()" class="header--link header--link--option" [class.option--selected]="isHomeSelected">Home</button>
+    <button (click)="navigateToServices()" class="header--link header--link--option" [class.option--selected]="isServicesSelected">Services</button>
     <img (click)="navigateToHome()" class="header--link header--link--logo" src="/assets/scm-logo--small.png" />
-    <button (click)="navigateToTeam()" class="header--link header--link--option">Team</button>
-    <button (click)="navigateToContact()" class="header--link header--link--option">Find Us</button>
+    <button (click)="navigateToTeam()" class="header--link header--link--option" [class.option--selected]="isTeamSelected">Team</button>
+    <button (click)="navigateToContact()" class="header--link header--link--option" [class.option--selected]="isFindUsSelected">Find Us</button>
 </div>
 <header-contact></header-contact>

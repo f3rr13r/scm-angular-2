@@ -53,3 +53,10 @@ header-contact {
         font-size: 12px;
     }
 }
+
+.option--selected {
+    border-bottom: 3px solid $scm-light-blue;
+    &:last-of-type {
+        border-color: $scm-grey;
+    }
+}
