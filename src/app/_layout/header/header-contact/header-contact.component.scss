@@ -68,6 +68,12 @@
         flex-flow: column;
         &--phone {
             width: 100%;
+            text-align: center;
+            ul {
+                display: flex;
+                justify-content: space-around;
+                padding: 0;
+            }
         }
         &--button {
             width: 100%;
