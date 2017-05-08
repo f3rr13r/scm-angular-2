@@ -3,15 +3,22 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
+// google maps
+import { AgmCoreModule } from 'angular2-google-maps/core';
+
 // modules
 
 // components
+import { GoogleMapsComponent } from './google-maps/google-maps.component';
 
 
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBe--3uk1M3mNAsxPgeHI_RjbfjEvcclFg'
+    })
   ],
   exports: [
     // angular
@@ -19,7 +26,8 @@ import { RouterModule } from '@angular/router';
     FormsModule,
     ReactiveFormsModule,
     RouterModule,
+    GoogleMapsComponent
   ],
-  declarations: [ ]
+  declarations: [ GoogleMapsComponent ]
 })
 export class _SharedModule { }
