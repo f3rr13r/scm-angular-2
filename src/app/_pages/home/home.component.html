@@ -9,7 +9,7 @@
                 </h2>
             </div>
             <div class="underline"></div>
-            <button (click)="buttonClicked()" class="home-jumbotron--button">
+            <button (click)="navigateToServices()" class="home-jumbotron--button">
                 What We Do
             </button>
         </div>
@@ -23,7 +23,7 @@
                 <hr />
                 <p>Mumblecore master cleanse semiotics, hammock bicycle rights polaroid fanny pack pitchfork pok pok leggings health goth yr. Affogato ethical tofu franzen. Cray skateboard semiotics artisan, swag polaroid air plant gentrify pinterest kale
                     chips marfa kombucha slow-carb jean shorts wayfarers.</p>
-                <button (click)="buttonClicked()">
+                <button (click)="navigateToTeam()">
         Meet the team
     </button>
             </div>
@@ -33,4 +33,28 @@
         </div>
     </div>
 
+    <!---Who we are-->
+    <div class="wheretofind">
+        <div class="wheretofind--map">
+            <google-maps></google-maps>
+        </div>
+        <div class="wheretofind--text">
+            <div class="wheretofind--layer__grey">
+                <h1>Where To Find Us</h1>
+                <hr />
+                <ul>
+                    <li>Chudleigh McKenna Solicitors Ltd</li>
+                    <li>1st Floor</li>
+                    <li>Wyndham Street</li>
+                    <li>Bridgend</li>
+                    <li>MID GLAMORGAN</li>
+                    <li>CF31 1LH</li>
+                </ul>
+                <hr />
+                <button (click)="navigateToFindUs()">
+        Get Directions
+    </button>
+            </div>
+        </div>
+    </div>
 </div>
