@@ -1,8 +1,16 @@
 <div class="header">
-    <button (click)="navigateToHome()" class="header--link header--link--option" [class.option--selected]="isHomeSelected">Home</button>
-    <button (click)="navigateToServices()" class="header--link header--link--option" [class.option--selected]="isServicesSelected">Services</button>
+    <button (click)="navigateToHome()" class="header--link header--link--option" [class.option--selected]="_router.url == '/' || _router.url == 'home'">Home</button>
+    <button (click)="navigateToServices()" class="header--link header--link--option" [class.option--selected]="_router.url == '/services' || 
+                                                                                                               _router.url == '/services/violent-crime-offences' ||
+                                                                                                               _router.url == '/services/sexual-offences' ||
+                                                                                                               _router.url == '/services/drug-offences' ||
+                                                                                                               _router.url == '/services/fraud-offences' ||
+                                                                                                               _router.url == '/services/theft-and-dishonesty-offences' ||
+                                                                                                               _router.url == '/services/cyber-crime-offences' ||
+                                                                                                               _router.url == '/services/regulatory-offences' ||
+                                                                                                               _router.url == '/services/motoring-offences'">Services</button>
     <img (click)="navigateToHome()" class="header--link header--link--logo" src="/assets/scm-logo--small.png" />
-    <button (click)="navigateToTeam()" class="header--link header--link--option" [class.option--selected]="isTeamSelected">Team</button>
-    <button (click)="navigateToFindUs()" class="header--link header--link--option" [class.option--selected]="isFindUsSelected">Find Us</button>
+    <button (click)="navigateToTeam()" class="header--link header--link--option" [class.option--selected]="_router.url == '/team'">Team</button>
+    <button (click)="navigateToFindUs()" class="header--link header--link--option" [class.option--selected]="_router.url == '/find-us'">Find Us</button>
 </div>
 <header-contact></header-contact>
