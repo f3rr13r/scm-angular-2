@@ -24,34 +24,32 @@ export class HeaderComponent implements OnInit {
     ngOnInit() {
         // show home page by default.
         this.navigateToHome();
-
-        console.log(this._router.url);
     }
 
     // routing
     navigateToHome() {
-        this._router.navigateByUrl('home');
-        this.homePageSelected();
+        this._router.navigateByUrl('/');
+        //this.homePageSelected();
     }
 
     navigateToServices() {
         this._router.navigateByUrl('services');
-        this.servicesPageSelected();
+        //this.servicesPageSelected();
     }
 
     navigateToTeam() {
         this._router.navigateByUrl('team');
-        this.teamPageSelected();
+        //this.teamPageSelected();
     }
 
     navigateToFindUs() {
         this._router.navigateByUrl('find-us');
-        this.findUsPageSelected();
+        //this.findUsPageSelected();
     }
 
 
     // assign selected button selected states.
-    homePageSelected() {
+    /*homePageSelected() {
         this.isHomeSelected = true;
         this.isServicesSelected = false;
         this.isTeamSelected = false;
@@ -77,5 +75,5 @@ export class HeaderComponent implements OnInit {
         this.isServicesSelected = false;
         this.isTeamSelected = false;
         this.isFindUsSelected = true;
-    }
+    }*/
 }

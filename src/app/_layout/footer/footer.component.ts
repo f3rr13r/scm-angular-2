@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 // components
 import { FooterContactComponent } from './footer-contact/footer-contact.component';
@@ -9,4 +10,12 @@ import { FooterContactComponent } from './footer-contact/footer-contact.componen
     styleUrls: [ 'footer.component.scss' ]
 })
 
-export class FooterComponent { }
+export class FooterComponent {
+
+    constructor(private _router: Router) { }
+
+    navigateToHome() {
+        this._router.navigateByUrl('/');
+    }
+
+}
