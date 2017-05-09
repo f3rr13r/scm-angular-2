@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 // routing
 import { Router } from '@angular/router';
@@ -11,9 +11,14 @@ import { GoogleMapsComponent } from '../../_shared/google-maps/google-maps.compo
     styleUrls: [ 'home.component.scss' ]
 })
 
-export class HomeComponent {
+export class HomeComponent implements OnInit {
 
     constructor(private _router: Router) { }
+
+    // make sure we always arrive back at top of page.
+    ngOnInit() {
+        window.scrollTo(0, 0);
+    }
 
     navigateToServices() {
         this._router.navigateByUrl('services');
@@ -24,6 +29,6 @@ export class HomeComponent {
     }
 
     navigateToFindUs() {
-        this._router.navigateByUrl('contact');
+        this._router.navigateByUrl('find-us');
     }
 }

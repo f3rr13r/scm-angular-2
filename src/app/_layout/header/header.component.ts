@@ -54,8 +54,8 @@ export class HeaderComponent implements OnInit {
     }
 
     // find us navigation
-    navigateToContact() {
-        this._router.navigateByUrl('contact');
+    navigateToFindUs() {
+        this._router.navigateByUrl('find-us');
         this.isHomeSelected = false;
         this.isServicesSelected = false;
         this.isTeamSelected = false;

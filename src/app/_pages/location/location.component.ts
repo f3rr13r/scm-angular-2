@@ -6,4 +6,11 @@ import { Component } from '@angular/core';
     styleUrls: [ 'location.component.scss' ]
 })
 
-export class LocationComponent { }
+export class LocationComponent {
+
+    // make sure we always arrive back at top of page.
+    ngAfterViewChecked() {
+        window.scrollTo(0, 0);
+    }
+
+}

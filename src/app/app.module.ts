@@ -16,6 +16,8 @@ import { LayoutModule } from './_layout/layout.module';
 // app modules
 import { AppRoutingModule } from './app.routing.module';
 import { PagesModule } from './_pages/pages.module';
+import { ServicesModule } from './_pages/services/services.module';
+import { TeamModule } from './_pages/team/team.module'; 
 
 // app components
 import { AppComponent } from './app.component';
@@ -44,7 +46,9 @@ const appRoutes: Routes = [
     LayoutModule,
 
     // pages modules
-    PagesModule
+    PagesModule,
+    ServicesModule,
+    TeamModule
   ],
   declarations: [
     AppComponent,

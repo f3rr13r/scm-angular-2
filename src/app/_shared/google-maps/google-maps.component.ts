@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { Router } from '@angular/router';
+
 import { Location } from './models/location.interface';
 
 @Component({
@@ -33,4 +35,10 @@ export class GoogleMapsComponent {
            postcode: 'CF24 1PW'
         }
     ]
+
+    constructor(private _router: Router) { }
+
+    navigateToFindUs() {
+        this._router.navigateByUrl('/find-us');
+    }
  }

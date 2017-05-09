@@ -4,6 +4,7 @@
             <p>{{ office.address }}</p>
             <p><strong>{{ office.city }}</strong></p>
             <p><strong>{{ office.postcode }}</strong></p>
+            <button (click)="navigateToFindUs(office)">More Info</button>
         </sebm-google-map-info-window>
     </sebm-google-map-marker>
 </sebm-google-map>
