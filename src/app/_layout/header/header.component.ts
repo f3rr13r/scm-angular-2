@@ -24,6 +24,8 @@ export class HeaderComponent implements OnInit {
     ngOnInit() {
         // show home page by default.
         this.navigateToHome();
+
+        console.log(this._router.url);
     }
 
     // routing
