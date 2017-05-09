@@ -26,36 +26,51 @@ export class HeaderComponent implements OnInit {
         this.navigateToHome();
     }
 
-    // home navigation
+    // routing
     navigateToHome() {
         this._router.navigateByUrl('home');
+        this.homePageSelected();
+    }
+
+    navigateToServices() {
+        this._router.navigateByUrl('services');
+        this.servicesPageSelected();
+    }
+
+    navigateToTeam() {
+        this._router.navigateByUrl('team');
+        this.teamPageSelected();
+    }
+
+    navigateToFindUs() {
+        this._router.navigateByUrl('find-us');
+        this.findUsPageSelected();
+    }
+
+
+    // assign selected button selected states.
+    homePageSelected() {
         this.isHomeSelected = true;
         this.isServicesSelected = false;
         this.isTeamSelected = false;
         this.isFindUsSelected = false;
     }
 
-    // services navigation
-    navigateToServices() {
-        this._router.navigateByUrl('services');
+    servicesPageSelected() {
         this.isHomeSelected = false;
         this.isServicesSelected = true;
         this.isTeamSelected = false;
         this.isFindUsSelected = false;
     }
 
-    // items navigation
-    navigateToTeam() {
-        this._router.navigateByUrl('team');
+    teamPageSelected() {
         this.isHomeSelected = false;
         this.isServicesSelected = false;
         this.isTeamSelected = true;
         this.isFindUsSelected = false;
     }
 
-    // find us navigation
-    navigateToFindUs() {
-        this._router.navigateByUrl('find-us');
+    findUsPageSelected() {
         this.isHomeSelected = false;
         this.isServicesSelected = false;
         this.isTeamSelected = false;
