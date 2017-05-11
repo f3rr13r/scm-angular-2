@@ -1,13 +1,10 @@
 <div class="services">
-    <h2>Services</h2>
-    <div class="services__list">
-        <button (click)="goToServicesDetail('violent-crime-offences')">Violent Crime Offences</button>
-        <button (click)="goToServicesDetail('sexual-offences')">Sexual Offences</button>
-        <button (click)="goToServicesDetail('drug-offences')">Drugs Offences</button>
-        <button (click)="goToServicesDetail('fraud-offences')">Fraud Offences</button>
-        <button (click)="goToServicesDetail('theft-and-dishonesty-offences')">Theft / Dishonesty Offences</button>
-        <button (click)="goToServicesDetail('cyber-crime-offences')">Cyber Crime Offences</button>
-        <button (click)="goToServicesDetail('regulatory-offences')">Regulatory Offences</button>
-        <button (click)="goToServicesDetail('motoring-offences')">Motoring Offences</button>
+    <div *ngFor="let service of services; let i = index;" [ngStyle]="{ 'background-image': service.imageUrl }" class="services--item">
+        <div (mouseenter)="showLayer(i)" (mouseleave)="hideLayer(i)" class="layer" [class.layer--clear]="i == selectedRow">
+            <!--<p class="">{{ service.title }}</p>-->
+            <ul class="services--item--content">
+                <li (click)="goToServicesDetail(service.path, service.title, service.description, service.imageUrl, service.crimes)" class="title" [class.title--hover]="i == selectedRow">{{ service.title }}</li>
+            </ul>
+        </div>
     </div>
 </div>

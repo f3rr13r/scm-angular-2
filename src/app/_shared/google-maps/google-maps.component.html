@@ -1,4 +1,4 @@
-<sebm-google-map [latitude]="lat" [longitude]="lng">
+<sebm-google-map [latitude]="lat" [longitude]="lng" [scrollwheel]="false">
     <sebm-google-map-marker *ngFor="let office of offices" [latitude]="office.latitude" [longitude]="office.longitude">
         <sebm-google-map-info-window [disableAutoPan]="true">
             <p>{{ office.address }}</p>

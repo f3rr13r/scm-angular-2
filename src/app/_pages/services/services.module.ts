@@ -4,6 +4,10 @@ import { RouterModule, Routes } from '@angular/router';
 /* -- shared -- */
 import { _SharedModule } from '../../_shared/shared.module';
 
+// shared services
+import { DataStorageService } from './data/data.storage';
+
+// components
 import { ServicesDetailComponent } from './services-detail/services-detail.component';
 
 const appRoutes: Routes = [
@@ -21,8 +25,7 @@ const appRoutes: Routes = [
   declarations: [
     ServicesDetailComponent
   ],
-  providers: [
-  ],
+  providers: [ DataStorageService ],
 })
 
 export class ServicesModule { }
