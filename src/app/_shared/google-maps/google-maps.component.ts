@@ -18,19 +18,22 @@ export class GoogleMapsComponent {
         {
             latitude: 51.5070346,
             longitude: -3.5786352,
-            address: '1st Floor, 14 Wyndham Street',
+            address1: '1st Floor',
+            address2: '14 Wyndham Street',
             city: 'BRIDGEND',
             postcode: 'CF31 1EF'
         }, {
             latitude: 51.6187044,
             longitude: -3.939985,
-            address: 'Metropole Chambers, Salubrious Passage, Wind Street',
+            address1: 'Metropole Chambers',
+            address2: 'Salubrious Passage, Wind Street',
             city: 'SWANSEA',
             postcode: 'SA1 3RT'
         }, {
            latitude: 51.4866957,
            longitude: -3.1587076,
-           address: '10 Clifton Street, Adamsdown, Cardiff',
+           address1: '10 Clifton Street',
+           address2: 'Adamsdown',
            city: 'CARDIFF',
            postcode: 'CF24 1PW'
         }

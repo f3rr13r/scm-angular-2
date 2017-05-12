@@ -1,7 +1,8 @@
 export interface Location {
     latitude: number,
     longitude: number,
-    address: string,
+    address1: string,
+    address2: string,
     city: string,
     postcode: string
 }

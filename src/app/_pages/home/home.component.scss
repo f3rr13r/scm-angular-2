@@ -158,33 +158,39 @@
             text-align: center;
             margin-top: 40px;
         }
+        p {
+            font-weight: 100;
+            margin: 5%;
+            text-align: center;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+        h2 {
+            text-align: center;
+            font-size: 18px;
+            font-family: $scm-font-helvetica-neue;
+            font-weight: 100;
+        }
         hr {
             width: 30%;
             height: 1px;
             background: $scm-light-blue;
             border: none;
         }
-        ul {
-            font-weight: 100;
-            font-size: 20px;
-            text-align: center;
-            padding: 10px;
-            li {
-                list-style: none;
-            }
-        }
+    }
+    &--buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 5%;
     }
     button {
         margin-top: 40px;
         border: 1px solid white;
         font-size: 20px;
-        padding: 15px;
+        padding: 10px;
         border-radius: 10px;
-        width: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        align-self: center;
-        display: block;
+        width: 26%;
         color: white;
         background: none;
         &:hover {
@@ -229,20 +235,23 @@
     .wheretofind {
         &--text {
             width: 100%;
-            background: url("http://offices-maputo.com/wp-content/uploads/2013/08/confrooms.jpg") no-repeat center;
+            background: url("/assets/GoogleMap-image.png") no-repeat center;
             background-size: cover;
             color: white;
             padding: 0;
         }
+        &--buttons {
+            display: flex;
+            flex-direction: row;
+        }
         button {
             font-size: 15px;
-            display: block;
         }
         &--map {
             display: none;
         }
         &--layer__grey {
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: rgba(0, 0, 0, 0.8);
             top: 0;
             left: 0;
             width: 100%;
