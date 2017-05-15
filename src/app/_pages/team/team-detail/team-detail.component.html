@@ -17,8 +17,8 @@
             <h4>Accreditations - TBC</h4>
             <hr />
             <p>{{ teamMember.fullDescription }}</p>
-            <button class="contact-button"><strong>Call </strong>{{ teamMember.phoneNumber }}</button>
-            <button class="contact-button"><strong>Email </strong>{{ teamMember.emailAddress }}</button>
+            <a href="'tel:' + teamMember.phoneNumber" class="contact-button"><strong>Call </strong>{{ teamMember.phoneNumber }}</button>
+            <a href="'mailto:' + teamMember.emailAddress" class="contact-button"><strong>Email </strong>{{ teamMember.emailAddress }}</button>
         </div>
     </div>
 </div>
