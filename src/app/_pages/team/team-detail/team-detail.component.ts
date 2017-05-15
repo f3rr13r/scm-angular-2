@@ -1,7 +1,10 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
-// actived route
-import { ActivatedRoute } from '@angular/router';
+// models
+import { TeamMember } from '../models/team-data.interface';
+
+// shared data service
+import { DataStorageService } from '../data/data.storage';
 
 @Component({
     selector: 'team-detail',
@@ -9,29 +12,21 @@ import { ActivatedRoute } from '@angular/router';
     styleUrls: ['team-detail.component.scss']
 })
 
-export class TeamDetailComponent implements OnInit, OnDestroy {
+export class TeamDetailComponent implements OnInit {
 
     // properties
-    teamMemberName: string;
-    private sub: any;
+    teamMember: TeamMember;
 
-    constructor(private route: ActivatedRoute) { }
+    constructor(private _dataStorageService: DataStorageService) { }
 
     ngOnInit() {
         // make sure we always arrive back at top of page.
         window.scrollTo(0, 0);
 
-        this.sub = this.route.params.subscribe(params => {
-            this.teamMemberName = params['name'];
-        });
-    }
+        // get appropriate data from shared data service
+        this.teamMember = this._dataStorageService.getTeamMember();
 
-    ngOnDestroy() {
-        this.sub.unsubscribe();
+        console.log(this.teamMember);
     }
-
-    // we will have imported data in here and will cross reference
-    // the name which comes back. This will then by used to display
-    // the correct data.
 
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Location } from '@angular/common';
 
 // actived route
 import { ActivatedRoute } from '@angular/router';
@@ -22,7 +23,8 @@ export class ServicesDetailComponent implements OnInit {
 
     service: Service;
 
-    constructor(private _dataStorageService: DataStorageService) { }
+    constructor(private _dataStorageService: DataStorageService,
+                private _location: Location) { }
 
     ngOnInit() {
         // make sure we always arrive back at top of page.
@@ -30,5 +32,9 @@ export class ServicesDetailComponent implements OnInit {
 
         // get data from shared service
         this.service = this._dataStorageService.getService();
+    }
+
+    goBack() {
+        this._location.back();
     }
 }
