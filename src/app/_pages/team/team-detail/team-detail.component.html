@@ -1,3 +1,24 @@
-<div class="team-detail">
+<!--<div class="team-detail">
     <h2>This is the page where we will display information about <strong> {{ teamMemberName }} </strong></h2>
+</div>-->
+
+<div class="team-detail">
+    <div class="team-detail__content-box">
+        <div class="team-detail__content-box--info" [ngStyle]="{ 'background-image': teamMember.imageUrl }">
+        </div>
+        <div class="team-detail__content-box--contact">
+            <button><strong>Call </strong>{{ teamMember.phoneNumber }}</button>
+            <button><strong>Email </strong>{{ teamMember.emailAddress }}</button>
+        </div>
+    </div>
+    <div class="team-detail__info-box">
+        <div class="team-detail__info-box--border">
+            <h1>{{ teamMember.name }}</h1>
+            <h4>Accreditations - TBC</h4>
+            <hr />
+            <p>{{ teamMember.fullDescription }}</p>
+            <button class="contact-button"><strong>Call </strong>{{ teamMember.phoneNumber }}</button>
+            <button class="contact-button"><strong>Email </strong>{{ teamMember.emailAddress }}</button>
+        </div>
+    </div>
 </div>

@@ -1,3 +1,18 @@
-<div class="service-detail">
-    <h2>This is the page where we will display information about <strong> {{ service.title }} </strong></h2>
+<div class="service-detail" [ngStyle]="{ 'background-image': service.imageUrl }">
+    <div class="service-detail--blur-overlay" [ngStyle]="{ 'background-image': service.imageUrl }"></div>
+    <div class="service-detail--content">
+        <div (click)="goBack()" class="back">
+            <img src="/assets/services/x-icon.png" alt="go-back" />
+            <p>Go back</p>
+        </div>
+        <h2>{{ service.title }}</h2>
+        <hr class="service-detail--content__hr" />
+        <p>{{ service.description }}</p>
+        <hr class="service-detail--content__hr" />
+        <ul class="service-detail--content__crime-list">
+            <li *ngFor="let crime of service.crimes" class="service-detail--content__crime-list__item">
+                <img src="/assets/services/list-arrow--icon.png" alt="list-item-arrow" /> {{ crime }}
+            </li>
+        </ul>
+    </div>
 </div>
