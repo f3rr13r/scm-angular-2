@@ -23,6 +23,9 @@
             height: 100%;
             flex-basis: 0;
             flex-grow: 1;
+            &:hover {
+                cursor: pointer;
+            }
             &:active,
             &:focus {
                 outline: none;
@@ -30,6 +33,9 @@
         }
         &--logo {
             height: 60px;
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 }
