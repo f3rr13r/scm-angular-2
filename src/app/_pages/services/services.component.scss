@@ -4,6 +4,34 @@
     width: 100%;
     height: 100%;
     background-color: $scm-blue;
+    &--intro {
+        padding-bottom: 20px;
+        background-color: $scm-light-off-white;
+        font-family: $scm-font-helvetica-neue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__title {
+            color: $scm-blue;
+            font-size: 36px;
+        }
+        &__hr {
+            width: 140px;
+            height: 2px;
+            border: none;
+            background-color: $scm-light-blue;
+        }
+        &__description {
+            color: $scm-grey;
+            padding: 0 40px;
+            text-align: center;
+            font-weight: 200;
+        }
+        .regular {
+            font-weight: 400;
+            padding: 0 25%;
+        }
+    }
     &--item {
         height: 140px;
         width: 100%;
