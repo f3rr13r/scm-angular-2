@@ -1,18 +1,24 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject, forwardRef } from '@angular/core';
+
+// shared service
+import { DataStorageService } from '../../data/data.storage';
 
 @Component({
     selector: 'find-us',
     templateUrl: 'find-us.component.html',
-    styleUrls: [ 'find-us.component.scss' ]
+    styleUrls: [ 'find-us.component.scss' ],
+    providers: [ DataStorageService ]
 })
 
 export class FindUsComponent implements OnInit {
 
-    // make sure we start at top of page.
-    // Going forward we will check which
-    // office they clicked on and scroll down
-    // or up automatically to that office.
+    offices: any[] = [];
+
+    constructor(private _sharedDataService: DataStorageService){}
+
     ngOnInit() {
+        this.offices = this._sharedDataService.getOfficeLocations();
+        console.log(this.offices);
         window.scrollTo(0, 0);
     }
 

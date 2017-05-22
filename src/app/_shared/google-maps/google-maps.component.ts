@@ -1,45 +1,28 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 import { Router } from '@angular/router';
 
-import { Location } from './models/location.interface';
+import { DataStorageService } from '../../data/data.storage';
 
 @Component({
     selector: 'google-maps',
     templateUrl: 'google-maps.component.html',
-    styleUrls: ['google-maps.component.scss']
+    styleUrls: ['google-maps.component.scss'],
+    providers: [ DataStorageService ]
 })
 
-export class GoogleMapsComponent {
+export class GoogleMapsComponent implements OnInit {
     lat: number = 51.507914;
     lng: number = -3.577515;
 
-    offices: Location[] = [
-        {
-            latitude: 51.5070346,
-            longitude: -3.5786352,
-            address1: '1st Floor',
-            address2: '14 Wyndham Street',
-            city: 'BRIDGEND',
-            postcode: 'CF31 1EF'
-        }, {
-            latitude: 51.6187044,
-            longitude: -3.939985,
-            address1: 'Metropole Chambers',
-            address2: 'Salubrious Passage, Wind Street',
-            city: 'SWANSEA',
-            postcode: 'SA1 3RT'
-        }, {
-           latitude: 51.4866957,
-           longitude: -3.1587076,
-           address1: '10 Clifton Street',
-           address2: 'Adamsdown',
-           city: 'CARDIFF',
-           postcode: 'CF24 1PW'
-        }
-    ]
+    offices: any[] = [];
 
-    constructor(private _router: Router) { }
+    constructor(private _router: Router,
+                private _sharedDataService: DataStorageService) { }
+
+    ngOnInit() {
+        this.offices = this._sharedDataService.getOfficeLocations();
+    }
 
     navigateToFindUs() {
         this._router.navigateByUrl('/find-us');

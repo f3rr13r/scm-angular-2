@@ -4,5 +4,15 @@ export interface Location {
     address1: string,
     address2: string,
     city: string,
-    postcode: string
+    postcode: string,
+    phone: number,
+    openingHours: {
+        monday: string,
+        tuesday: string,
+        wednesday: string,
+        thursday: string,
+        friday: string,
+        saturday: string,
+        sunday: string
+    }
 }
