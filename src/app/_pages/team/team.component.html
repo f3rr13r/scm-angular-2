@@ -1,4 +1,5 @@
 <div class="team">
+    <!--desktop-->
     <div (mouseenter)="onTeamHover()" (mouseleave)="offTeamHover()" class="team--profile__container">
         <ul class="team--profile__list">
             <li *ngFor="let person of team; let i = index" (mouseenter)="itemHover(i)" class="team--profile__list__item" [class.team--profile__list__item--unselected]="isOnTeamHover" [class.team--profile__list__item--selected]="isOnTeamHover && i == selectedItem">
@@ -16,6 +17,19 @@
                         <button (click)="goToTeamDetail(person.path, person.name, person.initials, person.imageUrl, person.shortDescription, person.fullDescription, person.emailAddress, person.phoneNumber)" class="content__button">More Info</button>
                     </span>
                 </article>
+            </li>
+        </ul>
+    </div>
+
+    <!--mobile and tablet-->
+    <div class="mobile--version">
+        <ul class="mobile--version__list">
+            <li *ngFor="let person of team; let i = index" class="mobile--version__list__item">
+                <img [src]="person.imageUrl" class="profile--icon" />
+                <h2 class="profile--name">{{ person.name }}</h2>
+                <hr class="profile--hr" />
+                <p class="profile--description">{{ person.shortDescription }}</p>
+                <button class="button" (click)="goToTeamDetail(person.path, person.name, person.initials, person.imageUrl, person.shortDescription, person.fullDescription, person.emailAddress, person.phoneNumber)">More Info</button>
             </li>
         </ul>
     </div>

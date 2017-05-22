@@ -1,74 +1,36 @@
 @import '../../../../styles/variables';
 .service-detail {
     margin-top: 130px;
-    width: 100%;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    filter: blur(0px);
-    &--blur-overlay {
-        margin: -20px 0;
-        width: 86%;
-        height: 86%;
-        background-repeat: no-repeat;
+    &--title {
+        width: 100%;
+        height: 200px;
+        background-position: center;
         background-size: cover;
-        background-position: center center;
-        overflow: hidden;
-        filter: blur(7px);
-        border: 2px solid black;
-        z-index: -1;
     }
     &--content {
-        background-color: $scm-blue;
-        opacity: 0.75;
-        position: absolute;
-        top: calc(130px + 7%);
-        left: 8%;
-        right: 8%;
-        bottom: 8%;
-        display: flex;
-        flex-direction: column;
-        .back {
-            cursor: pointer;
-            margin-top: 6px;
-            padding: 0;
-            position: absolute;
-            left: 10px;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            img {
-                height: 24px;
-                width: 24px;
-                margin-right: 6px;
-            }
-            p {
-                margin: 0;
-                padding: 0;
-            }
-        }
         h2 {
-            color: white;
-            font-size: 36px;
             font-family: $scm-font-helvetica-neue;
-            font-weight: 400;
-            margin: 0 auto;
-            padding-top: 30px;
+            background-color: $scm-blue;
+            color: $scm-light-off-white;
+            text-align: center;
+            font-size: 28px;
+            padding: 10px;
+            margin: 0;
         }
         p {
-            color: white;
-            font-size: 18px;
-            padding: 0 20px;
-            text-align: center;
+            padding: 10px 40px;
             font-family: $scm-font-helvetica-neue;
-            font-weight: 300;
+            text-align: center;
+            color: $scm-grey;
+            font-weight: 200;
+            &:last-of-type {
+                color: black;
+                font-size: 12px;
+                font-weight: 400;
+                padding-top: 16px;
+            }
         }
-        &__hr {
+        hr {
             width: 140px;
             height: 2px;
             border: none;
@@ -77,20 +39,35 @@
         }
         &__crime-list {
             list-style: none;
-            &__item {
+            //padding-left: 0;
+            li {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
-                margin: 8px;
                 font-family: $scm-font-helvetica-neue;
-                font-size: 18px;
-                color: white;
+                font-size: 20px;
+                color: $scm-blue;
+                padding: 4px 0;
                 img {
-                    height: 24px;
                     width: 24px;
+                    height: 24px;
                     margin-right: 20px;
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 608px) {
+    .service-detail {
+        margin-top: 180px;
+        &--title {
+            h2 {
+                margin-top: 40px;
+            }
+        }
+        li {
+            font-size: 15px;
         }
     }
 }

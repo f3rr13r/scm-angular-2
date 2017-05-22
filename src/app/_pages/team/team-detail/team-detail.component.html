@@ -1,10 +1,6 @@
-<!--<div class="team-detail">
-    <h2>This is the page where we will display information about <strong> {{ teamMemberName }} </strong></h2>
-</div>-->
-
 <div class="team-detail">
     <div class="team-detail__content-box">
-        <div class="team-detail__content-box--info" [ngStyle]="{ 'background-image': teamMember.imageUrl }">
+        <div class="team-detail__content-box--info" [ngStyle]="{ 'background-image': teamMember.backgroundImageUrl }">
         </div>
         <div class="team-detail__content-box--contact">
             <a [href]="'tel:' + teamMember.phoneNumber"><strong>Call </strong>{{ teamMember.phoneNumber }}</a>
@@ -13,6 +9,7 @@
     </div>
     <div class="team-detail__info-box">
         <div class="team-detail__info-box--border">
+            <img [src]="teamMember.imageUrl" alt="teamMember.name" />
             <h1>{{ teamMember.name }}</h1>
             <h4>Accreditations - TBC</h4>
             <hr />
