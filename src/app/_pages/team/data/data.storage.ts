@@ -15,10 +15,11 @@ export class DataStorageService {
         shortDescription: null,
         fullDescription: null,
         emailAddress: null,
+        phoneNumberString: null,
         phoneNumber: null
     };
 
-    setTeamMember(urlPath: string, name: string, initials: string, imageUrl: string, shortDescription: string, fullDescription: string, emailAddress: string, phoneNumber: number) {
+    setTeamMember(urlPath: string, name: string, initials: string, imageUrl: string, shortDescription: string, fullDescription: string, emailAddress: string, phoneNumberString: string, phoneNumber: number) {
         this.teamMember = {
             path: urlPath,
             name: name,
@@ -28,6 +29,7 @@ export class DataStorageService {
             shortDescription: shortDescription,
             fullDescription: fullDescription,
             emailAddress: emailAddress,
+            phoneNumberString: phoneNumberString,
             phoneNumber: phoneNumber
         }
     }

@@ -11,6 +11,7 @@ const companyRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'find-us', component: FindUsComponent },
+  { path: 'find-us/:location', component: FindUsComponent },
   { path: 'team', component: TeamComponent },
 ]
 

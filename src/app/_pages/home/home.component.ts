@@ -28,7 +28,7 @@ export class HomeComponent implements OnInit {
         this._router.navigateByUrl('team');
     }
 
-    navigateToFindUs() {
-        this._router.navigateByUrl('find-us');
+    navigateToFindUs(location: string) {
+        this._router.navigate(['find-us', location]);
     }
 }

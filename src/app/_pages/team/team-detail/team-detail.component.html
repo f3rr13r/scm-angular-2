@@ -3,7 +3,7 @@
         <div class="team-detail__content-box--info" [ngStyle]="{ 'background-image': teamMember.backgroundImageUrl }">
         </div>
         <div class="team-detail__content-box--contact">
-            <a [href]="'tel:' + teamMember.phoneNumber"><strong>Call </strong>{{ teamMember.phoneNumber }}</a>
+            <a [href]="'tel:' + teamMember.phoneNumber"><strong>Call </strong>{{ teamMember.phoneNumberString }}</a>
             <a [href]="'mailto:' + teamMember.emailAddress"><strong>Email </strong>{{ teamMember.emailAddress }}</a>
         </div>
     </div>
@@ -14,7 +14,7 @@
             <h4>Accreditations - TBC</h4>
             <hr />
             <p>{{ teamMember.fullDescription }}</p>
-            <a [href]="'tel:' + teamMember.phoneNumber" class="contact-button"><strong>Call </strong>{{ teamMember.phoneNumber }}</a>
+            <a [href]="'tel:' + teamMember.phoneNumber" class="contact-button"><strong>Call </strong>{{ teamMember.phoneNumberString }}</a>
             <a [href]="'mailto:' + teamMember.emailAddress" class="contact-button"><strong>Email </strong>{{ teamMember.emailAddress }}</a>
         </div>
     </div>

@@ -66,6 +66,9 @@
             width: 94%;
             display: flex;
             flex-direction: column;
+            img {
+                display: none;
+            }
             h1,
             h4,
             hr,
@@ -112,9 +115,10 @@
             &--border {
                 align-items: center;
                 img {
-                    display: none;
+                    display: block;
                     height: 140px;
                     width: 140px;
+                    margin-top: 50px;
                     border-radius: 50%;
                     border: 4px solid $scm-blue;
                 }
@@ -160,12 +164,12 @@
 }
 
 @media screen and (max-width: 848px) {
-    .team-detail {
+    /*    .team-detail {
         img {
             margin-top: 50px;
             display: block;
         }
-    }
+    }*/
 }
 
 @media screen and (max-width: 608px) {

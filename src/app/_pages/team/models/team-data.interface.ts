@@ -7,5 +7,6 @@ export interface TeamMember {
     shortDescription: string,
     fullDescription: string,
     emailAddress: string,
+    phoneNumberString: string,
     phoneNumber: number
 }
