@@ -11,11 +11,15 @@
         display: flex;
         align-content: center;
         flex-direction: row;
+        &--reverse {
+            flex-direction: row-reverse;
+        }
     }
-    &--image {
+    &--map {
         height: 480px;
         width: 50%;
-        background-color: white;
+        background-position: center;
+        background-size: cover;
     }
     &--details {
         height: 480px;

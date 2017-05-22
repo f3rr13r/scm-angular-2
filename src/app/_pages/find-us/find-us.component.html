@@ -1,7 +1,6 @@
 <div class="find-us">
-    <div *ngFor="let office of offices" class="find-us--location">
-        <div class="find-us--image">
-            <img />
+    <div *ngFor="let office of offices, let i = index" class="find-us--location" [class.find-us--location--reverse]="i === 1">
+        <div class="find-us--map" [ngStyle]="{ 'background-image': office.imageUrl }">
         </div>
         <div class="find-us--details">
             <h1>{{office.city}}</h1>

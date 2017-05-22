@@ -23,7 +23,8 @@ export class DataStorageService {
                 friday: '09:00 - 17:00',
                 saturday: 'Closed',
                 sunday: 'Closed'
-            }
+            },
+            imageUrl: 'url(/assets/BridgendMap-image.png)'
         }, {
             latitude: 51.6187044,
             longitude: -3.939985,
@@ -40,7 +41,8 @@ export class DataStorageService {
                 friday: '09:00 - 17:00',
                 saturday: 'Closed',
                 sunday: 'Closed'
-            }
+            },
+            imageUrl: 'url(/assets/SwanseaMap-image.png)'
         }, {
             latitude: 51.4866957,
             longitude: -3.1587076,
@@ -57,7 +59,8 @@ export class DataStorageService {
                 friday: '09:00 - 17:00',
                 saturday: 'Closed',
                 sunday: 'Closed'
-            }
+            },
+            imageUrl: 'url(/assets/CardiffMap-image.png)'
         }
     ]
 
