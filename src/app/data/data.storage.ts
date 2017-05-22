@@ -15,6 +15,7 @@ export class DataStorageService {
             city: 'BRIDGEND',
             postcode: 'CF31 1EF',
             phone: +441656767766,
+            phonestring: '01656767766',
             openingHours: {
                 monday: '09:00 - 17:00',
                 tuesday: '09:00 - 17:00',
@@ -33,6 +34,7 @@ export class DataStorageService {
             city: 'SWANSEA',
             postcode: 'SA1 3RT',
             phone: +441656767766,
+            phonestring: '01656767766',
             openingHours: {
                 monday: '09:00 - 17:00',
                 tuesday: '09:00 - 17:00',
@@ -51,6 +53,7 @@ export class DataStorageService {
             city: 'CARDIFF',
             postcode: 'CF24 1PW',
             phone: +441656767766,
+            phonestring: '01656767766',
             openingHours: {
                 monday: '09:00 - 17:00',
                 tuesday: '09:00 - 17:00',

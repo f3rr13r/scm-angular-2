@@ -6,6 +6,7 @@ export interface Location {
     city: string,
     postcode: string,
     phone: number,
+    phonestring: string,
     openingHours: {
         monday: string,
         tuesday: string,
