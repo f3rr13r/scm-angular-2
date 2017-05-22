@@ -1,5 +1,5 @@
 <sebm-google-map [latitude]="lat" [longitude]="lng" [scrollwheel]="false">
-    <sebm-google-map-marker *ngFor="let office of offices" [latitude]="office.latitude" [longitude]="office.longitude">
+    <sebm-google-map-marker *ngFor="let office of offices" [latitude]="office.latitude" [longitude]="office.longitude" [iconUrl]="'assets/gm-pin--blue.png'">
         <sebm-google-map-info-window [disableAutoPan]="true">
             <div class="gm-content">
                 <div class="icon">
