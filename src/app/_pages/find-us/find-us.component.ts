@@ -16,10 +16,30 @@ export class FindUsComponent implements OnInit {
 
     constructor(private _sharedDataService: DataStorageService){}
 
+ShowBackgroundImage: boolean=false;
+
     ngOnInit() {
         this.offices = this._sharedDataService.getOfficeLocations();
         console.log(this.offices);
         window.scrollTo(0, 0);
     }
+
+    onResize(event) {
+  if(event.target.innerWidth < 827){
+      //this.ShowBackgroundImage=true;
+      console.log( true );
+  }else{
+      //this.ShowBackgroundImage=false;
+      console.log( false );
+  }
+}
+
+GetBackgroundImage( i:number ):string {
+    if(this.ShowBackgroundImage){
+        return this.offices[i].imageUrl;
+    } else{
+        return "";
+    }
+}
 
 }
