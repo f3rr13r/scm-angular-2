@@ -3,7 +3,6 @@
     margin-top: 130px;
     width: 100%;
     height: 1440px;
-    background-color: lightblue;
 }
 
 .find-us {
@@ -76,5 +75,18 @@
         p {
             font-size: 19px;
         }
+    }
+}
+
+@media screen and (max-width: 827px) {
+    .find-us {
+        &--details {
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        &--map {
+            display: none;
+        }
+        //
     }
 }
