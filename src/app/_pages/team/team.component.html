@@ -14,7 +14,7 @@
                         <h2 *ngIf="isOnTeamHover && i == selectedItem" class="content__title--2">{{ person.name }}</h2>
                         <hr class="content__hr2" [class.content__hr2--unselected]="isOnTeamHover" [class.content__hr2--selected]="isOnTeamHover && i == selectedItem"/>
                         <p class="content__description" [class.content__description--unselected]="isOnTeamHover" [class.content__description--selected]="isOnTeamHover && i == selectedItem">{{ person.shortDescription }}</p>
-                        <button (click)="goToTeamDetail(person.path, person.name, person.initials, person.imageUrl, person.shortDescription, person.fullDescription, person.emailAddress, person.phoneNumber)" class="content__button">More Info</button>
+                        <button (click)="goToTeamDetail(person.path, person.name, person.initials, person.imageUrl, person.shortDescription, person.fullDescription, person.emailAddress, person.phoneNumberString, person.phoneNumber)" class="content__button">More Info</button>
                     </span>
                 </article>
             </li>

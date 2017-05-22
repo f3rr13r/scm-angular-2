@@ -24,7 +24,7 @@ export class GoogleMapsComponent implements OnInit {
         this.offices = this._sharedDataService.getOfficeLocations();
     }
 
-    navigateToFindUs() {
-        this._router.navigateByUrl('/find-us');
+    navigateToFindUs(location: string) {
+        this._router.navigate(['/find-us', location.toLowerCase()]);
     }
  }
