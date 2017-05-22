@@ -14,5 +14,6 @@ export interface Location {
         friday: string,
         saturday: string,
         sunday: string
-    }
+    },
+    imageUrl: string;
 }

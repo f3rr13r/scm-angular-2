@@ -1,32 +1,31 @@
-<div class="find-us">
-    <div class="find-us--location">
-        <div class="find-us--image">
-            <img />
+<div class="find-us" (window:resize)="onResize($event)">
+    <div *ngFor="let office of offices, let i = index" class="find-us--location" [class.find-us--location--reverse]="i === 1">
+        <div class="find-us--map" [ngStyle]="{ 'background-image': office.imageUrl }">
         </div>
-        <div class="find-us--details">
-            <h1>Location</h1>
+        <div class="find-us--details" [style.background-image]="GetBackgroundImage(i)">
+            <h1>{{office.city}}</h1>
             <hr />
             <div class="find-us--locationdetails">
                 <div class="find-us--address">
                     <h2>Our office</h2>
-                    <p>Address line 1</p>
-                    <p>Address line 2</p>
-                    <p>Address line 3</p>
-                    <p>Address line 4</p>
+                    <p>{{office.address1}}</p>
+                    <p>{{office.address2}}</p>
+                    <p>{{office.city}}</p>
+                    <p>{{office.postcode}}</p>
                     <div class="find-us--phone">
-                        <p>Phone number</p>
-                        <span style="font-weight: bold">24hr :</span><a href="tel:07917754134"> 07917 754134</a>
+                        <a href="tel:{{office.phone}}"><span style="font-weight: bold">T :</span> {{office.phone}}</a>
+                        <a href="tel:07917754134"><span style="font-weight: bold">24hr :</span> 07917 754134</a>
                     </div>
                 </div>
                 <div class="find-us--opening">
                     <h2>Opening Hours</h2>
-                    <p>Opening hours 1</p>
-                    <p>Opening hours 2</p>
-                    <p>Opening hours 3</p>
-                    <p>Opening hours 4</p>
-                    <p>Opening hours 5</p>
-                    <p>Opening hours 6</p>
-                    <p>Opening hours 7</p>
+                    <p><span style="font-weight:bold">Mon:</span> {{office.openingHours.monday}}</p>
+                    <p><span style="font-weight:bold">Tue:</span> {{office.openingHours.tuesday}}</p>
+                    <p><span style="font-weight:bold">Wed:</span> {{office.openingHours.wednesday}}</p>
+                    <p><span style="font-weight:bold">Thu:</span> {{office.openingHours.thursday}}</p>
+                    <p><span style="font-weight:bold">Fri:</span> {{office.openingHours.friday}}</p>
+                    <p><span style="font-weight:bold">Sat:</span> {{office.openingHours.saturday}}</p>
+                    <p><span style="font-weight:bold">Sun:</span> {{office.openingHours.sunday}}</p>
                 </div>
             </div>
         </div>
