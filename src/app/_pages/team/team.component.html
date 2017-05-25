@@ -1,5 +1,43 @@
 <div class="team">
-    <!--desktop-->
+    <div class="team__intro">
+        <h1>Meet Our Team</h1>
+        <hr />
+        <p>SCM prides itself on being able to offer a 24-hour service 365 days of the year offering immediate expert legal advice and representation. The firm has a contract with the Legal Aid Agency enabling us to offer free and independent legal advice
+            at the police station, and representation through to the Magistrates Court and Crown Court depending on your income. The firm also represents high net worth individuals throughout all stages of the criminal justice process.
+        </p>
+    </div>
+    <div class="team__partners">
+        <h2 class="team__partners__title">Partners</h2>
+        <ul class="team__partners__list">
+            <li *ngFor="let person of team" class="team__partners__list__item">
+                <div class="profile" [ngStyle]="{'background-image': 'url(' + person.imageUrl + ')'}">
+                    <h2 class="profile__name">{{ person.name }}</h2>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="team__partners">
+        <h2 class="team__partners__title">Duty Solicitors</h2>
+        <ul class="team__partners__list">
+            <li *ngFor="let person of team" class="team__partners__list__item">
+                <div class="profile" [ngStyle]="{'background-image': 'url(' + person.imageUrl + ')'}">
+                    <h2 class="profile__name">{{ person.name }}</h2>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="team__partners">
+        <h2 class="team__partners__title">Administration</h2>
+        <ul class="team__partners__list">
+            <li *ngFor="let person of team" class="team__partners__list__item">
+                <div class="profile" [ngStyle]="{'background-image': 'url(' + person.imageUrl + ')'}">
+                    <h2 class="profile__name">{{ person.name }}</h2>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--<div class="team">
     <div (mouseenter)="onTeamHover()" (mouseleave)="offTeamHover()" class="team--profile__container">
         <ul class="team--profile__list">
             <li *ngFor="let person of team; let i = index" (mouseenter)="itemHover(i)" class="team--profile__list__item" [class.team--profile__list__item--unselected]="isOnTeamHover" [class.team--profile__list__item--selected]="isOnTeamHover && i == selectedItem">
@@ -21,7 +59,6 @@
         </ul>
     </div>
 
-    <!--mobile and tablet-->
     <div class="mobile--version">
         <ul class="mobile--version__list">
             <li *ngFor="let person of team; let i = index" class="mobile--version__list__item">
@@ -33,4 +70,4 @@
             </li>
         </ul>
     </div>
-</div>
+</div>-->
