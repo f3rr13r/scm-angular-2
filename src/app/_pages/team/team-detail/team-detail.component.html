@@ -1,0 +1,21 @@
+<div class="team-detail">
+    <div class="team-detail__content-box">
+        <div class="team-detail__content-box--info" [ngStyle]="{ 'background-image': teamMember.backgroundImageUrl }">
+        </div>
+        <div class="team-detail__content-box--contact">
+            <a [href]="'tel:' + teamMember.phoneNumber"><strong>Call </strong>{{ teamMember.phoneNumberString }}</a>
+            <a [href]="'mailto:' + teamMember.emailAddress"><strong>Email </strong>{{ teamMember.emailAddress }}</a>
+        </div>
+    </div>
+    <div class="team-detail__info-box">
+        <div class="team-detail__info-box--border">
+            <img [src]="teamMember.imageUrl" alt="teamMember.name" />
+            <h1>{{ teamMember.name }}</h1>
+            <h4>Accreditations - TBC</h4>
+            <hr />
+            <p>{{ teamMember.fullDescription }}</p>
+            <a [href]="'tel:' + teamMember.phoneNumber" class="contact-button"><strong>Call </strong>{{ teamMember.phoneNumberString }}</a>
+            <a [href]="'mailto:' + teamMember.emailAddress" class="contact-button"><strong>Email </strong>{{ teamMember.emailAddress }}</a>
+        </div>
+    </div>
+</div>

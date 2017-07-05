@@ -1,3 +1,56 @@
 <div class="home">
-    <p>Home</p>
+
+    <!---Jumbotron-->
+    <div class="home-jumbotron">
+        <div class="layer">
+            <div class="home-jumbotron--head">
+                <h1>SCM Solicitors</h1>
+                <h2>When it comes to the law, you couldn’t be in safer hands.
+                </h2>
+            </div>
+            <div class="underline"></div>
+            <button (click)="navigateToServices()" class="home-jumbotron--button">
+                What We Do
+            </button>
+        </div>
+    </div>
+
+    <!---Who we are-->
+    <div class="whoweare">
+        <div class="whoweare--text">
+            <div class="whoweare--layer__grey">
+                <h1>Who We Are</h1>
+                <hr />
+                <p>SCM solicitors were formed in January 2015 with the merger of Bridgend Firms <strong>David Sedgwick Solicitors</strong> and <strong>Chudleigh Solicitors</strong>. The merger brought together 2 specialist Criminal practices to become one
+                    of South Wales leading Criminal Law Firms. We are a specialist Criminal Practice which services clients across the length of South Wales. Our experienced tam of Solicitors offers our clients a tailored service to their individual needs.</p>
+                <button (click)="navigateToTeam()">
+        Meet the team
+    </button>
+            </div>
+        </div>
+        <div class="whoweare--image">
+            <div class="layer--grey"></div>
+        </div>
+    </div>
+
+    <!---Where to find us-->
+    <div class="wheretofind">
+        <div class="wheretofind--map">
+            <google-maps></google-maps>
+        </div>
+        <div class="wheretofind--text">
+            <div class="wheretofind--layer__grey">
+                <h1>Where To Find Us</h1>
+                <hr />
+                <p>Mumblecore master cleanse semiotics, hammock bicycle rights polaroid fanny pack pitchfork pok pok leggings health goth yr. Affogato ethical tofu franzen. Cray skateboard semiotics artisan, swag polaroid air plant gentrify pinterest kale</p>
+                <hr />
+                <h2>Click your preferred office below:</h2>
+                <div class="wheretofind--buttons">
+                    <button (click)="navigateToFindUs('swansea')">Swansea</button>
+                    <button (click)="navigateToFindUs('bridgend')">Bridgend</button>
+                    <button (click)="navigateToFindUs('cardiff')">Cardiff</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

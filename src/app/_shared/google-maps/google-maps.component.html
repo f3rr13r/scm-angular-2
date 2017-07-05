@@ -1,0 +1,22 @@
+<sebm-google-map [latitude]="lat" [longitude]="lng" [scrollwheel]="false">
+    <sebm-google-map-marker *ngFor="let office of offices" [latitude]="office.latitude" [longitude]="office.longitude" [iconUrl]="'assets/gm-pin--blue.png'">
+        <sebm-google-map-info-window [disableAutoPan]="true">
+            <div class="gm-content">
+                <div class="icon">
+                    <div class="icon--text">
+                        <p>{{ office.address1 }}</p>
+                        <p>{{ office.address2 }}</p>
+                        <p>{{ office.city }}</p>
+                        <p>{{ office.postcode }}</p>
+                    </div>
+                    <div class="icon--image">
+                        <img src="http://www.newyorker.com/wp-content/uploads/2014/12/KONNIKOVA-Open-Office-1200.jpg" />
+                    </div>
+                </div>
+                <div class="gm-content--button">
+                    <button class="icon--button" (click)="navigateToFindUs(office.city)">More Info</button>
+                </div>
+            </div>
+        </sebm-google-map-info-window>
+    </sebm-google-map-marker>
+</sebm-google-map>

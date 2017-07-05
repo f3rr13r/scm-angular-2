@@ -2,17 +2,16 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { _SharedModule } from '../_shared/shared.module';
 
-import { ContactComponent } from './contact/contact.component';
+import { FindUsComponent } from './find-us/find-us.component';
 import { ServicesComponent } from './services/services.component';
-import { LocationComponent } from './location/location.component';
 import { HomeComponent } from './home/home.component';
 import { TeamComponent } from './team/team.component';
 
 const companyRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'services', component: ServicesComponent },
-  { path: 'location', component: LocationComponent },
-  { path: 'contact', component: ContactComponent },
+  { path: 'find-us', component: FindUsComponent },
+  { path: 'find-us/:location', component: FindUsComponent },
   { path: 'team', component: TeamComponent },
 ]
 
@@ -27,8 +26,7 @@ const companyRoutes: Routes = [
     HomeComponent,
     TeamComponent,
     ServicesComponent,
-    LocationComponent,
-    ContactComponent
+    FindUsComponent
   ],
   providers: [],
 })
