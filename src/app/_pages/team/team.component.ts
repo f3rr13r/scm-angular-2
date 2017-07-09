@@ -171,9 +171,13 @@ export class TeamComponent implements OnInit {
     goToTeamDetail(_urlPath: string, _name: string, _initials: string, _imageUrl: string, _shortDescription: string, _fullDescription: string, _emailAddress: string, _phoneNumberString: string, _phoneNumber: number) {
 
         // navigate to team detail.
-        this._router.navigate(['/team', name]);
+        this._router.navigate(['/team', _urlPath]);
 
         // pass data to shared storage
         this._dataStorageService.setTeamMember(_urlPath, _name, _initials, _imageUrl, _shortDescription, _fullDescription, _emailAddress, _phoneNumberString, _phoneNumber);
+    }
+
+    userClicked() {
+        console.log('Team member clicked');
     }
 }
