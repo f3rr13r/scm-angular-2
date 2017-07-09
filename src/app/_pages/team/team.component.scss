@@ -1,4 +1,7 @@
 @import '../../../styles/variables';
+hr {
+    max-width: 400px;
+    }
 .team {
     width: 100%;
     margin-top: 130px;
@@ -12,8 +15,7 @@
             font-size: 40px;
         }
         hr {
-            max-width: 400px;
-            margin-bottom: 40px;
+          margin-bottom: 40px;
         }
         p {
             font-family: $scm-font-helvetica-neue;
@@ -24,11 +26,10 @@
     }
     &__partners {
         &__title {
-            background-color: $scm-blue;
-            padding: 20px 0;
+            padding: 0 0;
             font-size: 32px;
             font-family: $scm-font-helvetica-neue;
-            color: $scm-light-off-white;
+            color: $scm-grey-hover;
             text-align: center;
         }
         &__list {
@@ -51,9 +52,6 @@
                     background-position: center;
                     background-size: cover;
                     height: 100%;
-                    &:hover{
-                        cursor: pointer;
-                    }
                     &__name {
                         text-align: center;
                         color: $scm-light-off-white;
@@ -66,6 +64,7 @@
         }
     }
 }
+
 @media screen and (max-width: 827px) {
     .team__partners__list__item{
         width: 40%;
