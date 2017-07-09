@@ -40,8 +40,8 @@
             margin: 0 20px;
             padding: 20px;
             &__item {
-                height: 400px;
-                width: 300px;
+                width: 23%;
+                height: 285px;
                 margin-right: 10px;
                 .profile {
                     display: flex;
@@ -51,19 +51,35 @@
                     background-position: center;
                     background-size: cover;
                     height: 100%;
+                    &:hover{
+                        cursor: pointer;
+                    }
                     &__name {
                         text-align: center;
                         color: $scm-light-off-white;
                         font-family: $scm-font-helvetica-neue;
                         background-color: none;
+                        text-shadow: 2px 2px 4px black;
                     }
                 }
             }
         }
     }
 }
-
-
+@media screen and (max-width: 827px) {
+    .team__partners__list__item{
+        width: 40%;
+        height: 285px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 558px) {
+    .team__partners__list__item{
+        width: 75%;
+        height: 285px;
+        margin-bottom: 20px;
+    }
+}
 /*.team {
     margin-top: 100px;
     width: 100%;

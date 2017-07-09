@@ -10,7 +10,7 @@
         <h2 class="team__partners__title">Partners</h2>
         <ul class="team__partners__list">
             <li *ngFor="let person of team" class="team__partners__list__item">
-                <div class="profile" [ngStyle]="{'background-image': 'url(' + person.imageUrl + ')'}">
+                <div class="profile" [ngStyle]="{'background-image': 'url(' + person.imageUrl + ')'}" (click)="goToTeamDetail(person.path, person.name, person.initials, person.imageUrl, person.shortDescription, person.fullDescription, person.emailAddress, person.phoneNumberString, person.phoneNumber)">
                     <h2 class="profile__name">{{ person.name }}</h2>
                 </div>
             </li>
