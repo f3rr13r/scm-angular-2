@@ -1,15 +1,12 @@
-const express = require('express')  
-const app = express()  
-const port = 3000
+var express = require('express');
+var app     = express();
 
-app.get('/', (request, response) => {  
-  response.send('Hello from Express!')
-})
+app.set('port', (process.env.PORT || 5000));
 
-app.listen(port, (err) => {  
-  if (err) {
-    return console.log('something bad happened', err)
-  }
-
-  console.log(`server is listening on ${port}`)
-})
+//For avoidong Heroku $PORT error
+app.get('/', function(request, response) {
+    var result = 'App is running'
+    response.send(result);
+}).listen(app.get('port'), function() {
+    console.log('App is running, server is listening on port ', app.get('port'));
+});
