@@ -3,11 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "node server.js"
-  },
-  "engines": {
-    "node": "8.1.0",
-    "npm": "5.0.3"
+    "start": "node server.js",
+    "postinstall": "ng build --aot --target=production"
   },
   "private": true,
   "dependencies": {
@@ -25,15 +22,14 @@
     "@types/jasmine": "2.5.38",
     "@types/node": "~6.0.60",
     "angular2-google-maps": "^0.17.0",
-    "angular2-universal": "^2.1.0-rc.1",
     "body-parser": "^1.17.2",
     "core-js": "^2.4.1",
     "express": "^4.15.3",
     "node-sass": "^3.3.3",
     "preboot": "^5.0.0-rc.13",
     "rxjs": "^5.1.0",
-    "typescript": "~2.2.0",
-    "zone.js": "^0.8.4"
+    "zone.js": "^0.8.4",
+    "typescript": "~2.2.0"
   },
   "devDependencies": {
     "codelyzer": "~2.0.0",
@@ -48,5 +44,9 @@
     "protractor": "~5.1.0",
     "ts-node": "~2.0.0",
     "tslint": "~4.5.0"
-  }
+  }, 
+  "engines": {
+    "node": "8.1.0",
+    "npm": "5.0.3"
+  },
 }
