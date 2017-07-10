@@ -1,259 +1,85 @@
 @import '../../../styles/variables';
+hr {
+    max-width: 400px;
+    }
 .team {
-    margin-top: 100px;
     width: 100%;
-    height: 400px;
-    &--profile__list {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 400px;
-        padding: 0;
-        margin: 72px 0 0 0;
-        flex-wrap: row nowrap;
-        &__item {
-            overflow: hidden;
-            background-color: $scm-grey--light;
-            flex: 1 4;
-            transition: all 0.9s;
-            .content {
-                display: flex;
-                flex-direction: row;
-                height: 100%;
-                transition: all 0.9s;
-                &__1 {
+    margin-top: 130px;
+    background-color: $scm-light-off-white;
+    &__intro {
+        padding: 20px 40px;
+        h1 {
+            font-family: $scm-font-helvetica-neue;
+            color: $scm-grey-hover;
+            text-align: center;
+            font-size: 40px;
+        }
+        hr {
+          margin-bottom: 40px;
+        }
+        p {
+            font-family: $scm-font-helvetica-neue;
+            color: $scm-grey;
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+    &__partners {
+        padding-top: 70px;
+        &__title {
+            padding: 0 0;
+            font-size: 32px;
+            font-family: $scm-font-helvetica-neue;
+            color: $scm-grey-hover;
+            text-align: center;
+        }
+        &__list {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 0 20px;
+            padding: 20px;
+            &__item {
+                width: 23%;
+                height: 285px;
+                margin-right: 10px;
+                .profile {
                     display: flex;
                     flex-direction: column;
-                    justify-content: center;
                     align-items: center;
-                    width: 100%;
-                    background-color: none;
-                    /*-- content__1 selected and unselected states --*/
-                    &--unselected {
-                        width: 100%;
+                    justify-content: flex-end;
+                    background-position: center;
+                    background-size: cover;
+                    height: 100%;
+                    &__name {
+                        text-align: center;
+                        color: $scm-light-off-white;
+                        font-family: $scm-font-helvetica-neue;
                         background-color: none;
-                    }
-                    &--selected {
-                        width: 30%;
-                        background: $scm-blue;
+                        text-shadow: 2px 2px 4px black;
                     }
                 }
-                &__profile {
-                    width: 40%;
-                    height: calc(width);
-                    border-radius: 50%;
-                    border: 4px solid $scm-grey;
-                    margin-bottom: 20px;
-                    transition: all 0.9s;
-                    /*-- profile icon selected and unselected states --*/
-                    &--unselected {
-                        width: 50%;
-                        transition: all 0.9s;
-                    }
-                    &--selected {
-                        //height: 160px;
-                        //width: 160px;
-                        width: 80%;
-                        position: relative;
-                        //margin-right: 20px;
-                        //margin-left: 20px;
-                        transition: all 0.9s;
-                    }
-                }
-                &__hr1 {
-                    width: 140px;
-                    height: 2px;
-                    border: none;
-                    background-color: $scm-grey;
-                    opacity: 1.0;
-                    transition: all 0.9s;
-                    /*-- horizontal rule 1 selected and unselected states --*/
-                    &--unselected,
-                    &--selected {
-                        opacity: 0;
-                        transition: opacity 0.9s;
-                    }
-                }
-                &__title--1 {
-                    font-family: $scm-font-helvetica-neue;
-                    color: $scm-grey;
-                    font-size: 16px;
-                }
-                &__initials {
-                    font-family: $scm-font-helvetica-neue;
-                    color: $scm-grey;
-                    font-weight: 600;
-                    transition: all 0.9s;
-                }
-                &__2 {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    display: none;
-                    padding: 20px;
-                    transition: all 0.9s;
-                    /*-- content__2 selected and unselected states --*/
-                    &--unselected {
-                        display: none;
-                        transition: all 0.9s;
-                    }
-                    &--selected {
-                        display: flex;
-                        flex-direction: column;
-                        width: 70%;
-                        transition: all 0.9s;
-                    }
-                }
-                &__title--2 {
-                    font-family: $scm-font-helvetica-neue;
-                    color: $scm-blue;
-                    font-size: 26px;
-                    margin: 0 auto;
-                    transition: all 0.9s;
-                }
-                &__hr2 {
-                    width: 140px;
-                    height: 2px;
-                    border: none;
-                    background-color: $scm-light-blue;
-                    opacity: 0.0;
-                    transition: all 0.9s;
-                    /*-- horizontal rule 2 selected and unselected states --*/
-                    &--unselected {
-                        opacity: 0.0;
-                        transition: opacity 0.9s;
-                    }
-                    &--selected {
-                        opacity: 1;
-                        transition: all 0.9s;
-                    }
-                }
-                &__description {
-                    font-family: $scm-font-helvetica-neue;
-                    font-weight: 200;
-                    color: $scm-grey;
-                    opacity: 0;
-                    transition: all 0.9s;
-                    margin-bottom: 30px;
-                    text-align: center;
-                    /*-- description selected and unselected states --*/
-                    &--unselected {
-                        opacity: 0;
-                        transition: opacity 0.9s;
-                    }
-                    &--selected {
-                        opacity: 1;
-                        transition: opacity 0.9s;
-                    }
-                }
-                &__button {
-                    text-align: center;
-                    border: 1px solid $scm-light-blue;
-                    font-size: 16px;
-                    padding: 12px;
-                    border-radius: 10px;
-                    width: 200px;
-                    color: $scm-light-blue;
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                    background: none;
-                    &:hover {
-                        border-width: 2px;
-                        padding: 11px;
+                .partners:hover {
                         cursor: pointer;
                     }
-                }
-            }
-            /*-- content selected and unselected --*/
-            &--unselected {
-                background-color: $scm-blue;
-                opacity: 0.75;
-                transition: all 0.9s;
-            }
-            &--selected {
-                flex: 4;
-                background-color: white;
-                opacity: 1;
-                transition: all 0.9s;
-            }
-        }
-    }
-    .mobile--version {
-        display: none;
-    }
-}
-
-// medium devices
-@media screen and (max-width: 786px) {
-    .team {
-        height: 100%;
-        &--profile__container {
-            display: none;
-        }
-        .mobile--version {
-            display: flex;
-            &__list {
-                list-style: none;
-                padding: 0;
-                margin: 0;
-                &__item {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    padding-top: 40px;
-                    &:first-of-type {
-                        padding-top: 80px;
-                    }
-                    .profile--icon {
-                        border-radius: 50%;
-                        height: 140px;
-                        width: 140px;
-                        border: 4px solid $scm-blue;
-                    }
-                    .profile--name {
-                        font-family: $scm-font-helvetica-neue;
-                        color: $scm-blue;
-                    }
-                    .profile--hr {
-                        width: 140px;
-                        height: 2px;
-                        border: none;
-                        background-color: $scm-light-blue;
-                    }
-                    .profile--description {
-                        padding: 0px 20px;
-                        text-align: center;
-                        font-family: $scm-font-helvetica-neue;
-                        font-size: 15px;
-                    }
-                    .button {
-                        margin-top: 20px;
-                        width: 100%;
-                        height: 50px;
-                        background-color: $scm-grey;
-                        border: none;
-                        color: $scm-light-off-white;
-                        font-size: 15px;
-                        &:hover {
-                            background-color: $scm-grey-hover;
-                            cursor: pointer;
-                        }
-                    }
-                }
             }
         }
     }
 }
 
-// phones
-@media screen and (max-width: 608px) {
-    .team {
-        margin-top: 174px;
-        .mobile--version {
-            &__list__item:first-of-type {
-                padding-top: 40px;
-            }
-        }
+@media screen and (max-width: 827px) {
+    .team__partners__list__item{
+        width: 40%;
+        height: 285px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 558px) {
+    .team__partners__list__item{
+        width: 75%;
+        height: 285px;
+        margin-bottom: 20px;
     }
 }
