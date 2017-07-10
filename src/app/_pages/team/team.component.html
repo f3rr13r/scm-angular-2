@@ -1,35 +1,41 @@
 <div class="team">
-    <!--desktop-->
-    <div (mouseenter)="onTeamHover()" (mouseleave)="offTeamHover()" class="team--profile__container">
-        <ul class="team--profile__list">
-            <li *ngFor="let person of team; let i = index" (mouseenter)="itemHover(i)" class="team--profile__list__item" [class.team--profile__list__item--unselected]="isOnTeamHover" [class.team--profile__list__item--selected]="isOnTeamHover && i == selectedItem">
-                <article class="content">
-                    <span class="content__1" [class.content__1--unselected]="isOnTeamHover" [class.content__1--selected]="isOnTeamHover && i == selectedItem">
-                        <img [src]="person.imageUrl" class="content__profile" [class.content__profile--unselected]="isOnTeamHover" [class.content__profile--selected]="isOnTeamHover && i == selectedItem" />
-                        <hr class="content__hr1" [class.content__hr1--unselected]="isOnTeamHover" [class.content__hr1--selected]="isOnTeamHover && i == selectedItem" />
-                        <h2 *ngIf="!isOnTeamHover" class="content__title--1">{{ person.name }}</h2>
-                        <h1 *ngIf="isOnTeamHover && i != selectedItem" class="content__initials">{{ person.initials }}</h1>
-                    </span>
-                    <span class="content__2" [class.content__2--unselected]="isOnTeamHover" [class.content__2--selected]="isOnTeamHover && i == selectedItem">
-                        <h2 *ngIf="isOnTeamHover && i == selectedItem" class="content__title--2">{{ person.name }}</h2>
-                        <hr class="content__hr2" [class.content__hr2--unselected]="isOnTeamHover" [class.content__hr2--selected]="isOnTeamHover && i == selectedItem"/>
-                        <p class="content__description" [class.content__description--unselected]="isOnTeamHover" [class.content__description--selected]="isOnTeamHover && i == selectedItem">{{ person.shortDescription }}</p>
-                        <button (click)="goToTeamDetail(person.path, person.name, person.initials, person.imageUrl, person.shortDescription, person.fullDescription, person.emailAddress, person.phoneNumberString, person.phoneNumber)" class="content__button">More Info</button>
-                    </span>
-                </article>
+    <div class="team__intro">
+        <h1>Meet Our Team</h1>
+        <hr />
+        <p>SCM prides itself on being able to offer a 24-hour service 365 days of the year offering immediate expert legal advice and representation. The firm has a contract with the Legal Aid Agency enabling us to offer free and independent legal advice
+            at the police station, and representation through to the Magistrates Court and Crown Court depending on your income. The firm also represents high net worth individuals throughout all stages of the criminal justice process.
+        </p>
+    </div>
+    <div class="team__partners">
+        <h2 class="team__partners__title">Partners</h2>
+          <hr />
+        <ul class="team__partners__list">
+            <li *ngFor="let person of partner" class="team__partners__list__item">
+                <div class="profile partners" [ngStyle]="{'background-image': 'url(' + person.imageUrl + ')'}" (click)="goToTeamDetail(person.path, person.name, person.initials, person.imageUrl, person.shortDescription, person.fullDescription, person.emailAddress, person.phoneNumberString, person.phoneNumber)">
+                    <h2 class="profile__name">{{ person.name }}</h2>
+                </div>
             </li>
         </ul>
     </div>
-
-    <!--mobile and tablet-->
-    <div class="mobile--version">
-        <ul class="mobile--version__list">
-            <li *ngFor="let person of team; let i = index" class="mobile--version__list__item">
-                <img [src]="person.imageUrl" class="profile--icon" />
-                <h2 class="profile--name">{{ person.name }}</h2>
-                <hr class="profile--hr" />
-                <p class="profile--description">{{ person.shortDescription }}</p>
-                <button class="button" (click)="goToTeamDetail(person.path, person.name, person.initials, person.imageUrl, person.shortDescription, person.fullDescription, person.emailAddress, person.phoneNumber)">More Info</button>
+    <div class="team__partners">
+        <h2 class="team__partners__title">Duty Solicitors</h2>
+        <hr />
+        <ul class="team__partners__list">
+            <li *ngFor="let person of duty" class="team__partners__list__item">
+                <div class="profile" [ngStyle]="{'background-image': 'url(' + person.imageUrl + ')'}">
+                    <h2 class="profile__name">{{ person.name }}</h2>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="team__partners">
+        <h2 class="team__partners__title">Administration</h2>
+        <hr />
+        <ul class="team__partners__list">
+            <li *ngFor="let person of admin" class="team__partners__list__item">
+                <div class="profile" [ngStyle]="{'background-image': 'url(' + person.imageUrl + ')'}">
+                    <h2 class="profile__name">{{ person.name }}</h2>
+                </div>
             </li>
         </ul>
     </div>
