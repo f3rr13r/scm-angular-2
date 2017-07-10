@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "http-server dist/server.js"
+    "start": "node server.js",
+    "postinstall": "ng build --aot -prod"
   },
   "engines": {
     "node": "8.1.0",
