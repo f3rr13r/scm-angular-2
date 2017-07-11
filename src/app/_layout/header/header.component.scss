@@ -1,4 +1,7 @@
 @import '../../../styles/variables';
+body { 
+    -webkit-text-size-adjust: none; 
+    }
 .header {
     z-index: 12;
     position: fixed;
