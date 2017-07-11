@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <div class="header">
     <button (click)="navigateToHome()" class="header--link header--link--option" [class.option--selected]="_router.url.length == 1">Home</button>
     <button (click)="navigateToServices()" class="header--link header--link--option" [class.option--selected]="_router.url.includes('services')">Services</button>
