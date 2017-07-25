@@ -30,7 +30,7 @@ export class DataStorageService {
             latitude: 51.6187044,
             longitude: -3.939985,
             address1: 'Metropole Chambers',
-            address2: 'Salubrious Passage, Wind Street',
+            address2: 'Salubrious Passage',
             city: 'SWANSEA',
             postcode: 'SA1 3RT',
             phone: +441656767766,
