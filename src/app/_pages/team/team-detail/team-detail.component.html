@@ -9,7 +9,8 @@
     </div>
     <div class="team-detail__info-box">
         <div class="team-detail__info-box--border">
-            <img [src]="teamMember.imageUrl" alt="teamMember.name" />
+            <div class="image" [ngStyle]= "{'background-image':'url(' + teamMember.imageUrl + ')'}"></div>
+            <!--<img [src]="teamMember.imageUrl" alt="teamMember.name" />-->
             <h1>{{ teamMember.name }}</h1>
             <h4>Accreditations - TBC</h4>
             <hr />
