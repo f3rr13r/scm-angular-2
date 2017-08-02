@@ -26,6 +26,25 @@ export class DataStorageService {
                 sunday: 'Closed'
             },
             imageUrl: 'url(/assets/BridgendMap-image.png)'
+        },  {
+            latitude: 51.4866957,
+            longitude: -3.1587076,
+            address1: '10 Clifton Street',
+            address2: 'Adamsdown',
+            city: 'CARDIFF',
+            postcode: 'CF24 1PW',
+            phone: +441656767766,
+            phonestring: '01656767766',
+            openingHours: {
+                monday: '09:00 - 17:00',
+                tuesday: '09:00 - 17:00',
+                wednesday: '09:00 - 17:00',
+                thursday: '09:00 - 17:00',
+                friday: '09:00 - 17:00',
+                saturday: 'Closed',
+                sunday: 'Closed'
+            },
+            imageUrl: 'url(/assets/CardiffMap-image.png)'
         }, {
             latitude: 51.6187044,
             longitude: -3.939985,
@@ -45,25 +64,6 @@ export class DataStorageService {
                 sunday: 'Closed'
             },
             imageUrl: 'url(/assets/SwanseaMap-image.png)'
-        }, {
-            latitude: 51.4866957,
-            longitude: -3.1587076,
-            address1: '10 Clifton Street',
-            address2: 'Adamsdown',
-            city: 'CARDIFF',
-            postcode: 'CF24 1PW',
-            phone: +441656767766,
-            phonestring: '01656767766',
-            openingHours: {
-                monday: '09:00 - 17:00',
-                tuesday: '09:00 - 17:00',
-                wednesday: '09:00 - 17:00',
-                thursday: '09:00 - 17:00',
-                friday: '09:00 - 17:00',
-                saturday: 'Closed',
-                sunday: 'Closed'
-            },
-            imageUrl: 'url(/assets/CardiffMap-image.png)'
         }
     ]
 

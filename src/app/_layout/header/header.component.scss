@@ -64,6 +64,10 @@ header-contact {
         font-size: 12px;
     }
 }
+.header-contact{
+    z-index: 12;
+    position: fixed;
+}
 
 .option--selected {
     border-bottom: 3px solid $scm-light-blue;

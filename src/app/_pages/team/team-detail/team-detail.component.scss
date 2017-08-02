@@ -174,10 +174,17 @@
 }
 
 @media screen and (max-width: 608px) {
-    .team-detail {
-        margin-top: 170px;
-        .contact-button {
+  .team-detail {
+      margin-top: 170px;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      position: absolute;
+      z-index: 0;
+      background-color: $scm-light-off-white;
+      height: 850px;
+      width: 100%;
+      .contact-button {
             line-height: 40px;
-        }
-    }
+      }
+  }
 }

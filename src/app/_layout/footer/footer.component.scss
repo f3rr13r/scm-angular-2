@@ -65,6 +65,11 @@
 }
 
 @media screen and (max-width: 608px) {
+    .footer {
+        bottom: 0px;
+        width: 100%;
+        background-color: $scm-light-off-white;;
+    }
     .footer--info--list--item {
         font-size: 12px;
     }
