@@ -108,6 +108,7 @@
     .team-detail {
         flex-direction: column;
         height: 100%;
+        position: absolute;
         &__content-box {
             display: none;
         }
