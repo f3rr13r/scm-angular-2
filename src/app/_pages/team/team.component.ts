@@ -45,8 +45,8 @@ export class TeamComponent implements OnInit {
                 shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam.',
                 fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam. Nam molestie, arcu id maximus lacinia, ante ipsum posuere mauris, ac maximus massa felis quis quam. Curabitur malesuada placerat nunc, id dapibus justo tempor in. Ut molestie arcu justo, id volutpat eros vestibulum eget. Fusce tincidunt leo in est venenatis porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam. Nam molestie, arcu id maximus lacinia, ante ipsum posuere mauris, ac maximus massa felis quis quam. Curabitur malesuada placerat nunc, id dapibus justo tempor in. Ut molestie arcu justo, id volutpat eros vestibulum eget. Fusce tincidunt leo in est venenatis porta.',
                 emailAddress: 'david@scmlaw.co.uk',
-                phoneNumberString: '07771234567',
-                phoneNumber: +447771234567
+                phoneNumberString: '07768736502',
+                phoneNumber: +447768736502
             }, {
                 path: 'Rhodri-Chudleigh',
                 name: 'Rhodri Chudleigh',
@@ -67,8 +67,8 @@ export class TeamComponent implements OnInit {
                 shortDescription: 'Robert is a specialist criminal defence lawyer experienced in representing individuals charged with the most serious of crimes including murder and manslaughter. His practice encompasses the representation of individuals following arrest at the police station through to the Magistrates’ Court and the Crown Court.',
                 fullDescription: 'Robert is a specialist criminal defence lawyer experienced in representing individuals charged with the most serious of crimes including murder and manslaughter. His practice encompasses the representation of individuals following arrest at the police station through to the Magistrates’ Court and the Crown Court. Robert is a duty Solicitor and a Solicitor Advocate. He has experience of conducting Crown Court trials on behalf of defendants charged with such offences as robbery, burglary, theft and drug supply offences. Robert is a fluent Welsh speaker and is able to represent defendants in either English or Welsh. He is regarded as a highly approachable and skilled lawyer.',
                 emailAddress: 'robert@scmlaw.co.uk',
-                phoneNumberString: '07771234567',
-                phoneNumber: +447771234567
+                phoneNumberString: '07900560941',
+                phoneNumber: +447900560941
             }, {
                 path: 'James-McKenna',
                 name: 'James McKenna',
@@ -78,14 +78,14 @@ export class TeamComponent implements OnInit {
                 shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam.',
                 fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam. Nam molestie, arcu id maximus lacinia, ante ipsum posuere mauris, ac maximus massa felis quis quam. Curabitur malesuada placerat nunc, id dapibus justo tempor in. Ut molestie arcu justo, id volutpat eros vestibulum eget. Fusce tincidunt leo in est venenatis porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam. Nam molestie, arcu id maximus lacinia, ante ipsum posuere mauris, ac maximus massa felis quis quam. Curabitur malesuada placerat nunc, id dapibus justo tempor in. Ut molestie arcu justo, id volutpat eros vestibulum eget. Fusce tincidunt leo in est venenatis porta.',
                 emailAddress: 'james@scmlaw.co.uk',
-                phoneNumberString: '07771234567',
-                phoneNumber: +447771234567
+                phoneNumberString: '07738703699',
+                phoneNumber: +447738703699
             }
         ];
         this.duty = [
             {
                 path: 'Phillip-Thomas',
-                name: 'Phillip Thomas',
+                name: 'Phillip Thomas LLB(Hons)',
                 initials: 'PT',
                 backgroundImageUrl: '/assets/team/phil-profile.jpg',
                 imageUrl: '/assets/team/phil-profile.jpg',
@@ -96,7 +96,7 @@ export class TeamComponent implements OnInit {
                 phoneNumber: +447771234567
             }, {
                 path: 'David-Mayson',
-                name: 'David Mayson',
+                name: 'David Mayson LLB(Hons)',
                 initials: 'DM',
                 backgroundImageUrl: '/assets/team/phil-profile.jpg', //Need to change on photo reciept
                 imageUrl: '/assets/team/phil-profile.jpg', //Change when get photo
@@ -106,9 +106,9 @@ export class TeamComponent implements OnInit {
                 phoneNumberString: '07771234567',
                 phoneNumber: +447771234567
             }, {
-                path: 'Richard-Adamec',
-                name: 'Richard Adamec',
-                initials: 'RA',
+                path: 'Denny-Bryant',
+                name: 'Denny Bryant LLB(Hons)',
+                initials: 'DB',
                 backgroundImageUrl: '/assets/team/phil-profile.jpg', //Change when get photo
                 imageUrl: '/assets/team/phil-profile.jpg', //Change when get photo
                 shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam.',
@@ -120,19 +120,19 @@ export class TeamComponent implements OnInit {
         ];
         this.admin = [
              {
-                path: 'Jackie-Admin',
-                name: 'Jackie Admin',
+                path: 'Jackie-James',
+                name: 'Jackie James',
                 initials: 'JA',
                 backgroundImageUrl: '/assets/team/jackie-profile.jpg',
                 imageUrl: '/assets/team/jackie-profile.jpg',
-                shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam.',
-                fullDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam. Nam molestie, arcu id maximus lacinia, ante ipsum posuere mauris, ac maximus massa felis quis quam. Curabitur malesuada placerat nunc, id dapibus justo tempor in. Ut molestie arcu justo, id volutpat eros vestibulum eget. Fusce tincidunt leo in est venenatis porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam. Nam molestie, arcu id maximus lacinia, ante ipsum posuere mauris, ac maximus massa felis quis quam. Curabitur malesuada placerat nunc, id dapibus justo tempor in. Ut molestie arcu justo, id volutpat eros vestibulum eget. Fusce tincidunt leo in est venenatis porta.',
+                shortDescription: 'Lorem',
+                fullDescription: 'Lorem',
                 emailAddress: 'example@example.com',
                 phoneNumberString: '07771234567',
                 phoneNumber: +447771234567
             }, {
-                path: 'Mary-Admin',
-                name: 'Mary Admin',
+                path: 'Mary-Bourke',
+                name: 'Mary Bourke',
                 initials: 'MA',
                 backgroundImageUrl: '/assets/team/mary-profile.jpg',
                 imageUrl: '/assets/team/mary-profile.jpg',
@@ -142,8 +142,8 @@ export class TeamComponent implements OnInit {
                 phoneNumberString: '07771234567',
                 phoneNumber: +447771234567
             }, {
-                path: 'Deb-Admin',
-                name: 'Deb Admin',
+                path: 'Deb-Thomas',
+                name: 'Deb Thomas',
                 initials: 'DA',
                 backgroundImageUrl: '/assets/team/deb-profile.jpg',
                 imageUrl: '/assets/team/deb-profile.jpg',

@@ -18,8 +18,9 @@
         </ul>
     </div>
     <div class="team__partners">
-        <h2 class="team__partners__title">Duty Solicitors</h2>
+        <h2 class="team__partners__title">Consultants</h2>
           <hr />
+          <h3 class="duty__info">Accrediated Police Station representative Duty Solicitors.</h3>
         <ul class="team__partners__list">
             <li *ngFor="let person of duty" class="team__partners__list__item">
                 <div class="profile partners" [ngStyle]="{'background-image': 'url(' + person.imageUrl + ')'}" (click)="goToTeamDetail(person.path, person.name, person.initials, person.imageUrl, person.shortDescription, person.fullDescription, person.emailAddress, person.phoneNumberString, person.phoneNumber)">

@@ -38,8 +38,8 @@ export class ServicesComponent implements OnInit {
                    "Murder",
                    "Section 18 grievous bodily harm with intent",
                    "Section 20 grievous bodily harm",
-                   "Actual body harm with intent",
-                   "Actual body harm"
+                   "Actual body harm",
+                   "Common Assault"
                ]
             }, {
                path: "sexual-crime-offences",
@@ -51,6 +51,7 @@ export class ServicesComponent implements OnInit {
                    "Sexual Assault",
                    "Sexual Offences against children",
                    "Possessing indecent images of children",
+                   "Child grooming",
                    "Exposure / Voyerism"
                ]
             }, {
@@ -87,7 +88,7 @@ export class ServicesComponent implements OnInit {
                    "Shoplifting",
                    "Theft from employer",
                    "Handling stolen goods",
-                   "Something to do with payment."
+                   "Making off without payment"
                ]
             }, {
                path: "cyber-offences",
@@ -96,7 +97,6 @@ export class ServicesComponent implements OnInit {
                imageUrl: "url(/assets/services/cyber-offences.jpg)",
                crimes: [
                    "Child pornography",
-                   "Child grooming",
                    "Espionage",
                    "Copyright Infringement",
                    "Financial Theft"
@@ -119,6 +119,7 @@ export class ServicesComponent implements OnInit {
                description: "Mumblecore master cleanse semiotics, hammock bicycle rights polaroid fanny pack pitchfork pok pok leggings health goth yr. Affogato ethical tofu franzen. Cray skateboard semiotics artisan, swag polaroid air plant gentrify pinterest kale chips marfa kombucha slow-carb jean shorts wayfarers.",
                imageUrl: "url(/assets/services/motoring-offences.jpg)",
                crimes: [
+                   "Dangerous and careless driving",
                    "Driving while under the influence of drink/drugs",
                    "Speeding",
                    "Driving without a license",
