@@ -33,7 +33,7 @@ export class ServicesComponent implements OnInit {
                path: "violent-crime-offences",
                title:  "Violent Crime Offences",
                description: "Mumblecore master cleanse semiotics, hammock bicycle rights polaroid fanny pack pitchfork pok pok leggings health goth yr. Affogato ethical tofu franzen. Cray skateboard semiotics artisan, swag polaroid air plant gentrify pinterest kale chips marfa kombucha slow-carb jean shorts wayfarers.",
-               imageUrl: "url(/assets/services/violent-crime.jpg)",
+               imageUrl: 'url("/assets/services/violent-crime.jpg")',
                crimes: [
                    "Murder",
                    "Section 18 grievous bodily harm with intent",
@@ -45,7 +45,7 @@ export class ServicesComponent implements OnInit {
                path: "sexual-crime-offences",
                title: "Sexual Crime Offences",
                description: "Mumblecore master cleanse semiotics, hammock bicycle rights polaroid fanny pack pitchfork pok pok leggings health goth yr. Affogato ethical tofu franzen. Cray skateboard semiotics artisan, swag polaroid air plant gentrify pinterest kale chips marfa kombucha slow-carb jean shorts wayfarers.",
-               imageUrl: "url(/assets/services/sexual-offences.jpg)",
+               imageUrl: 'url("/assets/services/sexual-offences.jpg")',
                crimes: [
                    "Rape",
                    "Sexual Assault",
@@ -58,7 +58,7 @@ export class ServicesComponent implements OnInit {
                path: "drugs-offences",
                title:  "Drugs Offences",
                description: "Mumblecore master cleanse semiotics, hammock bicycle rights polaroid fanny pack pitchfork pok pok leggings health goth yr. Affogato ethical tofu franzen. Cray skateboard semiotics artisan, swag polaroid air plant gentrify pinterest kale chips marfa kombucha slow-carb jean shorts wayfarers.",
-               imageUrl: "url(/assets/services/drugs-offences.jpg)",
+               imageUrl: 'url("/assets/services/drugs-offences.jpg")',
                crimes: [
                    "Conspiracy to supply",
                    "Possession with intent to supply",
@@ -70,7 +70,7 @@ export class ServicesComponent implements OnInit {
                path: "fraud-offences",
                title:  "Fraud Offences",
                description: "Mumblecore master cleanse semiotics, hammock bicycle rights polaroid fanny pack pitchfork pok pok leggings health goth yr. Affogato ethical tofu franzen. Cray skateboard semiotics artisan, swag polaroid air plant gentrify pinterest kale chips marfa kombucha slow-carb jean shorts wayfarers.",
-               imageUrl: "url(/assets/services/fraud-offences.jpg)",
+               imageUrl: 'url("/assets/services/fraud-offences.jpg")',
                crimes: [
                    "Conspiracy to defraud",
                    "False representation",
@@ -82,7 +82,7 @@ export class ServicesComponent implements OnInit {
                path: "theft-and-dishonesty-offences",
                title:  "Theft & Dishonesty Offences",
                description: "Mumblecore master cleanse semiotics, hammock bicycle rights polaroid fanny pack pitchfork pok pok leggings health goth yr. Affogato ethical tofu franzen. Cray skateboard semiotics artisan, swag polaroid air plant gentrify pinterest kale chips marfa kombucha slow-carb jean shorts wayfarers.",
-               imageUrl: "url(/assets/services/theft-offences.jpg)",
+               imageUrl: 'url("/assets/services/theft-offences.jpg")',
                crimes: [
                    "Burglary",
                    "Shoplifting",
@@ -94,7 +94,7 @@ export class ServicesComponent implements OnInit {
                path: "cyber-offences",
                title:  "Cyber Offences",
                description: "Mumblecore master cleanse semiotics, hammock bicycle rights polaroid fanny pack pitchfork pok pok leggings health goth yr. Affogato ethical tofu franzen. Cray skateboard semiotics artisan, swag polaroid air plant gentrify pinterest kale chips marfa kombucha slow-carb jean shorts wayfarers.",
-               imageUrl: "url(/assets/services/cyber-offences.jpg)",
+               imageUrl: 'url("/assets/services/cyber-offences.jpg")',
                crimes: [
                    "Child pornography",
                    "Espionage",
@@ -105,7 +105,7 @@ export class ServicesComponent implements OnInit {
                path: "regulatory-offences",
                title:  "Regulatory Offences",
                description: "Mumblecore master cleanse semiotics, hammock bicycle rights polaroid fanny pack pitchfork pok pok leggings health goth yr. Affogato ethical tofu franzen. Cray skateboard semiotics artisan, swag polaroid air plant gentrify pinterest kale chips marfa kombucha slow-carb jean shorts wayfarers.",
-               imageUrl: "url(/assets/services/regulatory-offences.jpg)",
+               imageUrl: 'url("/assets/services/regulatory-offences.jpg")',
                crimes: [
                    "Health and safety offences",
                    "Food hygiene offences",
@@ -117,7 +117,7 @@ export class ServicesComponent implements OnInit {
                path: "motoring-offences",
                title:  "Motoring Offences",
                description: "Mumblecore master cleanse semiotics, hammock bicycle rights polaroid fanny pack pitchfork pok pok leggings health goth yr. Affogato ethical tofu franzen. Cray skateboard semiotics artisan, swag polaroid air plant gentrify pinterest kale chips marfa kombucha slow-carb jean shorts wayfarers.",
-               imageUrl: "url(/assets/services/motoring-offences.jpg)",
+               imageUrl: 'url("/assets/services/motoring-offences.jpg")',
                crimes: [
                    "Dangerous and careless driving",
                    "Driving while under the influence of drink/drugs",
