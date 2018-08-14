@@ -1,95 +1,150 @@
 @import '../../../styles/variables';
+
 hr {
-    max-width: 400px;
-    }
+  max-width: 400px;
+}
+
 .team {
-    width: 100%;
-    margin-top: 130px;
-    background-color: $scm-light-off-white;
-    &__intro {
-        padding: 20px 40px;
-        h1 {
-            font-family: $scm-font-helvetica-neue;
-            color: $scm-grey-hover;
-            text-align: center;
-            font-size: 40px;
-        }
-        hr {
-          margin-bottom: 40px;
-        }
-        p {
-            font-family: $scm-font-helvetica-neue;
-            color: $scm-grey;
-            text-align: center;
-            font-size: 18px;
-        }
+  width: 100%;
+  margin-top: 130px;
+  background-color: $scm-light-off-white;
+
+  &__intro {
+    padding: 20px 40px;
+
+    h1 {
+      font-family: $scm-font-helvetica-neue;
+      color: $scm-grey-hover;
+      text-align: center;
+      font-size: 40px;
     }
-    &__partners {
-        padding-top: 70px;
-        &__title {
-            padding: 0 0;
-            font-size: 32px;
-            font-family: $scm-font-helvetica-neue;
-            color: $scm-grey-hover;
-            text-align: center;
-        }
-        &__list {
-            list-style: none;
-            display: flex;
-            justify-content: space-around;
-            flex-direction: row;
-            flex-wrap: wrap;
-            margin: 0 20px;
-            padding: 20px;
-            &__item {
-                width: 23%;
-                height: 285px;
-                margin-right: 10px;
-                .profile {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: flex-end;
-                    background-position: center;
-                    background-size: cover;
-                    height: 100%;
-                    &__name {
-                        text-align: center;
-                        color: $scm-light-off-white;
-                        font-family: $scm-font-helvetica-neue;
-                        background-color: none;
-                        text-shadow: 2px 2px 4px black;
-                    }
-                }
-                .partners:hover {
-                        cursor: pointer;
-                    }
-            }
-        }
+
+    hr {
+      margin-bottom: 40px;
     }
+
+    p {
+      font-family: $scm-font-helvetica-neue;
+      color: $scm-grey;
+      text-align: center;
+      font-size: 18px;
+    }
+  }
+
+  &__partners {
+    padding-top: 70px;
+
+    &__title {
+      padding: 0 0;
+      font-size: 32px;
+      font-family: $scm-font-helvetica-neue;
+      color: $scm-grey-hover;
+      text-align: center;
+    }
+
+    &__list {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 0 20px;
+      padding: 20px;
+
+      &__item {
+        width: 23%;
+        height: 285px;
+        margin-right: 10px;
+
+        .profile {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-end;
+          background-position: center;
+          background-size: cover;
+          height: 100%;
+
+          &__name {
+            text-align: center;
+            color: $scm-light-off-white;
+            font-family: $scm-font-helvetica-neue;
+            background-color: none;
+            text-shadow: 2px 2px 4px black;
+          }
+        }
+
+        .partners:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .duty__info {
+      text-align: center;
+      font-family: $scm-font-helvetica-neue;
+    }
+  }
 }
 
 @media screen and (max-width: 827px) {
-    .team{
-        &__partners__list__item{
+  .team {
+    &__partners {
+      padding-top: 10px;
+
+      &__list__item {
         width: 40%;
         height: 285px;
         margin-bottom: 20px;
       }
     }
-    .team__partners__list__item{
-        width: 40%;
-        height: 285px;
-        margin-bottom: 20px;
-    }
+  }
 }
+
 @media screen and (max-width: 558px) {
-    .team{
-        margin-top: 180px;
-    &__partners__list__item{
-        width: 75%;
-        height: 285px;
-        margin-bottom: 20px;
+  .team {
+    margin-top: 200px;
+
+    &__intro {
+      padding: 20px 10px 0;
+
+      h1 {
+        font-size: 28px;
+      }
+
+      hr {
+        display: none;
+      }
+
+      p {
+        font-size: 14px;
       }
     }
+
+    &__partners {
+      &__title {
+        font-size: 26px;
+      }
+
+      hr {
+        display: none;
+      }
+
+      &__list {
+        margin: 0;
+        padding: 0;
+
+        &__item {
+          width: 90vw;
+          height: 90vw;
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
+      }
+
+      .duty__info {
+        font-size: 12px;
+      }
+    }
+  }
 }

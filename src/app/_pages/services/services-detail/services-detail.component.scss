@@ -1,73 +1,95 @@
 @import '../../../../styles/variables';
+
 .service-detail {
-    margin-top: 130px;
-    &--title {
-        width: 100%;
-        height: 200px;
-        background-position: center;
-        background-size: cover;
+  margin-top: 130px;
+
+  &--title {
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &--content {
+    h2 {
+      font-family: $scm-font-helvetica-neue;
+      background-color: $scm-blue;
+      color: $scm-light-off-white;
+      text-align: center;
+      font-size: 28px;
+      padding: 10px;
+      margin: 0;
     }
-    &--content {
-        h2 {
-            font-family: $scm-font-helvetica-neue;
-            background-color: $scm-blue;
-            color: $scm-light-off-white;
-            text-align: center;
-            font-size: 28px;
-            padding: 10px;
-            margin: 0;
-        }
-        p {
-            padding: 10px 40px;
-            font-family: $scm-font-helvetica-neue;
-            text-align: center;
-            color: $scm-grey;
-            font-weight: 200;
-            &:last-of-type {
-                color: black;
-                font-size: 12px;
-                font-weight: 400;
-                padding-top: 16px;
-            }
-        }
-        hr {
-            width: 140px;
-            height: 2px;
-            border: none;
-            color: $scm-blue;
-            background-color: $scm-light-blue-hover;
-        }
-        &__crime-list {
-            list-style: none;
-            //padding-left: 0;
-            li {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                font-family: $scm-font-helvetica-neue;
-                font-size: 20px;
-                color: $scm-blue;
-                padding: 4px 0;
-                img {
-                    width: 24px;
-                    height: 24px;
-                    margin-right: 20px;
-                }
-            }
-        }
+
+    p {
+      padding: 10px 40px;
+      font-family: $scm-font-helvetica-neue;
+      text-align: center;
+      color: $scm-grey;
+      font-weight: 200;
+
+      &:last-of-type {
+        color: black;
+        font-size: 12px;
+        font-weight: 400;
+        padding-top: 16px;
+      }
     }
+
+    hr {
+      width: 140px;
+      height: 2px;
+      border: none;
+      color: $scm-blue;
+      background-color: $scm-light-blue-hover;
+    }
+
+    &__crime-list {
+      list-style: none;
+
+      //padding-left: 0;
+      li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: $scm-font-helvetica-neue;
+        font-size: 20px;
+        color: $scm-blue;
+        padding: 4px 0;
+
+        img {
+          width: 24px;
+          height: 24px;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 608px) {
-    .service-detail {
-        margin-top: 180px;
-        &--title {
-            h2 {
-                margin-top: 40px;
-            }
-        }
-        li {
-            font-size: 15px;
-        }
+  .service-detail {
+    margin-top: 180px;
+
+    &--title {
+      h2 {
+        margin-top: 40px;
+      }
     }
+
+    &--content {
+      h2 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 14px;
+        padding: 10px 14px;
+      }
+    }
+
+    li {
+      font-size: 12px;
+    }
+  }
 }

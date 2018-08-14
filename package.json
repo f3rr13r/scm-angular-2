@@ -17,9 +17,9 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
-    "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.25",
     "@types/jasmine": "2.5.38",
     "@types/node": "~6.0.60",
+    "@ng-bootstrap/ng-bootstrap": "1.0.0-beta.4",
     "angular2-google-maps": "^0.17.0",
     "body-parser": "^1.17.2",
     "core-js": "^2.4.1",
@@ -43,7 +43,7 @@
     "protractor": "~5.1.0",
     "ts-node": "~2.0.0",
     "tslint": "~4.5.0"
-  }, 
+  },
   "engines": {
     "node": "8.1.0",
     "npm": "5.0.3"
