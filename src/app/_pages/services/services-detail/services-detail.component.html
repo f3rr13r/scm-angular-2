@@ -1,16 +1,17 @@
 <div class="service-detail">
-    <div class="service-detail--title" [ngStyle]="{ 'background-image': service.imageUrl }">
-    </div>
-    <div class="service-detail--content">
-        <h2>{{ service.title }}</h2>
-        <p>{{ service.description }}</p>
-        <hr />
-        <ul class="service-detail--content__crime-list">
-            <li *ngFor="let crime of service.crimes">
-                <img src="/assets/services/list-arrow--icon.png" alt="list-item-arrow" /> {{ crime }}
-            </li>
-        </ul>
-        <hr />
-        <p>If you would like to discuss anything with us, please feel free to get in touch via our phone or email. Alternatively, specific contact information for each of our solicitors is available within the 'team' section of our website.</p>
-    </div>
+  <div class="service-detail--title" [ngStyle]="{ 'background-image': service.imageUrl }">
+  </div>
+  <div class="service-detail--content">
+    <h2>{{ service.title }}</h2>
+    <p [innerHTML]="service.description"></p>
+    <hr />
+    <ul class="service-detail--content__crime-list">
+      <li *ngFor="let crime of service.crimes">
+        <img src="/assets/services/list-arrow--icon.png" alt="list-item-arrow" /> {{ crime }}
+      </li>
+    </ul>
+    <hr />
+    <p>If you would like to discuss anything with us, please feel free to get in touch via our phone or email. Alternatively,
+      specific contact information for each of our solicitors is available within the 'team' section of our website.</p>
+  </div>
 </div>
