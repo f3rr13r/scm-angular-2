@@ -1,0 +1,21 @@
+<div class="notable-cases">
+  <div class="notable-cases__title">
+    <h1>Notable Cases</h1>
+    <hr/>
+    <p>Below is a list of some of the most notable cases handled by SCM Law to date.</p>
+  </div>
+
+  <div class="notable-cases__main">
+    <ul class="list">
+      <li *ngFor="let notableCase of notableCases" class="list__item">
+        <h4 class="info info__title">{{ notableCase.title }}</h4>
+        <hr class="info info__separator">
+        <h2 class="info info__subtitle">{{ notableCase.subtitle }}</h2>
+        <hr class="info info__separator">
+        <p class="info info__desc">{{ notableCase.description }}</p>
+        <hr class="info info__separator">
+        <h4 class="info info__court">{{ notableCase.court }}</h4>
+      </li>
+    </ul>
+  </div>
+</div>

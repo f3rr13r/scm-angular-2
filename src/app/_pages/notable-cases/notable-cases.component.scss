@@ -1,0 +1,83 @@
+@import '../../../styles/variables';
+
+.notable-cases {
+  margin-top: 130px;
+  height: fit-content;
+  background-color: $scm-light-off-white;
+  font-family: $scm-font-helvetica-neue;
+
+  &__title {
+    height: fit-content;
+    text-align: center;
+    padding: 20px 0;
+
+    h1 {
+      color: $scm-blue;
+      font-size: 36px;
+    }
+
+    hr {
+      width: 140px;
+      height: 2px;
+      border: none;
+      background-color: $scm-light-blue;
+    }
+
+    p {
+      color: $scm-grey;
+      padding: 0 40px;
+      text-align: center;
+      font-weight: 200;
+    }
+  }
+
+  &__main {
+    height: fit-content;
+    width: fit-content;
+
+    .list {
+      padding: 40px 20px;
+      width: calc(100vw - 40px);
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      list-style: none;
+
+      &__item {
+        border-radius: 20px;
+        border: 1px solid $scm-blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        flex: 1;
+        min-width: 360px;
+        max-width: 360px;
+        margin-bottom: 20px;
+        background-color: white;
+
+        .info {
+          text-align: center;
+
+          &__separator {
+            width: 40px;
+            height: 2px;
+            border: none;
+            background-color: $scm-light-blue;
+          }
+
+          &__title,
+          &__court {
+            line-height: 20px;
+            color: $scm-grey;
+          }
+
+          &__desc {
+            font-weight: 200;
+          }
+        }
+      }
+    }
+  }
+}

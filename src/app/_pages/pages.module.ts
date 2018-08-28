@@ -6,7 +6,7 @@ import { FindUsComponent } from "./find-us/find-us.component";
 import { ServicesComponent } from "./services/services.component";
 import { HomeComponent } from "./home/home.component";
 import { TeamComponent } from "./team/team.component";
-import { NotableCasesComponent } from "./services/notable-cases/notable-cases.component";
+import { NotableCasesComponent } from "./notable-cases/notable-cases.component";
 
 const companyRoutes: Routes = [
   { path: "home", component: HomeComponent },
