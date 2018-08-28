@@ -45,8 +45,7 @@
       list-style: none;
 
       &__item {
-        border-radius: 20px;
-        border: 1px solid $scm-blue;
+        border: 1px solid $scm-grey--light;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -75,6 +74,29 @@
 
           &__desc {
             font-weight: 200;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 608px) {
+  .notable-cases {
+    margin-top: 180px;
+
+    &__main {
+      .list {
+        padding: 20px 0;
+        width: 100vw;
+
+        &__item {
+          min-width: 94vw;
+          max-width: 94vw;
+          padding: 0px;
+
+          .info {
+            padding: 0 20px;
           }
         }
       }
