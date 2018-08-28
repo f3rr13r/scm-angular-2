@@ -171,4 +171,8 @@ export class ServicesComponent implements OnInit {
     // navigate to services detail.
     this._router.navigate(["/services", _path]);
   }
+
+  goToNotableCases() {
+    this._router.navigateByUrl("/notable-cases");
+  }
 }
