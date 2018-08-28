@@ -37,6 +37,10 @@
       cursor: pointer;
       color: $scm-blue;
       font-weight: 600;
+
+      &:hover {
+        color: $scm-light-blue;
+      }
     }
 
     .regular {
