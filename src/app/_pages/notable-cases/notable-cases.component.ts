@@ -15,7 +15,28 @@ interface NotableCase {
 export class NotableCasesComponent {
   notableCases: [NotableCase] = [
     {
-      title: "R v & Others (2017)",
+      title: "R v M & others (2018)",
+      subtitle: "OPERATION CAVE",
+      description:
+        "10 defendant conspiracy to supply multiple kilos of class A drugs",
+      court: "Bristol Crown Court"
+    },
+    {
+      title: "R v Vu & others (2018)",
+      subtitle: "OPERATION VIOLET PANAMA",
+      description:
+        "22 defendant conspiracy to supply industrial quantities of cannabis",
+      court: "Merthyr Tydfil Crown Court"
+    },
+    {
+      title: "R v G & P & others (2018)",
+      subtitle: "OPERATION REDWOOD",
+      description:
+        "Massive conspiracy to contravene provisions of the Trade marks Act – Widespread distribution of unauthorised vinyl records over 100, 000 pages of evidence.",
+      court: "Cardiff Crown Court"
+    },
+    {
+      title: "R v T & others (2017)",
       subtitle: "OPERATION RED ALASKA",
       description: "Multi handed life insurance fraud",
       court: "Swansea Crown Court"
@@ -43,7 +64,7 @@ export class NotableCasesComponent {
     },
     {
       title: "R v H (2017)",
-      subtitle: "OPERATION BLUE CAPR",
+      subtitle: "OPERATION BLUE CAPRI",
       description: "Multiple rapes of children",
       court: "Cardiff Crown Court"
     },
@@ -62,7 +83,7 @@ export class NotableCasesComponent {
       court: "Cardiff Crown Court"
     },
     {
-      title: "R v Jakes & others (2016)",
+      title: "R v J & others (2016)",
       subtitle: "N/A",
       description:
         "Large scale 18 defendant conspiracy to produce large quantities of cannabis and money laundering",
@@ -112,7 +133,7 @@ export class NotableCasesComponent {
       court: "Bristol Crown Court"
     },
     {
-      title: "R v & others (2011)",
+      title: "R v V & others (2011)",
       subtitle: "OPERATION REGINA",
       description: "Conspiracy to supply multiple kilos of cannabis",
       court: "Bristol Crown Court"
