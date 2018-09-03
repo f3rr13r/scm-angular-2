@@ -44,10 +44,8 @@ export class TeamComponent implements OnInit {
           "/assets/team/scm-placeholder.png" /* update when we have it */,
         imageUrl:
           "/assets/team/scm-placeholder.png" /* update when we have it */,
-        shortDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam.",
-        fullDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam. Nam molestie, arcu id maximus lacinia, ante ipsum posuere mauris, ac maximus massa felis quis quam. Curabitur malesuada placerat nunc, id dapibus justo tempor in. Ut molestie arcu justo, id volutpat eros vestibulum eget. Fusce tincidunt leo in est venenatis porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam. Nam molestie, arcu id maximus lacinia, ante ipsum posuere mauris, ac maximus massa felis quis quam. Curabitur malesuada placerat nunc, id dapibus justo tempor in. Ut molestie arcu justo, id volutpat eros vestibulum eget. Fusce tincidunt leo in est venenatis porta.",
+        shortDescription: "", // needs bio
+        fullDescription: "", // needs bio
         emailAddress: "david@scmlaw.co.uk",
         phoneNumberString: "07768736502",
         phoneNumber: +447768736502
@@ -146,6 +144,7 @@ export class TeamComponent implements OnInit {
       {
         path: "", // Don't need it
         name: "Jackie James",
+        position: "Cardiff Office",
         initials: "JA",
         backgroundImageUrl: "/assets/team/jackie-profile.jpg",
         imageUrl: "/assets/team/jackie-profile.jpg",
@@ -158,6 +157,7 @@ export class TeamComponent implements OnInit {
       {
         path: "", // Don't need it
         name: "Mary Bourke",
+        position: "Bridgend Office",
         initials: "MA",
         backgroundImageUrl: "/assets/team/mary-profile.jpg",
         imageUrl: "/assets/team/mary-profile.jpg",
@@ -170,6 +170,7 @@ export class TeamComponent implements OnInit {
       {
         path: "", // Don't need it
         name: "Deborah Thomas",
+        position: "Bridgend Office",
         initials: "DA",
         backgroundImageUrl: "/assets/team/deb-profile.jpg",
         imageUrl: "/assets/team/deb-profile.jpg",

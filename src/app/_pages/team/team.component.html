@@ -39,6 +39,7 @@
       <li *ngFor="let person of admin" class="team__partners__list__item">
         <div class="profile" [ngStyle]="{'background-image': 'url(' + person.imageUrl + ')'}">
           <h2 class="profile__name">{{ person.name }}</h2>
+          <h4 class="profile__position">{{ person.position }}</h4>
           <h4 class="profile__position profile__position--clickable" (click)="openEmail(person.emailAddress)">{{ person.emailAddress
             }}
           </h4>
