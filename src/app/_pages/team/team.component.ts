@@ -100,6 +100,7 @@ export class TeamComponent implements OnInit {
       {
         path: "phillip-thomas",
         name: "Phillip Thomas LLB(Hons)",
+        position: null,
         initials: "PT",
         backgroundImageUrl: "/assets/team/phil-profile.jpg",
         imageUrl: "/assets/team/phil-profile.jpg",
@@ -114,6 +115,7 @@ export class TeamComponent implements OnInit {
       {
         path: "richard-adamec",
         name: "Richard Adamec LLB(Hons)",
+        position: null,
         initials: "DM",
         backgroundImageUrl: "/assets/team/adamec-profile.jpg",
         imageUrl: "/assets/team/adamec-profile.jpg",
@@ -128,6 +130,7 @@ export class TeamComponent implements OnInit {
       {
         path: "denny-bryant",
         name: "Denny Bryant LLB(Hons)",
+        position: null,
         initials: "DB",
         backgroundImageUrl: "/assets/team/denny-profile.jpg",
         imageUrl: "/assets/team/denny-profile.jpg",
