@@ -130,7 +130,7 @@ export class ServicesComponent implements OnInit {
         path: "motoring-offences",
         title: "Motoring Offences",
         description:
-          "Mumblecore master cleanse semiotics, hammock bicycle rights polaroid fanny pack pitchfork pok pok leggings health goth yr. Affogato ethical tofu franzen. Cray skateboard semiotics artisan, swag polaroid air plant gentrify pinterest kale chips marfa kombucha slow-carb jean shorts wayfarers.",
+          "Our specialist motor offence solicitors can advise you on all aspects of motoring and road traffic law throughout England and Wales.<br><br>We assist our clients in defending against an array of driving offences from the most minor motoring offence to those arising from fatal driving accidents. We pride ourselves on attention to detail and have specialist experience in the following areas:",
         imageUrl: 'url("/assets/services/motoring-offences.jpg")',
         crimes: [
           "Dangerous and careless driving",
