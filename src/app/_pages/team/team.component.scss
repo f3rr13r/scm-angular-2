@@ -6,6 +6,7 @@ hr {
 
 .team {
   width: 100%;
+  padding-bottom: 60px;
   margin-top: 130px;
   background-color: $scm-light-off-white;
 
@@ -64,13 +65,20 @@ hr {
           background-position: center;
           background-size: cover;
           height: 100%;
+          padding-bottom: 20px;
 
-          &__name {
+          &__name,
+          &__position {
             text-align: center;
             color: $scm-light-off-white;
             font-family: $scm-font-helvetica-neue;
             background-color: none;
             text-shadow: 2px 2px 4px black;
+            margin: 0;
+          }
+
+          &__position--clickable {
+            cursor: pointer;
           }
         }
 
@@ -95,7 +103,7 @@ hr {
       &__list__item {
         width: 40%;
         height: 285px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
       }
     }
   }
@@ -144,7 +152,9 @@ hr {
           width: 90vw;
           height: 90vw;
           margin-right: 0;
-          margin-bottom: 10px;
+
+          //margin-bottom: 40px;
+
         }
       }
 

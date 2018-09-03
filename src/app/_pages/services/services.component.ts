@@ -32,7 +32,7 @@ export class ServicesComponent implements OnInit {
         path: "violent-crime-offences",
         title: "Violent Crime Offences",
         description:
-          "Violent crime offences range from a minor punch (common assault, a punch which leaves a minor cut or a bruise (Actual Bodily Harm), a serious injury casued by recklessness (Section 20 Grevious Bodily Harm), or a serious injury caused intentionally to seriously harm another person (Section 8 Grevious Bodily Harm). <br><br>Whatever type of allegation is made against you, our Serious Crime Solicitors have the knowledge and expertise to defend you.We will scrutinise the evidence and chase witnesses or CCTV evidence if it is available.Furthermore, our Lawyers' creative minds will be working with you to find evidence or arguments which will increase your chances of an acquittal.",
+          "Violent crime offences range from a minor punch (common assault, a punch which leaves a minor cut or a bruise (Actual Bodily Harm), a serious injury casued by recklessness (Section 20 Grevious Bodily Harm), or a serious injury caused intentionally to seriously harm another person (Section 18 Grevious Bodily Harm). <br><br>Whatever type of allegation is made against you, our Serious Crime Solicitors have the knowledge and expertise to defend you.We will scrutinise the evidence and chase witnesses or CCTV evidence if it is available.Furthermore, our Lawyers' creative minds will be working with you to find evidence or arguments which will increase your chances of an acquittal.",
         imageUrl: 'url("/assets/services/violent-crime.jpg")',
         crimes: [
           "Murder",
@@ -75,7 +75,7 @@ export class ServicesComponent implements OnInit {
         path: "fraud-offences",
         title: "Fraud Offences",
         description:
-          "Whether you are a business or an individual, SCM will create a tailored strategy to meet your end-goals. Having handled cases a multitude of cases, we have the experience of dealing with a spectrum of offences under this legislation.<br><br>We are renowned for our commitment to taking early action in any investigation and advising on preventative steps which may be taken to resolve the case without the need for formal court proceedings.We will be responsible for pursuing all possible lines of enquiry which could yield that vital grain of evidence to prove your innocence or sway the jury in your favour.<br><br>We have excellent relationships with truly gifted Barristers and QCs who we will engage to support your team.We have access to forensic experts, to accountants, to mobile phone analysis experts who can all be called in to give evidence to bolster your defence.",
+          "Whether you are a business or an individual, SCM will create a tailored strategy to meet your end-goals. Having handled cases a multitude of cases, we have the experience of dealing with a spectrum of offences under this legislation.<br><br>We are renowned for our commitment to taking early action in any investigation and advising on preventative steps which may be taken to resolve the case without the need for formal court proceedings.We will be responsible for pursuing all possible lines of enquiry which could yield that vital grain of evidence to prove your innocence or sway the jury in your favour.<br><br>We have excellent relationships with truly gifted Barristers and QCs who we will engage to support your team. We have access to forensic experts, to accountants, to mobile phone analysis experts who can all be called in to give evidence to bolster your defence.",
         imageUrl: 'url("/assets/services/fraud-offences.jpg")',
         crimes: [
           "Conspiracy to defraud",
@@ -103,7 +103,7 @@ export class ServicesComponent implements OnInit {
         path: "cyber-offences",
         title: "Cyber Offences",
         description:
-          "Cyber crime is relatively new and constantly developing field. Investigations with an online or digital element are invariably technically challenging and complex. Many cases have an international element and investigations in the UK are often merely one part of coordinated action by law enforcement bodies across the globe, and particularly the FBI. These issues, together with the sheer volume of data that is invariably seized during a computer based investigation, pose real challenges to law enforcement agencies. We at SCM are here as professionals to assist in fields such as:",
+          "Cyber crime is relatively new and constantly developing field. Investigations with an online or digital element are invariably technically challenging and complex. Many cases have an international element and investigations in the UK are often merely one part of coordinated action by law enforcement bodies across the globe, and particularly the FBI. These issues, together with the sheer volume of data that is invariably seized during a computer based investigation, pose real challenges to law enforcement agencies.<br><br>We at SCM are here as professionals to assist in fields such as:",
         imageUrl: 'url("/assets/services/cyber-offences.jpg")',
         crimes: [
           "Child pornography",
@@ -116,7 +116,7 @@ export class ServicesComponent implements OnInit {
         path: "regulatory-offences",
         title: "Regulatory Offences",
         description:
-          "Mumblecore master cleanse semiotics, hammock bicycle rights polaroid fanny pack pitchfork pok pok leggings health goth yr. Affogato ethical tofu franzen. Cray skateboard semiotics artisan, swag polaroid air plant gentrify pinterest kale chips marfa kombucha slow-carb jean shorts wayfarers.",
+          "If you are in business, you will know that regulations have a huge impact on how you carry out day-to-day operations. Directors, partners and other staff can face individual criminal prosecutions for alleged breaches of certain rules. Our regulatory offences solicitors have the expertise and resources to assist individuals and companies under investigation by a regulatory body.<br><br>Below is a list of just some of the alleged offenses we here at SCM can assist you with:",
         imageUrl: 'url("/assets/services/regulatory-offences.jpg")',
         crimes: [
           "Health and safety offences",

@@ -36,12 +36,14 @@ export class TeamComponent implements OnInit {
     // team data
     this.partner = [
       {
-        path: "David-Sedgewick",
+        path: "david-sedgewick",
         name: "David Sedgewick",
+        position: "Bridgend Office",
         initials: "DS",
         backgroundImageUrl:
-          "/assets/team/rhod-profile.jpg" /* update when we have it */,
-        imageUrl: "/assets/team/rhod-profile.jpg" /* update when we have it */,
+          "/assets/team/scm-placeholder.png" /* update when we have it */,
+        imageUrl:
+          "/assets/team/scm-placeholder.png" /* update when we have it */,
         shortDescription:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam.",
         fullDescription:
@@ -51,8 +53,9 @@ export class TeamComponent implements OnInit {
         phoneNumber: +447768736502
       },
       {
-        path: "Rhodri-Chudleigh",
+        path: "rhodri-chudleigh",
         name: "Rhodri Chudleigh",
+        position: "Head of Cardiff Office",
         initials: "RC",
         backgroundImageUrl: "/assets/team/rhod-profile.jpg",
         imageUrl: "/assets/team/rhod-profile.jpg",
@@ -61,12 +64,13 @@ export class TeamComponent implements OnInit {
         fullDescription:
           "Rhodri was the founding partner of Chudleigh solicitors before the practice merged in 2015 to become SCM Solicitors.  With over 15 years’ experience, he has extensive experience in defending complex criminal cases including murder, serious violence, large scale drug conspiracies, serious sexual offences, fraud, money laundering and firearm offences. Rhodri is an experienced advocate whose practice is predominantly based in the Crown Court.  He has also appeared regularly before the Court of Appeal Criminal Division.  Rhodri has past experience of working in specialised Fraud Firm in Birmingham representing defendants prosecuted by the Serious fraud Office and H M Revenue and Customs.",
         emailAddress: "rhodri@scmlaw.co.uk",
-        phoneNumberString: "07771234567",
-        phoneNumber: +447771234567
+        phoneNumberString: "07554886380",
+        phoneNumber: +447554886380
       },
       {
-        path: "Robert-Chudleigh",
+        path: "robert-chudleigh",
         name: "Robert Chudleigh",
+        position: "Bridgend Office",
         initials: "RC",
         backgroundImageUrl: "/assets/team/rob-profile.jpg",
         imageUrl: "/assets/team/rob-profile.jpg",
@@ -79,8 +83,9 @@ export class TeamComponent implements OnInit {
         phoneNumber: +447900560941
       },
       {
-        path: "James-McKenna",
+        path: "james-mckenna",
         name: "James McKenna",
+        position: "Head of Swansea Office",
         initials: "JM",
         backgroundImageUrl: "/assets/team/james-profile.jpg",
         imageUrl: "/assets/team/james-profile.jpg",
@@ -95,88 +100,84 @@ export class TeamComponent implements OnInit {
     ];
     this.duty = [
       {
-        path: "Phillip-Thomas",
+        path: "phillip-thomas",
         name: "Phillip Thomas LLB(Hons)",
         initials: "PT",
         backgroundImageUrl: "/assets/team/phil-profile.jpg",
         imageUrl: "/assets/team/phil-profile.jpg",
         shortDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam.",
+          "Phillip Thomas, a Specialist Qualified Criminal Lawyer, joined SCM as a Consultant Solicitor at it’s inception in 2016. Before moving to work at SCM, he had many years experience, formerly a Senior Partner and Consultant with Gwyn & Gwyn/Larby Williams (now JCP Solicitors), and also the Sole Principle of Phillip Thomas & Co, a criminal law firm in Bridgend.",
         fullDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam. Nam molestie, arcu id maximus lacinia, ante ipsum posuere mauris, ac maximus massa felis quis quam. Curabitur malesuada placerat nunc, id dapibus justo tempor in. Ut molestie arcu justo, id volutpat eros vestibulum eget. Fusce tincidunt leo in est venenatis porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam. Nam molestie, arcu id maximus lacinia, ante ipsum posuere mauris, ac maximus massa felis quis quam. Curabitur malesuada placerat nunc, id dapibus justo tempor in. Ut molestie arcu justo, id volutpat eros vestibulum eget. Fusce tincidunt leo in est venenatis porta.",
+          "Phillip Thomas, a Specialist Qualified Criminal Lawyer, joined SCM as a Consultant Solicitor at it’s inception in 2016. Before moving to work at SCM, he had many years experience, formerly a Senior Partner and Consultant with Gwyn & Gwyn/Larby Williams (now JCP Solicitors), and also the Sole Principle of Phillip Thomas & Co, a criminal law firm in Bridgend. He has also been a Chairman and Member of local and regional Duty Solicitor Committees. Outside of work, Phil is married, and has three daughters.",
         emailAddress: "example@example.com",
-        phoneNumberString: "07771234567",
-        phoneNumber: +447771234567
+        phoneNumberString: "07771234567", // Missing
+        phoneNumber: +447771234567 // Missing
       },
       {
-        path: "David-Mayson",
-        name: "David Mayson LLB(Hons)",
+        path: "richard-adamec",
+        name: "Richard Adamec LLB(Hons)",
         initials: "DM",
-        backgroundImageUrl: "/assets/team/phil-profile.jpg", //Need to change on photo reciept
-        imageUrl: "/assets/team/phil-profile.jpg", //Change when get photo
+        backgroundImageUrl: "/assets/team/adamec-profile.jpg",
+        imageUrl: "/assets/team/adamec-profile.jpg",
         shortDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam.",
+          "Grays Inn Barrister, called 1988. Magistrates legal adviser until 2012 specialising in family and criminal law. Vice chairman Vale Cricket Club.",
         fullDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam. Nam molestie, arcu id maximus lacinia, ante ipsum posuere mauris, ac maximus massa felis quis quam. Curabitur malesuada placerat nunc, id dapibus justo tempor in. Ut molestie arcu justo, id volutpat eros vestibulum eget. Fusce tincidunt leo in est venenatis porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam. Nam molestie, arcu id maximus lacinia, ante ipsum posuere mauris, ac maximus massa felis quis quam. Curabitur malesuada placerat nunc, id dapibus justo tempor in. Ut molestie arcu justo, id volutpat eros vestibulum eget. Fusce tincidunt leo in est venenatis porta.",
+          "Grays Inn Barrister, called 1988. Magistrates legal adviser until 2012 specialising in family and criminal law. Vice chairman Vale Cricket Club.",
         emailAddress: "example@example.com",
-        phoneNumberString: "07771234567",
-        phoneNumber: +447771234567
+        phoneNumberString: "07771234567", // Missing
+        phoneNumber: +447771234567 // Missing
       },
       {
-        path: "Denny-Bryant",
+        path: "denny-bryant",
         name: "Denny Bryant LLB(Hons)",
         initials: "DB",
-        backgroundImageUrl: "/assets/team/phil-profile.jpg", //Change when get photo
-        imageUrl: "/assets/team/phil-profile.jpg", //Change when get photo
+        backgroundImageUrl: "/assets/team/denny-profile.jpg",
+        imageUrl: "/assets/team/denny-profile.jpg",
         shortDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam.",
+          "Born in the Cynon Valley, grew up in West Wales and now lives in Cardiff. Went to school in Christ College, Brecon then studied law at London University. Completed the Legal Practice course in Cardiff and has been a qualified solicitor since 1998.",
         fullDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam. Nam molestie, arcu id maximus lacinia, ante ipsum posuere mauris, ac maximus massa felis quis quam. Curabitur malesuada placerat nunc, id dapibus justo tempor in. Ut molestie arcu justo, id volutpat eros vestibulum eget. Fusce tincidunt leo in est venenatis porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam. Nam molestie, arcu id maximus lacinia, ante ipsum posuere mauris, ac maximus massa felis quis quam. Curabitur malesuada placerat nunc, id dapibus justo tempor in. Ut molestie arcu justo, id volutpat eros vestibulum eget. Fusce tincidunt leo in est venenatis porta.",
+          "Born in the Cynon Valley, grew up in West Wales and now lives in Cardiff. Went to school in Christ College, Brecon then studied law at London University. Completed the Legal Practice course in Cardiff and has been a qualified solicitor since 1998.<br><br>Practices exclusively in the field of Criminal Law.Has been a duty solicitor since 1999. Specialises in all matters of criminal law.Represented clients in high profile murder cases, rape cases, drug and conspiracy offences.Undertakes work in the Crown Court, Magistrates Court and the police station.",
         emailAddress: "example@example.com",
-        phoneNumberString: "07771234567",
-        phoneNumber: +447771234567
+        phoneNumberString: "07771234567", // Missing
+        phoneNumber: +447771234567 // Missing
       }
     ];
     this.admin = [
       {
-        path: "Jackie-James",
+        path: "", // Don't need it
         name: "Jackie James",
         initials: "JA",
         backgroundImageUrl: "/assets/team/jackie-profile.jpg",
         imageUrl: "/assets/team/jackie-profile.jpg",
-        shortDescription: "Lorem",
-        fullDescription: "Lorem",
+        shortDescription: "",
+        fullDescription: "",
         emailAddress: "example@example.com",
-        phoneNumberString: "07771234567",
-        phoneNumber: +447771234567
+        phoneNumberString: "", // Don't need it
+        phoneNumber: 0 // Don't need it
       },
       {
-        path: "Mary-Bourke",
+        path: "", // Don't need it
         name: "Mary Bourke",
         initials: "MA",
         backgroundImageUrl: "/assets/team/mary-profile.jpg",
         imageUrl: "/assets/team/mary-profile.jpg",
-        shortDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam.",
-        fullDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam. Nam molestie, arcu id maximus lacinia, ante ipsum posuere mauris, ac maximus massa felis quis quam. Curabitur malesuada placerat nunc, id dapibus justo tempor in. Ut molestie arcu justo, id volutpat eros vestibulum eget. Fusce tincidunt leo in est venenatis porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam. Nam molestie, arcu id maximus lacinia, ante ipsum posuere mauris, ac maximus massa felis quis quam. Curabitur malesuada placerat nunc, id dapibus justo tempor in. Ut molestie arcu justo, id volutpat eros vestibulum eget. Fusce tincidunt leo in est venenatis porta.",
+        shortDescription: "",
+        fullDescription: "",
         emailAddress: "example@example.com",
-        phoneNumberString: "07771234567",
-        phoneNumber: +447771234567
+        phoneNumberString: "", // Don't need it
+        phoneNumber: 0 // Don't need it
       },
       {
-        path: "Deb-Thomas",
-        name: "Deb Thomas",
+        path: "", // Don't need it
+        name: "Deborah Thomas",
         initials: "DA",
         backgroundImageUrl: "/assets/team/deb-profile.jpg",
         imageUrl: "/assets/team/deb-profile.jpg",
-        shortDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam.",
-        fullDescription:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam. Nam molestie, arcu id maximus lacinia, ante ipsum posuere mauris, ac maximus massa felis quis quam. Curabitur malesuada placerat nunc, id dapibus justo tempor in. Ut molestie arcu justo, id volutpat eros vestibulum eget. Fusce tincidunt leo in est venenatis porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eget augue eget gravida. Etiam eget imperdiet massa. Aliquam nisi eros, molestie a vulputate quis, tempor nec quam. Ut at libero in sem pellentesque imperdiet. Praesentpretium, sapien vel mollis porttitor, felis magna vehicula metus, ac dignissim odio tortor nec quam. Nam molestie, arcu id maximus lacinia, ante ipsum posuere mauris, ac maximus massa felis quis quam. Curabitur malesuada placerat nunc, id dapibus justo tempor in. Ut molestie arcu justo, id volutpat eros vestibulum eget. Fusce tincidunt leo in est venenatis porta.",
+        shortDescription: "",
+        fullDescription: "",
         emailAddress: "example@example.com",
-        phoneNumberString: "07771234567",
-        phoneNumber: +447771234567
+        phoneNumberString: "", // Don't need it
+        phoneNumber: 0 // Don't need it
       }
     ];
   }
@@ -221,7 +222,7 @@ export class TeamComponent implements OnInit {
     );
   }
 
-  userClicked() {
-    console.log("Team member clicked");
+  openEmail(email: string) {
+    window.location.href = `mailTo:${email}`;
   }
 }

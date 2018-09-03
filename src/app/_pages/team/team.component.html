@@ -1,43 +1,48 @@
 <div class="team">
-    <div class="team__intro">
-        <h1>Meet Our Team</h1>
-        <hr />
-        <p>SCM prides itself on being able to offer a 24-hour service 365 days of the year offering immediate expert legal advice and representation. The firm has a contract with the Legal Aid Agency enabling us to offer free and independent legal advice
-            at the police station, and representation through to the Magistrates Court and Crown Court depending on your income. The firm also represents high net worth individuals throughout all stages of the criminal justice process.
-        </p>
-    </div>
-    <div class="team__partners">
-        <h2 class="team__partners__title">Directors</h2>
-          <hr />
-        <ul class="team__partners__list">
-            <li *ngFor="let person of partner" class="team__partners__list__item">
-                <div class="profile partners" [ngStyle]="{'background-image': 'url(' + person.imageUrl + ')'}" (click)="goToTeamDetail(person.path, person.name, person.initials, person.imageUrl, person.shortDescription, person.fullDescription, person.emailAddress, person.phoneNumberString, person.phoneNumber)">
-                    <h2 class="profile__name">{{ person.name }}</h2>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <div class="team__partners">
-        <h2 class="team__partners__title">Consultants</h2>
-          <hr />
-          <h3 class="duty__info">Accrediated Police Station representative Duty Solicitors.</h3>
-        <ul class="team__partners__list">
-            <li *ngFor="let person of duty" class="team__partners__list__item">
-                <div class="profile partners" [ngStyle]="{'background-image': 'url(' + person.imageUrl + ')'}" (click)="goToTeamDetail(person.path, person.name, person.initials, person.imageUrl, person.shortDescription, person.fullDescription, person.emailAddress, person.phoneNumberString, person.phoneNumber)">
-                    <h2 class="profile__name">{{ person.name }}</h2>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <div class="team__partners">
-        <h2 class="team__partners__title">Administration</h2>
-        <hr />
-        <ul class="team__partners__list">
-            <li *ngFor="let person of admin" class="team__partners__list__item">
-                <div class="profile" [ngStyle]="{'background-image': 'url(' + person.imageUrl + ')'}">
-                    <h2 class="profile__name">{{ person.name }}</h2>
-                </div>
-            </li>
-        </ul>
-    </div>
+  <div class="team__intro">
+    <h1>Meet Our Team</h1>
+    <hr />
+    <p>SCM prides itself on being able to offer a 24-hour service 365 days of the year offering immediate expert legal advice
+      and representation. The firm has a contract with the Legal Aid Agency enabling us to offer free and independent legal
+      advice at the police station, and representation through to the Magistrates Court and Crown Court depending on your
+      income. The firm also represents high net worth individuals throughout all stages of the criminal justice process.
+    </p>
+  </div>
+  <div class="team__partners">
+    <h2 class="team__partners__title">Directors</h2>
+    <hr />
+    <ul class="team__partners__list">
+      <li *ngFor="let person of partner" class="team__partners__list__item">
+        <div class="profile partners" [ngStyle]="{'background-image': 'url(' + person.imageUrl + ')'}" (click)="goToTeamDetail(person.path, person.name, person.initials, person.imageUrl, person.shortDescription, person.fullDescription, person.emailAddress, person.phoneNumberString, person.phoneNumber)">
+          <h2 class="profile__name">{{ person.name }}</h2>
+          <h4 *ngIf="person.name" class="profile__position">{{ person.position }}</h4>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="team__partners">
+    <h2 class="team__partners__title">Consultants</h2>
+    <hr />
+    <h3 class="duty__info">Accrediated Police Station representative Duty Solicitors.</h3>
+    <ul class="team__partners__list">
+      <li *ngFor="let person of duty" class="team__partners__list__item">
+        <div class="profile partners" [ngStyle]="{'background-image': 'url(' + person.imageUrl + ')'}" (click)="goToTeamDetail(person.path, person.name, person.initials, person.imageUrl, person.shortDescription, person.fullDescription, person.emailAddress, person.phoneNumberString, person.phoneNumber)">
+          <h2 class="profile__name">{{ person.name }}</h2>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="team__partners">
+    <h2 class="team__partners__title">Administration</h2>
+    <hr />
+    <ul class="team__partners__list">
+      <li *ngFor="let person of admin" class="team__partners__list__item">
+        <div class="profile" [ngStyle]="{'background-image': 'url(' + person.imageUrl + ')'}">
+          <h2 class="profile__name">{{ person.name }}</h2>
+          <h4 class="profile__position profile__position--clickable" (click)="openEmail(person.emailAddress)">{{ person.emailAddress
+            }}</h4>
+        </div>
+      </li>
+    </ul>
+  </div>
 </div>
