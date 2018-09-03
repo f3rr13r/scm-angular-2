@@ -44,8 +44,8 @@ export class TeamComponent implements OnInit {
           "/assets/team/scm-placeholder.png" /* update when we have it */,
         imageUrl:
           "/assets/team/scm-placeholder.png" /* update when we have it */,
-        shortDescription: "", // needs bio
-        fullDescription: "", // needs bio
+        shortDescription: "",
+        fullDescription: "",
         emailAddress: "david@scmlaw.co.uk",
         phoneNumberString: "07768736502",
         phoneNumber: +447768736502
@@ -95,7 +95,7 @@ export class TeamComponent implements OnInit {
         phoneNumberString: "07738703699",
         phoneNumber: +447738703699
       }
-    ];
+    ]; // needs bio // needs bio
     this.duty = [
       {
         path: "phillip-thomas",
@@ -108,9 +108,9 @@ export class TeamComponent implements OnInit {
           "Phillip Thomas, a Specialist Qualified Criminal Lawyer, joined SCM as a Consultant Solicitor at it’s inception in 2016. Before moving to work at SCM, he had many years experience, formerly a Senior Partner and Consultant with Gwyn & Gwyn/Larby Williams (now JCP Solicitors), and also the Sole Principle of Phillip Thomas & Co, a criminal law firm in Bridgend.",
         fullDescription:
           "Phillip Thomas, a Specialist Qualified Criminal Lawyer, joined SCM as a Consultant Solicitor at it’s inception in 2016. Before moving to work at SCM, he had many years experience, formerly a Senior Partner and Consultant with Gwyn & Gwyn/Larby Williams (now JCP Solicitors), and also the Sole Principle of Phillip Thomas & Co, a criminal law firm in Bridgend. He has also been a Chairman and Member of local and regional Duty Solicitor Committees. Outside of work, Phil is married, and has three daughters.",
-        emailAddress: "example@example.com",
-        phoneNumberString: "07771234567", // Missing
-        phoneNumber: +447771234567 // Missing
+        emailAddress: "phil@scmlaw.co.uk",
+        phoneNumberString: "07976720367",
+        phoneNumber: +447976720367
       },
       {
         path: "richard-adamec",
@@ -123,9 +123,9 @@ export class TeamComponent implements OnInit {
           "Grays Inn Barrister, called 1988. Magistrates legal adviser until 2012 specialising in family and criminal law. Vice chairman Vale Cricket Club.",
         fullDescription:
           "Grays Inn Barrister, called 1988. Magistrates legal adviser until 2012 specialising in family and criminal law. Vice chairman Vale Cricket Club.",
-        emailAddress: "example@example.com",
-        phoneNumberString: "07771234567", // Missing
-        phoneNumber: +447771234567 // Missing
+        emailAddress: "richard@scmlaw.co.uk",
+        phoneNumberString: "07912747112",
+        phoneNumber: +447912747112
       },
       {
         path: "denny-bryant",
@@ -137,28 +137,28 @@ export class TeamComponent implements OnInit {
         shortDescription:
           "Born in the Cynon Valley, grew up in West Wales and now lives in Cardiff. Went to school in Christ College, Brecon then studied law at London University. Completed the Legal Practice course in Cardiff and has been a qualified solicitor since 1998.",
         fullDescription:
-          "Born in the Cynon Valley, grew up in West Wales and now lives in Cardiff. Went to school in Christ College, Brecon then studied law at London University. Completed the Legal Practice course in Cardiff and has been a qualified solicitor since 1998.Practices exclusively in the field of Criminal Law.Has been a duty solicitor since 1999. Specialises in all matters of criminal law.Represented clients in high profile murder cases, rape cases, drug and conspiracy offences.Undertakes work in the Crown Court, Magistrates Court and the police station.",
-        emailAddress: "example@example.com",
-        phoneNumberString: "07771234567", // Missing
-        phoneNumber: +447771234567 // Missing
+          "Born in the Cynon Valley, Denny grew up in West Wales and now lives in Cardiff. He went to school in Christ College, Brecon then studied law at London University. Denny completed the Legal Practice course in Cardiff and has been a qualified solicitor since 1998. Denny practices exclusively in the field of Criminal Law. He has been a duty solicitor since 1999, and specialises in all matters of criminal law. He has represented clients in high profile murder cases, rape cases, drug and conspiracy offences, and he undertakes work in the Crown Court, Magistrates Court and the police station.",
+        emailAddress: "denny@scmlaw.co.uk",
+        phoneNumberString: "07771234567",
+        phoneNumber: +447771234567
       }
-    ];
+    ]; // Missing // Missing // Missing // Missing // Missing // Missing
     this.admin = [
       {
-        path: "", // Don't need it
+        path: "",
         name: "Jackie James",
-        position: "Cardiff Office",
+        position: "Bridgend Office",
         initials: "JA",
         backgroundImageUrl: "/assets/team/jackie-profile.jpg",
         imageUrl: "/assets/team/jackie-profile.jpg",
         shortDescription: "",
         fullDescription: "",
-        emailAddress: "example@example.com",
-        phoneNumberString: "", // Don't need it
-        phoneNumber: 0 // Don't need it
+        emailAddress: "jacki@scmlaw.co.uk",
+        phoneNumberString: "",
+        phoneNumber: 0
       },
       {
-        path: "", // Don't need it
+        path: "",
         name: "Mary Bourke",
         position: "Bridgend Office",
         initials: "MA",
@@ -166,24 +166,24 @@ export class TeamComponent implements OnInit {
         imageUrl: "/assets/team/mary-profile.jpg",
         shortDescription: "",
         fullDescription: "",
-        emailAddress: "example@example.com",
-        phoneNumberString: "", // Don't need it
-        phoneNumber: 0 // Don't need it
+        emailAddress: "mary@scmlaw.co.uk",
+        phoneNumberString: "",
+        phoneNumber: 0
       },
       {
-        path: "", // Don't need it
+        path: "",
         name: "Deborah Thomas",
-        position: "Bridgend Office",
+        position: "Cardiff Office",
         initials: "DA",
         backgroundImageUrl: "/assets/team/deb-profile.jpg",
         imageUrl: "/assets/team/deb-profile.jpg",
         shortDescription: "",
         fullDescription: "",
-        emailAddress: "example@example.com",
-        phoneNumberString: "", // Don't need it
-        phoneNumber: 0 // Don't need it
+        emailAddress: "deb@scmlaw.co.uk",
+        phoneNumberString: "",
+        phoneNumber: 0
       }
-    ];
+    ]; // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it
   }
 
   onTeamHover() {
