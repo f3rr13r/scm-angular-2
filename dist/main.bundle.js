@@ -579,7 +579,25 @@ var NotableCasesComponent = (function () {
     function NotableCasesComponent() {
         this.notableCases = [
             {
-                title: "R v & Others (2017)",
+                title: "R v M & others (2018)",
+                subtitle: "OPERATION CAVE",
+                description: "10 defendant conspiracy to supply multiple kilos of class A drugs",
+                court: "Bristol Crown Court"
+            },
+            {
+                title: "R v Vu & others (2018)",
+                subtitle: "OPERATION VIOLET PANAMA",
+                description: "22 defendant conspiracy to supply industrial quantities of cannabis",
+                court: "Merthyr Tydfil Crown Court"
+            },
+            {
+                title: "R v G & P & others (2018)",
+                subtitle: "OPERATION REDWOOD",
+                description: "Massive conspiracy to contravene provisions of the Trade marks Act – Widespread distribution of unauthorised vinyl records over 100, 000 pages of evidence.",
+                court: "Cardiff Crown Court"
+            },
+            {
+                title: "R v T & others (2017)",
                 subtitle: "OPERATION RED ALASKA",
                 description: "Multi handed life insurance fraud",
                 court: "Swansea Crown Court"
@@ -604,7 +622,7 @@ var NotableCasesComponent = (function () {
             },
             {
                 title: "R v H (2017)",
-                subtitle: "OPERATION BLUE CAPR",
+                subtitle: "OPERATION BLUE CAPRI",
                 description: "Multiple rapes of children",
                 court: "Cardiff Crown Court"
             },
@@ -621,7 +639,7 @@ var NotableCasesComponent = (function () {
                 court: "Cardiff Crown Court"
             },
             {
-                title: "R v Jakes & others (2016)",
+                title: "R v J & others (2016)",
                 subtitle: "N/A",
                 description: "Large scale 18 defendant conspiracy to produce large quantities of cannabis and money laundering",
                 court: "Merthyr Tydfil Crown Court"
@@ -669,7 +687,7 @@ var NotableCasesComponent = (function () {
                 court: "Bristol Crown Court"
             },
             {
-                title: "R v & others (2011)",
+                title: "R v V & others (2011)",
                 subtitle: "OPERATION REGINA",
                 description: "Conspiracy to supply multiple kilos of cannabis",
                 court: "Bristol Crown Court"
@@ -1348,7 +1366,7 @@ var TeamComponent = (function () {
                 phoneNumberString: "07738703699",
                 phoneNumber: +447738703699
             }
-        ];
+        ]; // needs bio // needs bio
         this.duty = [
             {
                 path: "phillip-thomas",
@@ -1359,9 +1377,9 @@ var TeamComponent = (function () {
                 imageUrl: "/assets/team/phil-profile.jpg",
                 shortDescription: "Phillip Thomas, a Specialist Qualified Criminal Lawyer, joined SCM as a Consultant Solicitor at it’s inception in 2016. Before moving to work at SCM, he had many years experience, formerly a Senior Partner and Consultant with Gwyn & Gwyn/Larby Williams (now JCP Solicitors), and also the Sole Principle of Phillip Thomas & Co, a criminal law firm in Bridgend.",
                 fullDescription: "Phillip Thomas, a Specialist Qualified Criminal Lawyer, joined SCM as a Consultant Solicitor at it’s inception in 2016. Before moving to work at SCM, he had many years experience, formerly a Senior Partner and Consultant with Gwyn & Gwyn/Larby Williams (now JCP Solicitors), and also the Sole Principle of Phillip Thomas & Co, a criminal law firm in Bridgend. He has also been a Chairman and Member of local and regional Duty Solicitor Committees. Outside of work, Phil is married, and has three daughters.",
-                emailAddress: "example@example.com",
-                phoneNumberString: "07771234567",
-                phoneNumber: +447771234567 // Missing
+                emailAddress: "phil@scmlaw.co.uk",
+                phoneNumberString: "07976720367",
+                phoneNumber: +447976720367
             },
             {
                 path: "richard-adamec",
@@ -1372,9 +1390,9 @@ var TeamComponent = (function () {
                 imageUrl: "/assets/team/adamec-profile.jpg",
                 shortDescription: "Grays Inn Barrister, called 1988. Magistrates legal adviser until 2012 specialising in family and criminal law. Vice chairman Vale Cricket Club.",
                 fullDescription: "Grays Inn Barrister, called 1988. Magistrates legal adviser until 2012 specialising in family and criminal law. Vice chairman Vale Cricket Club.",
-                emailAddress: "example@example.com",
-                phoneNumberString: "07771234567",
-                phoneNumber: +447771234567 // Missing
+                emailAddress: "richard@scmlaw.co.uk",
+                phoneNumberString: "07912747112",
+                phoneNumber: +447912747112
             },
             {
                 path: "denny-bryant",
@@ -1384,25 +1402,25 @@ var TeamComponent = (function () {
                 backgroundImageUrl: "/assets/team/denny-profile.jpg",
                 imageUrl: "/assets/team/denny-profile.jpg",
                 shortDescription: "Born in the Cynon Valley, grew up in West Wales and now lives in Cardiff. Went to school in Christ College, Brecon then studied law at London University. Completed the Legal Practice course in Cardiff and has been a qualified solicitor since 1998.",
-                fullDescription: "Born in the Cynon Valley, grew up in West Wales and now lives in Cardiff. Went to school in Christ College, Brecon then studied law at London University. Completed the Legal Practice course in Cardiff and has been a qualified solicitor since 1998.<br><br>Practices exclusively in the field of Criminal Law.Has been a duty solicitor since 1999. Specialises in all matters of criminal law.Represented clients in high profile murder cases, rape cases, drug and conspiracy offences.Undertakes work in the Crown Court, Magistrates Court and the police station.",
-                emailAddress: "example@example.com",
+                fullDescription: "Born in the Cynon Valley, Denny grew up in West Wales and now lives in Cardiff. He went to school in Christ College, Brecon then studied law at London University. Denny completed the Legal Practice course in Cardiff and has been a qualified solicitor since 1998. Denny practices exclusively in the field of Criminal Law. He has been a duty solicitor since 1999, and specialises in all matters of criminal law. He has represented clients in high profile murder cases, rape cases, drug and conspiracy offences, and he undertakes work in the Crown Court, Magistrates Court and the police station.",
+                emailAddress: "denny@scmlaw.co.uk",
                 phoneNumberString: "07771234567",
-                phoneNumber: +447771234567 // Missing
+                phoneNumber: +447771234567
             }
-        ];
+        ]; // Missing // Missing // Missing // Missing // Missing // Missing
         this.admin = [
             {
                 path: "",
                 name: "Jackie James",
-                position: "Cardiff Office",
+                position: "Bridgend Office",
                 initials: "JA",
                 backgroundImageUrl: "/assets/team/jackie-profile.jpg",
                 imageUrl: "/assets/team/jackie-profile.jpg",
                 shortDescription: "",
                 fullDescription: "",
-                emailAddress: "example@example.com",
+                emailAddress: "jacki@scmlaw.co.uk",
                 phoneNumberString: "",
-                phoneNumber: 0 // Don't need it
+                phoneNumber: 0
             },
             {
                 path: "",
@@ -1413,24 +1431,24 @@ var TeamComponent = (function () {
                 imageUrl: "/assets/team/mary-profile.jpg",
                 shortDescription: "",
                 fullDescription: "",
-                emailAddress: "example@example.com",
+                emailAddress: "mary@scmlaw.co.uk",
                 phoneNumberString: "",
-                phoneNumber: 0 // Don't need it
+                phoneNumber: 0
             },
             {
                 path: "",
                 name: "Deborah Thomas",
-                position: "Bridgend Office",
+                position: "Cardiff Office",
                 initials: "DA",
                 backgroundImageUrl: "/assets/team/deb-profile.jpg",
                 imageUrl: "/assets/team/deb-profile.jpg",
                 shortDescription: "",
                 fullDescription: "",
-                emailAddress: "example@example.com",
+                emailAddress: "deb@scmlaw.co.uk",
                 phoneNumberString: "",
-                phoneNumber: 0 // Don't need it
+                phoneNumber: 0
             }
-        ];
+        ]; // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it
     };
     TeamComponent.prototype.onTeamHover = function () {
         this.isOnTeamHover = true;
