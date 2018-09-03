@@ -147,7 +147,7 @@ export class TeamComponent implements OnInit {
       {
         path: "", // Don't need it
         name: "Jackie James",
-        position: "Cardiff Office",
+        position: "Bridgend Office",
         initials: "JA",
         backgroundImageUrl: "/assets/team/jackie-profile.jpg",
         imageUrl: "/assets/team/jackie-profile.jpg",
@@ -173,7 +173,7 @@ export class TeamComponent implements OnInit {
       {
         path: "", // Don't need it
         name: "Deborah Thomas",
-        position: "Bridgend Office",
+        position: "Cardiff Office",
         initials: "DA",
         backgroundImageUrl: "/assets/team/deb-profile.jpg",
         imageUrl: "/assets/team/deb-profile.jpg",
