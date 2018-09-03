@@ -100,6 +100,7 @@ export class TeamComponent implements OnInit {
       {
         path: "phillip-thomas",
         name: "Phillip Thomas LLB(Hons)",
+        position: null,
         initials: "PT",
         backgroundImageUrl: "/assets/team/phil-profile.jpg",
         imageUrl: "/assets/team/phil-profile.jpg",
@@ -114,6 +115,7 @@ export class TeamComponent implements OnInit {
       {
         path: "richard-adamec",
         name: "Richard Adamec LLB(Hons)",
+        position: null,
         initials: "DM",
         backgroundImageUrl: "/assets/team/adamec-profile.jpg",
         imageUrl: "/assets/team/adamec-profile.jpg",
@@ -128,13 +130,14 @@ export class TeamComponent implements OnInit {
       {
         path: "denny-bryant",
         name: "Denny Bryant LLB(Hons)",
+        position: null,
         initials: "DB",
         backgroundImageUrl: "/assets/team/denny-profile.jpg",
         imageUrl: "/assets/team/denny-profile.jpg",
         shortDescription:
           "Born in the Cynon Valley, grew up in West Wales and now lives in Cardiff. Went to school in Christ College, Brecon then studied law at London University. Completed the Legal Practice course in Cardiff and has been a qualified solicitor since 1998.",
         fullDescription:
-          "Born in the Cynon Valley, grew up in West Wales and now lives in Cardiff. Went to school in Christ College, Brecon then studied law at London University. Completed the Legal Practice course in Cardiff and has been a qualified solicitor since 1998.<br><br>Practices exclusively in the field of Criminal Law.Has been a duty solicitor since 1999. Specialises in all matters of criminal law.Represented clients in high profile murder cases, rape cases, drug and conspiracy offences.Undertakes work in the Crown Court, Magistrates Court and the police station.",
+          "Born in the Cynon Valley, Denny grew up in West Wales and now lives in Cardiff. He went to school in Christ College, Brecon then studied law at London University. Denny completed the Legal Practice course in Cardiff and has been a qualified solicitor since 1998. Denny practices exclusively in the field of Criminal Law. He has been a duty solicitor since 1999, and specialises in all matters of criminal law. He has represented clients in high profile murder cases, rape cases, drug and conspiracy offences, and he undertakes work in the Crown Court, Magistrates Court and the police station.",
         emailAddress: "example@example.com",
         phoneNumberString: "07771234567", // Missing
         phoneNumber: +447771234567 // Missing
