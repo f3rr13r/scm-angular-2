@@ -1,7 +1,7 @@
 export interface TeamMember {
   path: string;
   name: string;
-  position?: string;
+  position: string;
   initials: string;
   backgroundImageUrl: string;
   imageUrl: string;

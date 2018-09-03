@@ -14,6 +14,7 @@ import { DataStorageService } from "../data/data.storage";
 export class TeamDetailComponent implements OnInit {
   // properties
   teamMember: TeamMember;
+  hasPosition: boolean;
 
   constructor(private _dataStorageService: DataStorageService) {}
 
@@ -23,5 +24,6 @@ export class TeamDetailComponent implements OnInit {
 
     // get appropriate data from shared data service
     this.teamMember = this._dataStorageService.getTeamMember();
+    this.hasPosition = this.teamMember.position != null ? true : false;
   }
 }

@@ -1,22 +1,27 @@
 <div class="team-detail">
-    <div class="team-detail__content-box">
-        <div class="team-detail__content-box--info" [ngStyle]="{ 'background-image': teamMember.backgroundImageUrl }">
-        </div>
-        <div class="team-detail__content-box--contact">
-            <a [href]="'tel:' + teamMember.phoneNumber"><strong>Call </strong>{{ teamMember.phoneNumberString }}</a>
-            <a [href]="'mailto:' + teamMember.emailAddress"><strong>Email </strong>{{ teamMember.emailAddress }}</a>
-        </div>
+  <div class="team-detail__content-box">
+    <div class="team-detail__content-box--info" [ngStyle]="{ 'background-image': teamMember.backgroundImageUrl }">
     </div>
-    <div class="team-detail__info-box">
-        <div class="team-detail__info-box--border">
-            <div class="image" [ngStyle]= "{'background-image':'url(' + teamMember.imageUrl + ')'}"></div>
-            <!--<img [src]="teamMember.imageUrl" alt="teamMember.name" />-->
-            <h1>{{ teamMember.name }}</h1>
-            <h4>Accreditations - LLB(Hons) Higher Court Advocate</h4>
-            <hr />
-            <p>{{ teamMember.fullDescription }}</p>
-            <a [href]="'tel:' + teamMember.phoneNumber" class="contact-button"><strong>Call </strong>{{ teamMember.phoneNumberString }}</a>
-            <a [href]="'mailto:' + teamMember.emailAddress" class="contact-button"><strong>Email </strong>{{ teamMember.emailAddress }}</a>
-        </div>
+    <div class="team-detail__content-box--contact">
+      <a [href]="'tel:' + teamMember.phoneNumber"><strong>Call </strong>{{ teamMember.phoneNumberString }}</a>
+      <a [href]="'mailto:' + teamMember.emailAddress"><strong>Email </strong>{{ teamMember.emailAddress }}</a>
     </div>
+  </div>
+  <div class="team-detail__info-box">
+    <div class="team-detail__info-box--border">
+      <div class="image" [ngStyle]="{'background-image':'url(' + teamMember.imageUrl + ')'}"></div>
+      <!--<img [src]="teamMember.imageUrl" alt="teamMember.name" />-->
+      <h1>{{ teamMember.name }}</h1>
+      <h2 *ngIf="hasPosition">{{ teamMember.position }}</h2>
+      <h4>Accreditations - LLB(Hons) Higher Court Advocate</h4>
+      <hr />
+      <p>{{ teamMember.fullDescription }}</p>
+      <a [href]="'tel:' + teamMember.phoneNumber" class="contact-button"><strong>Call </strong>{{ teamMember.phoneNumberString
+        }}
+      </a>
+      <a [href]="'mailto:' + teamMember.emailAddress" class="contact-button"><strong>Email </strong>{{ teamMember.emailAddress
+        }}
+      </a>
+    </div>
+  </div>
 </div>

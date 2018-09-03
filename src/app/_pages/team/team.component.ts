@@ -197,6 +197,7 @@ export class TeamComponent implements OnInit {
   goToTeamDetail(
     _urlPath: string,
     _name: string,
+    _position: string,
     _initials: string,
     _imageUrl: string,
     _shortDescription: string,
@@ -212,6 +213,7 @@ export class TeamComponent implements OnInit {
     this._dataStorageService.setTeamMember(
       _urlPath,
       _name,
+      _position,
       _initials,
       _imageUrl,
       _shortDescription,

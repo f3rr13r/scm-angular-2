@@ -95,6 +95,10 @@
         color: $scm-light-blue;
       }
 
+      h2 {
+        margin: 0 0 10px 30px;
+      }
+
       h4 {
         margin-left: 30px;
         margin-bottom: 20px;
@@ -148,6 +152,10 @@
 
         h1 {
           margin: 30px 0 0 0;
+        }
+
+        h2 {
+          margin: 0 0 10px;
         }
 
         h4 {
@@ -211,6 +219,7 @@
         font-size: 26px;
       }
 
+      h2,
       h4 {
         text-align: center;
       }
