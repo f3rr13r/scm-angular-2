@@ -1,77 +1,87 @@
 @import '../../../styles/variables';
-body { 
-    -webkit-text-size-adjust: none; 
-    }
+
+body {
+  -webkit-text-size-adjust: none;
+}
+
 .header {
-    z-index: 12;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 80px;
-    background-color: $scm-blue;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    &--link {
-        &--option {
-            color: white;
-            text-transform: uppercase;
-            background: none;
-            border: none;
-            font-size: 18px;
-            font-family: $scm-font-helvetica-neue;
-            font-weight: 200;
-            height: 100%;
-            flex-basis: 0;
-            flex-grow: 1;
-            &:hover {
-                cursor: pointer;
-            }
-            &:active,
-            &:focus {
-                outline: none;
-            }
-        }
-        &--logo {
-            height: 60px;
-            &:hover {
-                cursor: pointer;
-            }
-        }
+  z-index: 12;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: $scm-blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  &--link {
+    &--option {
+      color: white;
+      text-transform: uppercase;
+      background: none;
+      border: none;
+      font-size: 18px;
+      font-family: $scm-font-helvetica-neue;
+      font-weight: 200;
+      height: 100%;
+      flex-basis: 0;
+      flex-grow: 1;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:active,
+      &:focus {
+        outline: none;
+      }
     }
+
+    &--logo {
+      height: 60px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
 }
 
 header-contact {
-    z-index: 12;
-    position: fixed;
-    top: 80px;
-    width: 100%;
+  z-index: 12;
+  position: fixed;
+  top: 80px;
+  width: 100%;
 }
 
 @media screen and (max-width: 786px) {
-    .header--link--option {
-        font-size: 14px;
-    }
+  .header--link--option {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 608px) {
-    .header--link--logo {
-        height: 48px;
-    }
-    .header--link--option {
-        font-size: 12px;
-    }
+  .header--link--logo {
+    height: 32px;
+  }
+
+  .header--link--option {
+    font-size: 10px;
+  }
 }
-.header-contact{
-    z-index: 12;
-    position: fixed;
+
+.header-contact {
+  z-index: 12;
+  position: fixed;
 }
 
 .option--selected {
-    border-bottom: 3px solid $scm-light-blue;
-    &:last-of-type {
-        border-color: $scm-grey;
-    }
+  border-bottom: 3px solid $scm-light-blue;
+
+  &:last-of-type {
+    border-color: $scm-grey;
+  }
 }
