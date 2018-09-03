@@ -89,7 +89,7 @@ export class ServicesComponent implements OnInit {
         path: "theft-and-dishonesty-offences",
         title: "Theft & Dishonesty Offences",
         description:
-          "Mumblecore master cleanse semiotics, hammock bicycle rights polaroid fanny pack pitchfork pok pok leggings health goth yr. Affogato ethical tofu franzen. Cray skateboard semiotics artisan, swag polaroid air plant gentrify pinterest kale chips marfa kombucha slow-carb jean shorts wayfarers.",
+          "The solicitors at SCM have a wealth of experience in dealing with offences of theft. If you are accused of theft we can help you. If the police want to interview you we can advise you about that.<br><br>Theft is a crime of dishonesty and can have a significant impact on your employment, future employment and many applications to financial institutions.We understand the importance and the consequences of theft allegations, and specialise in, but are not limited to, the following:",
         imageUrl: 'url("/assets/services/theft-offences.jpg")',
         crimes: [
           "Burglary",
@@ -103,7 +103,7 @@ export class ServicesComponent implements OnInit {
         path: "cyber-offences",
         title: "Cyber Offences",
         description:
-          "Mumblecore master cleanse semiotics, hammock bicycle rights polaroid fanny pack pitchfork pok pok leggings health goth yr. Affogato ethical tofu franzen. Cray skateboard semiotics artisan, swag polaroid air plant gentrify pinterest kale chips marfa kombucha slow-carb jean shorts wayfarers.",
+          "Cyber crime is relatively new and constantly developing field. Investigations with an online or digital element are invariably technically challenging and complex. Many cases have an international element and investigations in the UK are often merely one part of coordinated action by law enforcement bodies across the globe, and particularly the FBI. These issues, together with the sheer volume of data that is invariably seized during a computer based investigation, pose real challenges to law enforcement agencies. We at SCM are here as professionals to assist in fields such as:",
         imageUrl: 'url("/assets/services/cyber-offences.jpg")',
         crimes: [
           "Child pornography",
