@@ -25,14 +25,14 @@ export class NotableCasesComponent {
       title: "R v Vu & others (2018)",
       subtitle: "OPERATION VIOLET PANAMA",
       description:
-        "22 defendant conspiracy to supply industrial quantities of cannabis",
+        "22 defendant conspiracy to supply industrial quantities of cannabis with over 90,000 pages of evidence",
       court: "Merthyr Tydfil Crown Court"
     },
     {
       title: "R v G & P & others (2018)",
       subtitle: "OPERATION REDWOOD",
       description:
-        "Massive conspiracy to contravene provisions of the Trade marks Act – Widespread distribution of unauthorised vinyl records over 100, 000 pages of evidence.",
+        "Conspiracy to contravene provisions of the Trade Marks Act – Widespread distribution of unauthorised vinyl records over 100, 000 pages of evidence.",
       court: "Cardiff Crown Court"
     },
     {
@@ -84,7 +84,7 @@ export class NotableCasesComponent {
     },
     {
       title: "R v J & others (2016)",
-      subtitle: "N/A",
+      subtitle: "",
       description:
         "Large scale 18 defendant conspiracy to produce large quantities of cannabis and money laundering",
       court: "Merthyr Tydfil Crown Court"
@@ -97,13 +97,13 @@ export class NotableCasesComponent {
     },
     {
       title: "R v S (2016)",
-      subtitle: "N/A",
+      subtitle: "",
       description: "Murder",
       court: "Cardiff Crown Court"
     },
     {
       title: "R v S (2016)",
-      subtitle: "N/A",
+      subtitle: "",
       description: "Murder trial and retrial",
       court: "Swansea Crown Court"
     },
@@ -116,7 +116,7 @@ export class NotableCasesComponent {
     },
     {
       title: "R v S (2014)",
-      subtitle: "N/A",
+      subtitle: "",
       description: "Murder trial",
       court: "Swansea Crown Court"
     },

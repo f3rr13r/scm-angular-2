@@ -60,7 +60,7 @@ export class TeamComponent implements OnInit {
         shortDescription:
           "Rhodri was the founding partner of Chudleigh solicitors before the practice merged in 2015 to become SCM Solicitors.",
         fullDescription:
-          "Rhodri was the founding partner of Chudleigh solicitors before the practice merged in 2015 to become SCM Solicitors.  With over 15 years’ experience, he has extensive experience in defending complex criminal cases including murder, serious violence, large scale drug conspiracies, serious sexual offences, fraud, money laundering and firearm offences. Rhodri is an experienced advocate whose practice is predominantly based in the Crown Court.  He has also appeared regularly before the Court of Appeal Criminal Division.  Rhodri has past experience of working in specialised Fraud Firm in Birmingham representing defendants prosecuted by the Serious fraud Office and H M Revenue and Customs.",
+          "Rhodri was the founding partner of Chudleigh solicitors before the practice merged in 2015 to become SCM Solicitors.  He has been practicing as a criminal solicitor for over 15 years, and has extensive experience in defending complex criminal cases including murder, serious violence, large scale drug conspiracies, serious sexual offences, fraud, money laundering and firearm offences. Rhodri is an experienced advocate whose practice is predominantly based in the Crown Court.  He has also successfully appeared before the Court of Appeal Criminal Division.  Rhodri has past experience of working in specialised Fraud Firm in Birmingham representing defendants prosecuted by the Serious fraud Office and H M Revenue and Customs.",
         emailAddress: "rhodri@scmlaw.co.uk",
         phoneNumberString: "07554886380",
         phoneNumber: +447554886380
@@ -153,7 +153,7 @@ export class TeamComponent implements OnInit {
         imageUrl: "/assets/team/jackie-profile.jpg",
         shortDescription: "",
         fullDescription: "",
-        emailAddress: "jacki@scmlaw.co.uk",
+        emailAddress: "jackie@scmlaw.co.uk",
         phoneNumberString: "",
         phoneNumber: 0
       },

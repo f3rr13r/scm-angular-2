@@ -24,9 +24,11 @@
     p {
       padding: 10px 40px;
       font-family: $scm-font-helvetica-neue;
-      text-align: center;
+      text-align: justify;
       color: $scm-grey;
-      font-weight: 200;
+
+      //font-weight: 200;
+      font-weight: 400;
 
       &:last-of-type {
         color: black;
