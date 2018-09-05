@@ -113,7 +113,10 @@
 
       p {
         padding: 30px;
-        font-weight: 200;
+        color: $scm-grey;
+
+        //font-weight: 200;
+        font-weight: 400;
         font-size: 20px;
         text-align: justify;
       }
