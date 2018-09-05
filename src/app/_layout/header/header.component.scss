@@ -25,7 +25,9 @@ body {
       border: none;
       font-size: 18px;
       font-family: $scm-font-helvetica-neue;
-      font-weight: 200;
+
+      //font-weight: 200;
+      font-weight: 400;
       height: 100%;
       flex-basis: 0;
       flex-grow: 1;
