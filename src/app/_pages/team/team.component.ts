@@ -153,7 +153,7 @@ export class TeamComponent implements OnInit {
         imageUrl: "/assets/team/jackie-profile.jpg",
         shortDescription: "",
         fullDescription: "",
-        emailAddress: "jacki@scmlaw.co.uk",
+        emailAddress: "jackie@scmlaw.co.uk",
         phoneNumberString: "",
         phoneNumber: 0
       },
