@@ -40,10 +40,8 @@ export class TeamComponent implements OnInit {
         name: "David Sedgewick",
         position: "Bridgend Office",
         initials: "DS",
-        backgroundImageUrl:
-          "/assets/team/scm-placeholder.png" /* update when we have it */,
-        imageUrl:
-          "/assets/team/scm-placeholder.png" /* update when we have it */,
+        backgroundImageUrl: "/assets/team/scm-placeholder.png",
+        imageUrl: "/assets/team/scm-placeholder.png",
         shortDescription:
           "David is a Senior Criminal Practitioner, having dealt with Criminal cases since the early 80’s. An extremely experienced advocate, he has conducted countless hearings in both the Magistrates and Crown Court. David has acted as an Advocate in cases from Drunk and Disorderly to Murder.",
         fullDescription:
