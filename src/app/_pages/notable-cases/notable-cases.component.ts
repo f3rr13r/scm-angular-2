@@ -15,6 +15,13 @@ interface NotableCase {
 export class NotableCasesComponent {
   notableCases: [NotableCase] = [
     {
+      title: "R v A (2018)",
+      subtitle: "OPERATION JACKDAW",
+      description:
+        "Represented one of 8 defendants in a conspiracy to supply up to 10 kilos of heroin",
+      court: "Cardiff Crown Court"
+    },
+    {
       title: "R v M & others (2018)",
       subtitle: "OPERATION CAVE",
       description:
