@@ -40,12 +40,12 @@ export class TeamComponent implements OnInit {
         name: "David Sedgewick",
         position: "Bridgend Office",
         initials: "DS",
-        backgroundImageUrl:
-          "/assets/team/scm-placeholder.png" /* update when we have it */,
-        imageUrl:
-          "/assets/team/scm-placeholder.png" /* update when we have it */,
-        shortDescription: "",
-        fullDescription: "",
+        backgroundImageUrl: "/assets/team/scm-placeholder.png",
+        imageUrl: "/assets/team/scm-placeholder.png",
+        shortDescription:
+          "David is a Senior Criminal Practitioner, having dealt with Criminal cases since the early 80’s. An extremely experienced advocate, he has conducted countless hearings in both the Magistrates and Crown Court. David has acted as an Advocate in cases from Drunk and Disorderly to Murder.",
+        fullDescription:
+          "David is a Senior Criminal Practitioner, having dealt with Criminal cases since the early 80’s. An extremely experienced advocate, he has conducted countless hearings in both the Magistrates and Crown Court. David has acted as an Advocate in cases from Drunk and Disorderly to Murder. He has attended the police station since the 80’s, and has been a Duty Solicitor for 30 years. Founder and Director of the original firm which joined with Chudleighs Solicitors to form SCM Law. David has been involved in dealing with some of the biggest Drug Conspiracy cases in Wales over the last 25 years, together with large scale frauds and all other serious cases for example Murder or Serios Sexual Offences",
         emailAddress: "david@scmlaw.co.uk",
         phoneNumberString: "07768736502",
         phoneNumber: +447768736502
