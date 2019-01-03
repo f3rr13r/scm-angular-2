@@ -100,7 +100,7 @@ FooterContactComponent = __decorate([
 /***/ "../../../../../src/app/_layout/footer/footer.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"footer\">\n    <footer-contact></footer-contact>\n    <div class=\"footer--main\">\n        <ul class=\"footer--main--icon footer--main--icon--social\">\n            <li class=\"facebook\">\n                <a href=\"https://www.facebook.com/pg/Sedgwick-Chudleigh-McKenna-Solicitors-222487694772423/about/\" target=\"_blank\"><img class=\"facebook--logo\" src=\"/assets/footer-facebook-logo.png\" /></a>\n            </li>\n            <li class=\"linkedin\">\n                <a href=\"https://www.linkedin.com/company/sedgwick-chudleigh-mckenna-solicitors\" target=\"_blank\"><img class=\"linkedin--logo\" src=\"/assets/footer-linkedin-logo.png\" /></a>\n            </li>\n        </ul>\n        <img (click)=\"navigateToHome()\" class=\"footer--main--icon footer--main--icon__scm\" src=\"/assets/scm-logo--small.png\" />\n        <img class=\"footer--main--icon\" src=\"/assets/footer-lexcel-logo.png\" />\n    </div>\n    <div class=\"footer--info\">\n        <ul class=\"footer--info--list\">\n            <li class=\"footer--info--list--item\">This firm is regulated by the Solicitors Regulation Authority</li>\n            <li class=\"footer--info--list--item\">Company Registration Number: 6519150</li>\n            <li class=\"footer--info--list--item\">SRA Number: 485534</li>\n            <li class=\"footer--info--list--item\">VAT Registration Number: 811 2016 92</li>\n            <li class=\"footer--info--list--item\">Sedgwick Chudleigh McKenna Solicitors is the trading name of David Sedgwick Solicitors Limited</li>\n        </ul>\n    </div>\n</div>"
+module.exports = "<div class=\"footer\">\n  <footer-contact></footer-contact>\n  <div class=\"footer--main\">\n    <ul class=\"footer--main--icon footer--main--icon--social\">\n      <li class=\"facebook\">\n        <a href=\"https://www.facebook.com/pg/Sedgwick-Chudleigh-McKenna-Solicitors-222487694772423/about/\" target=\"_blank\"><img\n            class=\"facebook--logo\" src=\"/assets/footer-facebook-logo.png\" /></a>\n      </li>\n      <li class=\"linkedin\">\n        <a href=\"https://www.linkedin.com/company/sedgwick-chudleigh-mckenna-solicitors\" target=\"_blank\"><img class=\"linkedin--logo\"\n            src=\"/assets/footer-linkedin-logo.png\" /></a>\n      </li>\n    </ul>\n    <img (click)=\"navigateToHome()\" class=\"footer--main--icon footer--main--icon__scm\" src=\"/assets/scm-logo--small.png\" />\n    <img class=\"footer--main--icon\" src=\"/assets/footer-lexcel-logo.png\" />\n  </div>\n  <div class=\"footer--info\">\n    <ul class=\"footer--info--list\">\n      <li class=\"footer--info--list--item\">This firm is regulated by the Solicitors Regulation Authority</li>\n      <li class=\"footer--info--list--item\">Company Registration Number: 6519150</li>\n      <li class=\"footer--info--list--item\">SRA Number: 485534</li>\n      <li class=\"footer--info--list--item\">VAT Registration Number: 811 2016 92</li>\n      <li class=\"footer--info--list--item\">Sedgwick Chudleigh McKenna Solicitors is the trading name of David Sedgwick\n        Solicitors Limited</li>\n    </ul>\n  </div>\n  <div class=\"footer__bottom\">\n    <a class=\"link\" routerLink=\"/site-management-policy\">Site Management Policy</a>\n    <a class=\"link\" routerLink=\"/privacy-policy\">Privacy Policy</a>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -112,7 +112,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "/*------------\nVariables:\n- For use throughout the app.\nTo use any of these you must import this stylesheet into the component stylesheet.\n------------*/\n/*-- typography --*/\n/*-- font family --*/\n.footer {\n  min-width: 100%; }\n  .footer--main {\n    height: 60px;\n    background-color: #002E52;\n    display: -ms-flexbox;\n    display: flex;\n    -ms-flex-direction: row;\n        flex-direction: row;\n    -ms-flex-pack: justify;\n        justify-content: space-between;\n    -ms-flex-align: center;\n        align-items: center; }\n    .footer--main--icon {\n      height: 50px;\n      margin: 0px 10px; }\n      .footer--main--icon--social {\n        list-style: none;\n        height: 40px;\n        padding: 0; }\n        .footer--main--icon--social .facebook,\n        .footer--main--icon--social .linkedin {\n          display: inline-block;\n          border: 2px solid white;\n          border-radius: 50%;\n          margin-right: 5px; }\n          .footer--main--icon--social .facebook--logo,\n          .footer--main--icon--social .linkedin--logo {\n            width: 20px;\n            height: 20px;\n            padding: 6px 8px; }\n      .footer--main--icon__scm {\n        cursor: pointer; }\n  .footer--info {\n    height: 140px;\n    background-color: #F1F1F1; }\n    .footer--info--list {\n      margin: 0;\n      padding: 0;\n      background-color: #F1F1F1;\n      height: 100%;\n      display: -ms-flexbox;\n      display: flex;\n      -ms-flex-direction: column;\n          flex-direction: column;\n      -ms-flex-align: center;\n          align-items: center;\n      list-style: none;\n      padding: 10px 0; }\n      .footer--info--list--item {\n        text-align: center;\n        padding: 4px 0;\n        font-family: \"Helvetica Neue\";\n        font-weight: 400;\n        font-size: 14px;\n        color: #888888; }\n        .footer--info--list--item:first-child {\n          padding-top: 0px; }\n        .footer--info--list--item:last-child {\n          padding-bottom: 0px; }\n\n@media screen and (max-width: 608px) {\n  .footer {\n    bottom: 0px;\n    width: 100%;\n    background-color: #F1F1F1; }\n  .footer--info--list--item {\n    font-size: 12px; } }\n", ""]);
+exports.push([module.i, "/*------------\nVariables:\n- For use throughout the app.\nTo use any of these you must import this stylesheet into the component stylesheet.\n------------*/\n/*-- typography --*/\n/*-- font family --*/\n.footer {\n  min-width: 100%; }\n  .footer--main {\n    height: 60px;\n    background-color: #002E52;\n    display: -ms-flexbox;\n    display: flex;\n    -ms-flex-direction: row;\n        flex-direction: row;\n    -ms-flex-pack: justify;\n        justify-content: space-between;\n    -ms-flex-align: center;\n        align-items: center; }\n    .footer--main--icon {\n      height: 50px;\n      margin: 0px 10px; }\n      .footer--main--icon--social {\n        list-style: none;\n        height: 40px;\n        padding: 0; }\n        .footer--main--icon--social .facebook,\n        .footer--main--icon--social .linkedin {\n          display: inline-block;\n          border: 2px solid white;\n          border-radius: 50%;\n          margin-right: 5px; }\n          .footer--main--icon--social .facebook--logo,\n          .footer--main--icon--social .linkedin--logo {\n            width: 20px;\n            height: 20px;\n            padding: 6px 8px; }\n      .footer--main--icon__scm {\n        cursor: pointer; }\n  .footer--info {\n    height: 140px;\n    background-color: #F1F1F1; }\n    .footer--info--list {\n      margin: 0;\n      padding: 0;\n      background-color: #F1F1F1;\n      height: 100%;\n      display: -ms-flexbox;\n      display: flex;\n      -ms-flex-direction: column;\n          flex-direction: column;\n      -ms-flex-align: center;\n          align-items: center;\n      list-style: none;\n      padding: 10px 0; }\n      .footer--info--list--item {\n        text-align: center;\n        padding: 4px 0;\n        font-family: \"Helvetica Neue\";\n        font-weight: 400;\n        font-size: 14px;\n        color: #888888; }\n        .footer--info--list--item:first-child {\n          padding-top: 0px; }\n        .footer--info--list--item:last-child {\n          padding-bottom: 0px; }\n  .footer__bottom {\n    padding: 18px 0;\n    background-color: #888888;\n    display: -ms-flexbox;\n    display: flex;\n    width: 100%;\n    -ms-flex-pack: center;\n        justify-content: center;\n    -ms-flex-align: center;\n        align-items: center; }\n    .footer__bottom .link {\n      text-decoration: none;\n      font-weight: 400;\n      font-size: 14px;\n      font-family: \"Helvetica Neue\";\n      color: #F1F1F1; }\n      .footer__bottom .link:first-of-type::after {\n        padding: 0 10px;\n        content: '|'; }\n\n@media screen and (max-width: 608px) {\n  .footer {\n    bottom: 0px;\n    width: 100%;\n    background-color: #F1F1F1; }\n  .footer--info--list--item {\n    font-size: 12px; } }\n", ""]);
 
 // exports
 
@@ -579,124 +579,136 @@ var NotableCasesComponent = (function () {
     function NotableCasesComponent() {
         this.notableCases = [
             {
-                title: "R v A (2018)",
-                subtitle: "OPERATION JACKDAW",
-                description: "Represented one of 8 defendants in a conspiracy to supply up to 10 kilos of heroin",
-                court: "Cardiff Crown Court"
+                title: 'R v B & OTHERS (2019)',
+                subtitle: 'OPERATION RED DRAGON',
+                description: 'Represented all 5 defendants in a conspiracy to supply half a million pounds of heroin',
+                court: 'Court not specified'
             },
             {
-                title: "R v M & others (2018)",
-                subtitle: "OPERATION CAVE",
-                description: "10 defendant conspiracy to supply multiple kilos of class A drugs",
-                court: "Bristol Crown Court"
+                title: 'R v A (2018)',
+                subtitle: 'OPERATION BLUE KRCH',
+                description: 'Widespread distribution of class A,B & C drugs with over 90,000 pages of served evidence',
+                court: 'Court not specified'
             },
             {
-                title: "R v Vu & others (2018)",
-                subtitle: "OPERATION VIOLET PANAMA",
-                description: "22 defendant conspiracy to supply industrial quantities of cannabis with over 90,000 pages of evidence",
-                court: "Merthyr Tydfil Crown Court"
+                title: 'R v A & OTHERS (2018)',
+                subtitle: 'OPERATION JACKDAW',
+                description: 'Represented one of 8 defendants in a conspiracy to supply up to 10 kilos of heroin',
+                court: 'Cardiff Crown Court'
             },
             {
-                title: "R v G & P & others (2018)",
-                subtitle: "OPERATION REDWOOD",
-                description: "Conspiracy to contravene provisions of the Trade Marks Act – Widespread distribution of unauthorised vinyl records over 100, 000 pages of evidence.",
-                court: "Cardiff Crown Court"
+                title: 'R v M & others (2018)',
+                subtitle: 'OPERATION CAVE',
+                description: '10 defendant conspiracy to supply multiple kilos of class A drugs',
+                court: 'Bristol Crown Court'
             },
             {
-                title: "R v T & others (2017)",
-                subtitle: "OPERATION RED ALASKA",
-                description: "Multi handed life insurance fraud",
-                court: "Swansea Crown Court"
+                title: 'R v Vu & others (2018)',
+                subtitle: 'OPERATION VIOLET PANAMA',
+                description: '22 defendant conspiracy to supply industrial quantities of cannabis with over 90,000 pages of evidence',
+                court: 'Merthyr Tydfil Crown Court'
             },
             {
-                title: "R v T, P, G & others (2017)",
-                subtitle: "OPERATION BLUE MAGNET",
-                description: "Represented x3 defendants in a multi handed conspiracy to supply multiple kilos of Heroin and cocaine",
-                court: "Cardiff Crown Court"
+                title: 'R v G & P & others (2018)',
+                subtitle: 'OPERATION REDWOOD',
+                description: 'Conspiracy to contravene provisions of the Trade Marks Act – Widespread distribution of unauthorised vinyl records over 100, 000 pages of evidence.',
+                court: 'Cardiff Crown Court'
             },
             {
-                title: "R v J & others (2017)",
-                subtitle: "OPERATION VIOLET ANVIL",
-                description: "Conspiracy to supply multiple kilos of cocaine and cannabis",
-                court: "Cardiff Crown Court"
+                title: 'R v T & others (2017)',
+                subtitle: 'OPERATION RED ALASKA',
+                description: 'Multi handed life insurance fraud',
+                court: 'Swansea Crown Court'
             },
             {
-                title: "R V G & others (2017)",
-                subtitle: "OPERATION DINO II",
-                description: "Follow up to Operation DINO involving a further 80 defendants in a crash for cash Insurance scam",
-                court: "Newport Crown Court"
+                title: 'R v T, P, G & others (2017)',
+                subtitle: 'OPERATION BLUE MAGNET',
+                description: 'Represented x3 defendants in a multi handed conspiracy to supply multiple kilos of Heroin and cocaine',
+                court: 'Cardiff Crown Court'
             },
             {
-                title: "R v H (2017)",
-                subtitle: "OPERATION BLUE CAPRI",
-                description: "Multiple rapes of children",
-                court: "Cardiff Crown Court"
+                title: 'R v J & others (2017)',
+                subtitle: 'OPERATION VIOLET ANVIL',
+                description: 'Conspiracy to supply multiple kilos of cocaine and cannabis',
+                court: 'Cardiff Crown Court'
             },
             {
-                title: "R V K & others (2016)",
-                subtitle: "OPERATION ORANGE GOBI",
-                description: "Multiple defendant conspiracy to supply cocaine and possessing a sawn-off shotgun",
-                court: "Cardiff Crown Court"
+                title: 'R V G & others (2017)',
+                subtitle: 'OPERATION DINO II',
+                description: 'Follow up to Operation DINO involving a further 80 defendants in a crash for cash Insurance scam',
+                court: 'Newport Crown Court'
             },
             {
-                title: "R v T, C , S & others (2016",
-                subtitle: "OPERATION HALLET",
-                description: "Represented x3 defendants in a multi handed conspiracy to supply cocaine",
-                court: "Cardiff Crown Court"
+                title: 'R v H (2017)',
+                subtitle: 'OPERATION BLUE CAPRI',
+                description: 'Multiple rapes of children',
+                court: 'Cardiff Crown Court'
             },
             {
-                title: "R v J & others (2016)",
-                subtitle: "",
-                description: "Large scale 18 defendant conspiracy to produce large quantities of cannabis and money laundering",
-                court: "Merthyr Tydfil Crown Court"
+                title: 'R V K & others (2016)',
+                subtitle: 'OPERATION ORANGE GOBI',
+                description: 'Multiple defendant conspiracy to supply cocaine and possessing a sawn-off shotgun',
+                court: 'Cardiff Crown Court'
             },
             {
-                title: "R v H & others (2016)",
-                subtitle: "OPERATION ASTORIA",
-                description: "People trafficking, large scale cannabis production",
-                court: "Bristol Crown Court"
+                title: 'R v T, C , S & others (2016',
+                subtitle: 'OPERATION HALLET',
+                description: 'Represented x3 defendants in a multi handed conspiracy to supply cocaine',
+                court: 'Cardiff Crown Court'
             },
             {
-                title: "R v S (2016)",
-                subtitle: "",
-                description: "Murder",
-                court: "Cardiff Crown Court"
+                title: 'R v J & others (2016)',
+                subtitle: '',
+                description: 'Large scale 18 defendant conspiracy to produce large quantities of cannabis and money laundering',
+                court: 'Merthyr Tydfil Crown Court'
             },
             {
-                title: "R v S (2016)",
-                subtitle: "",
-                description: "Murder trial and retrial",
-                court: "Swansea Crown Court"
+                title: 'R v H & others (2016)',
+                subtitle: 'OPERATION ASTORIA',
+                description: 'People trafficking, large scale cannabis production',
+                court: 'Bristol Crown Court'
             },
             {
-                title: "R v A (2014)",
-                subtitle: "OPERATION DINO",
-                description: "Britain’s biggest crash for cash insurance scam involving in excess of 80 defendants. Conspiring to defraud the insurance industry of in excess of £763,000",
-                court: "Newport Crown Court"
+                title: 'R v S (2016)',
+                subtitle: '',
+                description: 'Murder',
+                court: 'Cardiff Crown Court'
             },
             {
-                title: "R v S (2014)",
-                subtitle: "",
-                description: "Murder trial",
-                court: "Swansea Crown Court"
+                title: 'R v S (2016)',
+                subtitle: '',
+                description: 'Murder trial and retrial',
+                court: 'Swansea Crown Court'
             },
             {
-                title: "R v S & Others (2014)",
-                subtitle: "OPERATION BUGS",
-                description: "Large scale 19 defendant £500,000 trading standards fraud",
-                court: "Swansea Crown Court"
+                title: 'R v A (2014)',
+                subtitle: 'OPERATION DINO',
+                description: 'Britain’s biggest crash for cash insurance scam involving in excess of 80 defendants. Conspiring to defraud the insurance industry of in excess of £763,000',
+                court: 'Newport Crown Court'
             },
             {
-                title: "R v G & Others (2013)",
-                subtitle: "OPERATION WHITE HORSE",
-                description: "Multiple defendant money laundering £700,000",
-                court: "Bristol Crown Court"
+                title: 'R v S (2014)',
+                subtitle: '',
+                description: 'Murder trial',
+                court: 'Swansea Crown Court'
             },
             {
-                title: "R v V & others (2011)",
-                subtitle: "OPERATION REGINA",
-                description: "Conspiracy to supply multiple kilos of cannabis",
-                court: "Bristol Crown Court"
+                title: 'R v S & Others (2014)',
+                subtitle: 'OPERATION BUGS',
+                description: 'Large scale 19 defendant £500,000 trading standards fraud',
+                court: 'Swansea Crown Court'
+            },
+            {
+                title: 'R v G & Others (2013)',
+                subtitle: 'OPERATION WHITE HORSE',
+                description: 'Multiple defendant money laundering £700,000',
+                court: 'Bristol Crown Court'
+            },
+            {
+                title: 'R v V & others (2011)',
+                subtitle: 'OPERATION REGINA',
+                description: 'Conspiracy to supply multiple kilos of cannabis',
+                court: 'Bristol Crown Court'
             }
         ];
     }
@@ -704,7 +716,7 @@ var NotableCasesComponent = (function () {
 }());
 NotableCasesComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: "notable-cases",
+        selector: 'notable-cases',
         template: __webpack_require__("../../../../../src/app/_pages/notable-cases/notable-cases.component.html"),
         styles: [__webpack_require__("../../../../../src/app/_pages/notable-cases/notable-cases.component.scss")]
     })
@@ -726,6 +738,8 @@ NotableCasesComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__home_home_component__ = __webpack_require__("../../../../../src/app/_pages/home/home.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__team_team_component__ = __webpack_require__("../../../../../src/app/_pages/team/team.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__notable_cases_notable_cases_component__ = __webpack_require__("../../../../../src/app/_pages/notable-cases/notable-cases.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__site_management_policy_site_management_policy_component__ = __webpack_require__("../../../../../src/app/_pages/site-management-policy/site-management-policy.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__privacy_policy_privacy_policy_component__ = __webpack_require__("../../../../../src/app/_pages/privacy-policy/privacy-policy.component.ts");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PagesModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -741,13 +755,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
+
 var companyRoutes = [
-    { path: "home", component: __WEBPACK_IMPORTED_MODULE_5__home_home_component__["a" /* HomeComponent */] },
-    { path: "services", component: __WEBPACK_IMPORTED_MODULE_4__services_services_component__["a" /* ServicesComponent */] },
-    { path: "notable-cases", component: __WEBPACK_IMPORTED_MODULE_7__notable_cases_notable_cases_component__["a" /* NotableCasesComponent */] },
-    { path: "find-us", component: __WEBPACK_IMPORTED_MODULE_3__find_us_find_us_component__["a" /* FindUsComponent */] },
-    { path: "find-us/:location", component: __WEBPACK_IMPORTED_MODULE_3__find_us_find_us_component__["a" /* FindUsComponent */] },
-    { path: "team", component: __WEBPACK_IMPORTED_MODULE_6__team_team_component__["a" /* TeamComponent */] }
+    { path: 'home', component: __WEBPACK_IMPORTED_MODULE_5__home_home_component__["a" /* HomeComponent */] },
+    { path: 'services', component: __WEBPACK_IMPORTED_MODULE_4__services_services_component__["a" /* ServicesComponent */] },
+    { path: 'notable-cases', component: __WEBPACK_IMPORTED_MODULE_7__notable_cases_notable_cases_component__["a" /* NotableCasesComponent */] },
+    { path: 'find-us', component: __WEBPACK_IMPORTED_MODULE_3__find_us_find_us_component__["a" /* FindUsComponent */] },
+    { path: 'find-us/:location', component: __WEBPACK_IMPORTED_MODULE_3__find_us_find_us_component__["a" /* FindUsComponent */] },
+    { path: 'team', component: __WEBPACK_IMPORTED_MODULE_6__team_team_component__["a" /* TeamComponent */] },
+    { path: 'site-management-policy', component: __WEBPACK_IMPORTED_MODULE_8__site_management_policy_site_management_policy_component__["a" /* SiteManagementPolicyComponent */] },
+    { path: 'privacy-policy', component: __WEBPACK_IMPORTED_MODULE_9__privacy_policy_privacy_policy_component__["a" /* PrivacyPolicyComponent */] }
 ];
 var PagesModule = (function () {
     function PagesModule() {
@@ -763,13 +781,76 @@ PagesModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_6__team_team_component__["a" /* TeamComponent */],
             __WEBPACK_IMPORTED_MODULE_4__services_services_component__["a" /* ServicesComponent */],
             __WEBPACK_IMPORTED_MODULE_7__notable_cases_notable_cases_component__["a" /* NotableCasesComponent */],
-            __WEBPACK_IMPORTED_MODULE_3__find_us_find_us_component__["a" /* FindUsComponent */]
+            __WEBPACK_IMPORTED_MODULE_3__find_us_find_us_component__["a" /* FindUsComponent */],
+            __WEBPACK_IMPORTED_MODULE_8__site_management_policy_site_management_policy_component__["a" /* SiteManagementPolicyComponent */],
+            __WEBPACK_IMPORTED_MODULE_9__privacy_policy_privacy_policy_component__["a" /* PrivacyPolicyComponent */]
         ],
         providers: []
     })
 ], PagesModule);
 
 //# sourceMappingURL=pages.module.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/_pages/privacy-policy/privacy-policy.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  privacy-policy works!\n</p>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/_pages/privacy-policy/privacy-policy.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/_pages/privacy-policy/privacy-policy.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrivacyPolicyComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var PrivacyPolicyComponent = (function () {
+    function PrivacyPolicyComponent() {
+    }
+    PrivacyPolicyComponent.prototype.ngOnInit = function () {
+    };
+    return PrivacyPolicyComponent;
+}());
+PrivacyPolicyComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-privacy-policy',
+        template: __webpack_require__("../../../../../src/app/_pages/privacy-policy/privacy-policy.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/_pages/privacy-policy/privacy-policy.component.scss")]
+    }),
+    __metadata("design:paramtypes", [])
+], PrivacyPolicyComponent);
+
+//# sourceMappingURL=privacy-policy.component.js.map
 
 /***/ }),
 
@@ -1133,6 +1214,68 @@ ServicesModule = __decorate([
 
 /***/ }),
 
+/***/ "../../../../../src/app/_pages/site-management-policy/site-management-policy.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"site-management-policy\">\n\n  <!-- title -->\n  <div class=\"header\">\n    <h2>SCM Law</h2>\n    <h2>Site Management Policy</h2>\n  </div>\n\n  <!-- content -->\n\n  <!-- 1. scope -->\n  <div class=\"section\">\n    <h4>Scope of this policy</h4>\n    <p class=\"content\">This policy covers this website: <a routerLink=\"/\">www.scmlaw.co.uk</a></p>\n  </div>\n\n  <!-- 2. responsibility -->\n  <div class=\"section\">\n    <h4>Responsibility</h4>\n    <p class=\"content\">Robert Chudleigh has responsibility for the management of the website including:</p>\n    <ul class=\"content__list\">\n      <li class=\"content__list__item\">Ensuring content is up to date;</li>\n      <li class=\"content__list__item\">Ensuring content does not infringe copyright;</li>\n      <li class=\"content__list__item\">Specifying conditions for downloading material;</li>\n      <li class=\"content__list__item\">Ensuring any publicity conforms to the Solicitors Code of Conduct 2011, chapter\n        8;</li>\n      <li class=\"content__list__item\">Ensuring compliance with the Disability and the Equality Act 2010;</li>\n      <li class=\"content__list__item\">Overseeing linking arrangements;</li>\n      <li class=\"content__list__item\">Ensuring posting of a privacy notice explaining how any data collected from\n        visitors will be managed by the practice.</li>\n    </ul>\n\n    <p class=\"content\">Mr Chudleigh may delegate responsibility for inputting and maintaining the website however\n      accountability for any content that is shown on the website remains with the partners.</p>\n  </div>\n\n  <!-- Copyright and trademark notices -->\n  <div class=\"section\">\n    <h4>Copyright and trademark notices</h4>\n    <p class=\"content\">The contents of this site are protected by copyright under international law. Users are\n      permitted to read the contents of our website and make copies of such content for their own personal use. They\n      may also give copies to colleagues for their personal use on terms that SCM Law is acknowledged as the source,\n      the text is not altered in any way and the attention of the recipients is drawn to this warning. All other use\n      and copying of any of the contents of this site is prohibited. Copying from websites of third parties is subject\n      to any requirements applicable to those sites.</p>\n  </div>\n\n  <!-- Linking to third party websites -->\n  <div class=\"section\">\n    <h4>Linking to third party websites</h4>\n    <p class=\"content\">We are not responsible for the content of third party websites to which we link but we must\n      ensure any links are:</p>\n\n    <ul class=\"content__list\">\n      <li class=\"content__list__item\">Relevant and appropriate;</li>\n      <li class=\"content__list__item\">Pperating effectively, and</li>\n      <li class=\"content__list__item\">Where appropriate, reciprocated</li>\n    </ul>\n\n    <p class=\"content\">The COLP will oversee all linking arrangements.</p>\n  </div>\n\n  <!-- Accessibility -->\n  <div class=\"section\">\n    <h4>Accessibility</h4>\n    <p class=\"content\">We are committed to making our website accessible for all our website visitors, including those\n      with disabilities.</p>\n    <p class=\"content\">We are committed to providing an accessible web service. If you experience problems or have any\n      suggestions for improvement, please contact Mr Robert Chudleigh on 01656 767766.</p>\n  </div>\n\n  <!-- Data protection and security -->\n  <div class=\"section\">\n    <h4>Data protection and security</h4>\n    <p class=\"content\">This website is owned and operated by SCM Law who is the data controller for the purposes of the\n      General Data Protection Regulation. Our [link to privacy policy] explains how we deal with personal data.</p>\n    <p class=\"content\">The security of the website is maintained by password protection which is known only to SCM Law\n      and our external website management company.</p>\n  </div>\n\n  <!-- Liability -->\n  <div class=\"section\">\n    <h4>Liability</h4>\n    <p class=\"content\">The material displayed on our site is provided without any guarantees, conditions or warranties\n      as to its accuracy. The content on our website is deemed to be for general information purposes only and should\n      not constitute legal or professional advice. SCM Law accepts no responsibility for any loss which may arise from\n      accessing or relying upon information contained in this website.</p>\n  </div>\n\n  <!-- Jurisdiction and applicable law -->\n  <div class=\"section\">\n    <h4>Jurisdiction and applicable law</h4>\n    <p class=\"content\">The website will specify that the jurisdiction and applicable law to be invoked as that of\n      England and Wales in the event of any dispute arising as a result of content posted on the firm’s website.</p>\n  </div>\n\n  <!-- Monitoring and review -->\n  <div class=\"section\">\n    <h4>Monitoring and review</h4>\n    <ul class=\"content__list\">\n      <li class=\"content__list__item\">Mr Robert Chudleigh is responsible for this policy.</li>\n      <li class=\"content__list__item\">We regularly monitor the effectiveness of this policy to ensure it is working in\n        practice and we will review and update this policy as and when necessary.</li>\n      <li class=\"content__list__item\">We will review this policy regularly (at least annually). We will provide\n        information and/or training on any changes we make.</li>\n    </ul>\n  </div>\n\n  <!-- Training -->\n  <div class=\"section\">\n    <h4>Training</h4>\n    <p class=\"content\">All staff will receive appropriate training on our Website management policy, including:</p>\n    <ul class=\"content__list\">\n      <li class=\"content__list__item\">Regular training for existing staff;</li>\n      <li class=\"content__list__item\">Training for new staff at induction; and</li>\n      <li class=\"content__list__item\">Updates following any changes to the policy that affect staff.</li>\n    </ul>\n  </div>\n\n  <!-- final statement -->\n  <div class=\"section\">\n    <p class=\"content\">If you require any further information regarding our site's management policy, please contact\n      Robert Chudleigh at <a href=\"mailto: robert@scmlaw.co.uk\">robert@scmlaw.co.uk</a></p>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/_pages/site-management-policy/site-management-policy.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "/*------------\nVariables:\n- For use throughout the app.\nTo use any of these you must import this stylesheet into the component stylesheet.\n------------*/\n/*-- typography --*/\n/*-- font family --*/\n.site-management-policy {\n  margin-top: 130px;\n  padding: 0 24px;\n  height: -webkit-fit-content;\n  height: -moz-fit-content;\n  height: fit-content;\n  background-color: #F1F1F1; }\n  .site-management-policy h2,\n  .site-management-policy h4,\n  .site-management-policy p,\n  .site-management-policy ul li {\n    font-family: \"Helvetica Neue\"; }\n  .site-management-policy .header,\n  .site-management-policy .section {\n    padding: 24px 12px; }\n  .site-management-policy .header {\n    display: -ms-flexbox;\n    display: flex;\n    -ms-flex-direction: column;\n        flex-direction: column;\n    -ms-flex-align: center;\n        align-items: center; }\n    .site-management-policy .header hr {\n      background-color: #D3D3D3; }\n  .site-management-policy .section {\n    border-top: 1px solid #D3D3D3; }\n    .site-management-policy .section .content,\n    .site-management-policy .section .content__list__item {\n      font-size: 14px; }\n    .site-management-policy .section:first-of-type {\n      border-top: 0 none; }\n    .site-management-policy .section:last-of-type {\n      border-bottom: 0 none; }\n      .site-management-policy .section:last-of-type .content {\n        text-align: center; }\n\n@media screen and (max-width: 608px) {\n  margin-top: 200px;\n  .section {\n    margin-left: 0;\n    margin-right: 0; } }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/_pages/site-management-policy/site-management-policy.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SiteManagementPolicyComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var SiteManagementPolicyComponent = (function () {
+    function SiteManagementPolicyComponent() {
+    }
+    SiteManagementPolicyComponent.prototype.ngOnInit = function () {
+        window.scrollTo(0, 0);
+    };
+    return SiteManagementPolicyComponent;
+}());
+SiteManagementPolicyComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-site-management-policy',
+        template: __webpack_require__("../../../../../src/app/_pages/site-management-policy/site-management-policy.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/_pages/site-management-policy/site-management-policy.component.scss")]
+    }),
+    __metadata("design:paramtypes", [])
+], SiteManagementPolicyComponent);
+
+//# sourceMappingURL=site-management-policy.component.js.map
+
+/***/ }),
+
 /***/ "../../../../../src/app/_pages/team/data/data.storage.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1264,7 +1407,7 @@ var _a;
 /***/ "../../../../../src/app/_pages/team/team.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"team\">\n  <div class=\"team__intro\">\n    <h1>Meet Our Team</h1>\n    <hr />\n    <p>SCM prides itself on being able to offer a 24-hour service 365 days of the year offering immediate expert legal advice\n      and representation. The firm has a contract with the Legal Aid Agency enabling us to offer free and independent legal\n      advice at the police station, and representation through to the Magistrates Court and Crown Court depending on your\n      income. The firm also represents high net worth individuals throughout all stages of the criminal justice process.\n    </p>\n  </div>\n  <div class=\"team__partners\">\n    <h2 class=\"team__partners__title\">Directors</h2>\n    <hr />\n    <ul class=\"team__partners__list\">\n      <li *ngFor=\"let person of partner\" class=\"team__partners__list__item\">\n        <div class=\"profile partners\" [ngStyle]=\"{'background-image': 'url(' + person.imageUrl + ')'}\" (click)=\"goToTeamDetail(person.path, person.name, person.position, person.initials, person.imageUrl, person.shortDescription, person.fullDescription, person.emailAddress, person.phoneNumberString, person.phoneNumber)\">\n          <h2 class=\"profile__name\">{{ person.name }}</h2>\n          <h4 *ngIf=\"person.position\" class=\"profile__position\">{{ person.position }}</h4>\n        </div>\n      </li>\n    </ul>\n  </div>\n  <div class=\"team__partners\">\n    <h2 class=\"team__partners__title\">Consultants</h2>\n    <hr />\n    <h3 class=\"duty__info\">Accrediated Police Station representative Duty Solicitors.</h3>\n    <ul class=\"team__partners__list\">\n      <li *ngFor=\"let person of duty\" class=\"team__partners__list__item\">\n        <div class=\"profile partners\" [ngStyle]=\"{'background-image': 'url(' + person.imageUrl + ')'}\" (click)=\"goToTeamDetail(person.path, person.name, person.position, person.initials, person.imageUrl, person.shortDescription, person.fullDescription, person.emailAddress, person.phoneNumberString, person.phoneNumber)\">\n          <h2 class=\"profile__name\">{{ person.name }}</h2>\n        </div>\n      </li>\n    </ul>\n  </div>\n  <div class=\"team__partners\">\n    <h2 class=\"team__partners__title\">Administration</h2>\n    <hr />\n    <ul class=\"team__partners__list\">\n      <li *ngFor=\"let person of admin\" class=\"team__partners__list__item\">\n        <div class=\"profile\" [ngStyle]=\"{'background-image': 'url(' + person.imageUrl + ')'}\">\n          <h2 class=\"profile__name\">{{ person.name }}</h2>\n          <h4 class=\"profile__position\">{{ person.position }}</h4>\n          <h4 class=\"profile__position profile__position--clickable\" (click)=\"openEmail(person.emailAddress)\">{{ person.emailAddress\n            }}\n          </h4>\n        </div>\n      </li>\n    </ul>\n  </div>\n</div>\n"
+module.exports = "<div class=\"team\">\n  <div class=\"team__intro\">\n    <h1>Meet Our Team</h1>\n    <hr />\n    <p>SCM prides itself on being able to offer a 24-hour service 365 days of the year offering immediate expert legal\n      advice\n      and representation. The firm has a contract with the Legal Aid Agency enabling us to offer free and independent\n      legal\n      advice at the police station, and representation through to the Magistrates Court and Crown Court depending on\n      your\n      income. The firm also represents high net worth individuals throughout all stages of the criminal justice\n      process.\n    </p>\n  </div>\n\n  <!-- partners -->\n  <div class=\"team__partners\">\n    <h2 class=\"team__partners__title\">Directors</h2>\n    <hr />\n    <ul class=\"team__partners__list\">\n      <li *ngFor=\"let person of partner\" class=\"team__partners__list__item\">\n        <div class=\"profile partners\" [ngStyle]=\"{'background-image': 'url(' + person.imageUrl + ')'}\" (click)=\"goToTeamDetail(person.path, person.name, person.position, person.initials, person.imageUrl, person.shortDescription, person.fullDescription, person.emailAddress, person.phoneNumberString, person.phoneNumber)\">\n          <h2 class=\"profile__name\">{{ person.name }}</h2>\n          <h4 *ngIf=\"person.position\" class=\"profile__position\">{{ person.position }}</h4>\n        </div>\n      </li>\n    </ul>\n  </div>\n\n  <!-- solicitors -->\n  <div class=\"team__partners\">\n    <h2 class=\"team__partners__title\">Senior Associates</h2>\n    <hr />\n    <ul class=\"team__partners__list\">\n      <li *ngFor=\"let associate of associates\" class=\"team__partners__list__item\">\n        <div class=\"profile partners\" [ngStyle]=\"{ 'background-image': 'url(' + associate.imageUrl + ')' }\" (click)=\"goToTeamDetail(associate.path, associate.name, associate.position, associate.initials, associate.imageUrl, associate.shortDescription, associate.fullDescription, associate.emailAddress, associate.phoneNumberString, associate.phoneNumber)\">\n          <h2 class=\"profile__name\">{{ associate.name }}</h2>\n          <h4 *ngIf=\"associate.position\" class=\"profile__position\">{{ associate.position }}</h4>\n        </div>\n      </li>\n    </ul>\n  </div>\n\n  <!-- consultants -->\n  <div class=\"team__partners\">\n    <h2 class=\"team__partners__title\">Consultants</h2>\n    <hr />\n    <h3 class=\"duty__info\">Accrediated Police Station representative Duty Solicitors.</h3>\n    <ul class=\"team__partners__list\">\n      <li *ngFor=\"let person of duty\" class=\"team__partners__list__item\">\n        <div class=\"profile partners\" [ngStyle]=\"{'background-image': 'url(' + person.imageUrl + ')'}\" (click)=\"goToTeamDetail(person.path, person.name, person.position, person.initials, person.imageUrl, person.shortDescription, person.fullDescription, person.emailAddress, person.phoneNumberString, person.phoneNumber)\">\n          <h2 class=\"profile__name\">{{ person.name }}</h2>\n        </div>\n      </li>\n    </ul>\n  </div>\n\n  <!-- admin -->\n  <div class=\"team__partners\">\n    <h2 class=\"team__partners__title\">Administration</h2>\n    <hr />\n    <ul class=\"team__partners__list\">\n      <li *ngFor=\"let person of admin\" class=\"team__partners__list__item\">\n        <div class=\"profile\" [ngStyle]=\"{'background-image': 'url(' + person.imageUrl + ')'}\">\n          <h2 class=\"profile__name\">{{ person.name }}</h2>\n          <h4 class=\"profile__position\">{{ person.position }}</h4>\n          <h4 class=\"profile__position profile__position--clickable\" (click)=\"openEmail(person.emailAddress)\">{{\n            person.emailAddress\n            }}\n          </h4>\n        </div>\n      </li>\n    </ul>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -1321,137 +1464,152 @@ var TeamComponent = (function () {
         // team data
         this.partner = [
             {
-                path: "david-sedgewick",
-                name: "David Sedgewick",
-                position: "Bridgend Office",
-                initials: "DS",
-                backgroundImageUrl: "/assets/team/scm-placeholder.png",
-                imageUrl: "/assets/team/scm-placeholder.png",
-                shortDescription: "David is a Senior Criminal Practitioner, having dealt with Criminal cases since the early 80’s. An extremely experienced advocate, he has conducted countless hearings in both the Magistrates and Crown Court. David has acted as an Advocate in cases from Drunk and Disorderly to Murder.",
-                fullDescription: "David is a Senior Criminal Practitioner, having dealt with Criminal cases since the early 80’s. An extremely experienced advocate, he has conducted countless hearings in both the Magistrates and Crown Court. David has acted as an Advocate in cases from Drunk and Disorderly to Murder. He has attended the police station since the 80’s, and has been a Duty Solicitor for 30 years. Founder and Director of the original firm which joined with Chudleighs Solicitors to form SCM Law. David has been involved in dealing with some of the biggest Drug Conspiracy cases in Wales over the last 25 years, together with large scale frauds and all other serious cases for example Murder or Serios Sexual Offences",
-                emailAddress: "david@scmlaw.co.uk",
-                phoneNumberString: "07768736502",
+                path: 'david-sedgewick',
+                name: 'David Sedgewick',
+                position: 'Bridgend Office',
+                initials: 'DS',
+                backgroundImageUrl: '/assets/team/scm-placeholder.png',
+                imageUrl: '/assets/team/scm-placeholder.png',
+                shortDescription: 'David is a Senior Criminal Practitioner, having dealt with Criminal cases since the early 80’s. An extremely experienced advocate, he has conducted countless hearings in both the Magistrates and Crown Court. David has acted as an Advocate in cases from Drunk and Disorderly to Murder.',
+                fullDescription: 'David is a Senior Criminal Practitioner, having dealt with Criminal cases since the early 80’s. An extremely experienced advocate, he has conducted countless hearings in both the Magistrates and Crown Court. David has acted as an Advocate in cases from Drunk and Disorderly to Murder. He has attended the police station since the 80’s, and has been a Duty Solicitor for 30 years. Founder and Director of the original firm which joined with Chudleighs Solicitors to form SCM Law. David has been involved in dealing with some of the biggest Drug Conspiracy cases in Wales over the last 25 years, together with large scale frauds and all other serious cases for example Murder or Serios Sexual Offences',
+                emailAddress: 'david@scmlaw.co.uk',
+                phoneNumberString: '07768736502',
                 phoneNumber: +447768736502
             },
             {
-                path: "rhodri-chudleigh",
-                name: "Rhodri Chudleigh",
-                position: "Head of Cardiff Office",
-                initials: "RC",
-                backgroundImageUrl: "/assets/team/rhod-profile.jpg",
-                imageUrl: "/assets/team/rhod-profile.jpg",
-                shortDescription: "Rhodri was the founding partner of Chudleigh solicitors before the practice merged in 2015 to become SCM Solicitors.",
-                fullDescription: "Rhodri was the founding partner of Chudleigh solicitors before the practice merged in 2015 to become SCM Solicitors.  He has been practicing as a criminal solicitor for over 15 years, and has extensive experience in defending complex criminal cases including murder, serious violence, large scale drug conspiracies, serious sexual offences, fraud, money laundering and firearm offences. Rhodri is an experienced advocate whose practice is predominantly based in the Crown Court.  He has also successfully appeared before the Court of Appeal Criminal Division.  Rhodri has past experience of working in specialised Fraud Firm in Birmingham representing defendants prosecuted by the Serious fraud Office and H M Revenue and Customs.",
-                emailAddress: "rhodri@scmlaw.co.uk",
-                phoneNumberString: "07554886380",
+                path: 'rhodri-chudleigh',
+                name: 'Rhodri Chudleigh',
+                position: 'Head of Cardiff Office',
+                initials: 'RC',
+                backgroundImageUrl: '/assets/team/rhod-profile.jpg',
+                imageUrl: '/assets/team/rhod-profile.jpg',
+                shortDescription: 'Rhodri was the founding partner of Chudleigh solicitors before the practice merged in 2015 to become SCM Solicitors.',
+                fullDescription: 'Rhodri was the founding partner of Chudleigh solicitors before the practice merged in 2015 to become SCM Solicitors.  He has been practicing as a criminal solicitor for over 15 years, and has extensive experience in defending complex criminal cases including murder, serious violence, large scale drug conspiracies, serious sexual offences, fraud, money laundering and firearm offences. Rhodri is an experienced advocate whose practice is predominantly based in the Crown Court.  He has also successfully appeared before the Court of Appeal Criminal Division.  Rhodri has past experience of working in specialised Fraud Firm in Birmingham representing defendants prosecuted by the Serious fraud Office and H M Revenue and Customs.',
+                emailAddress: 'rhodri@scmlaw.co.uk',
+                phoneNumberString: '07554886380',
                 phoneNumber: +447554886380
             },
             {
-                path: "robert-chudleigh",
-                name: "Robert Chudleigh",
-                position: "Bridgend Office",
-                initials: "RC",
-                backgroundImageUrl: "/assets/team/rob-profile.jpg",
-                imageUrl: "/assets/team/rob-profile.jpg",
-                shortDescription: "Robert is a specialist criminal defence lawyer experienced in representing individuals charged with the most serious of crimes including murder and manslaughter. His practice encompasses the representation of individuals following arrest at the police station through to the Magistrates’ Court and the Crown Court.",
-                fullDescription: "Robert is a specialist criminal defence lawyer experienced in representing individuals charged with the most serious of crimes including murder and manslaughter. His practice encompasses the representation of individuals following arrest at the police station through to the Magistrates’ Court and the Crown Court. Robert is a duty Solicitor and a Solicitor Advocate. He has experience of conducting Crown Court trials on behalf of defendants charged with such offences as robbery, burglary, theft and drug supply offences. Robert is a fluent Welsh speaker and is able to represent defendants in either English or Welsh. He is regarded as a highly approachable and skilled lawyer.",
-                emailAddress: "robert@scmlaw.co.uk",
-                phoneNumberString: "07900560941",
+                path: 'robert-chudleigh',
+                name: 'Robert Chudleigh',
+                position: 'Bridgend Office',
+                initials: 'RC',
+                backgroundImageUrl: '/assets/team/rob-profile.jpg',
+                imageUrl: '/assets/team/rob-profile.jpg',
+                shortDescription: 'Robert is a specialist criminal defence lawyer experienced in representing individuals charged with the most serious of crimes including murder and manslaughter. His practice encompasses the representation of individuals following arrest at the police station through to the Magistrates’ Court and the Crown Court.',
+                fullDescription: 'Robert is a specialist criminal defence lawyer experienced in representing individuals charged with the most serious of crimes including murder and manslaughter. His practice encompasses the representation of individuals following arrest at the police station through to the Magistrates’ Court and the Crown Court. Robert is a duty Solicitor and a Solicitor Advocate. He has experience of conducting Crown Court trials on behalf of defendants charged with such offences as robbery, burglary, theft and drug supply offences. Robert is a fluent Welsh speaker and is able to represent defendants in either English or Welsh. He is regarded as a highly approachable and skilled lawyer.',
+                emailAddress: 'robert@scmlaw.co.uk',
+                phoneNumberString: '07900560941',
                 phoneNumber: +447900560941
             },
             {
-                path: "james-mckenna",
-                name: "James McKenna",
-                position: "Head of Swansea Office",
-                initials: "JM",
-                backgroundImageUrl: "/assets/team/james-profile.jpg",
-                imageUrl: "/assets/team/james-profile.jpg",
-                shortDescription: "James is a Solicitor Advocate and heads SCM Solicitors Swansea office. James is a duty solicitor and deals with a variety of cases in the police station, Magistrates Court and Crown Court on a day to day basis.",
-                fullDescription: "James is a Solicitor Advocate and heads SCM Solicitors Swansea office. James is a duty solicitor and deals with a variety of cases in the police station, Magistrates Court and Crown Court on a day to day basis. James has expertly prepared and successfully defended clients facing a full array of criminal charges including those who are charged with the most serious allegations including murder, armed robberies, fraud, drug trafficking and sexual offences.  ",
-                emailAddress: "james@scmlaw.co.uk",
-                phoneNumberString: "07738703699",
+                path: 'james-mckenna',
+                name: 'James McKenna',
+                position: 'Head of Swansea Office',
+                initials: 'JM',
+                backgroundImageUrl: '/assets/team/james-profile.jpg',
+                imageUrl: '/assets/team/james-profile.jpg',
+                shortDescription: 'James is a Solicitor Advocate and heads SCM Solicitors Swansea office. James is a duty solicitor and deals with a variety of cases in the police station, Magistrates Court and Crown Court on a day to day basis.',
+                fullDescription: 'James is a Solicitor Advocate and heads SCM Solicitors Swansea office. James is a duty solicitor and deals with a variety of cases in the police station, Magistrates Court and Crown Court on a day to day basis. James has expertly prepared and successfully defended clients facing a full array of criminal charges including those who are charged with the most serious allegations including murder, armed robberies, fraud, drug trafficking and sexual offences.  ',
+                emailAddress: 'james@scmlaw.co.uk',
+                phoneNumberString: '07738703699',
                 phoneNumber: +447738703699
             }
         ]; // needs bio // needs bio
+        this.associates = [
+            {
+                path: 'lucas-edwards',
+                name: 'Lucas Edwards',
+                position: null,
+                initials: 'LE',
+                backgroundImageUrl: '/assets/team/scm-placeholder.png',
+                imageUrl: '/assets/team/scm-placeholder.png',
+                shortDescription: 'Lucas is a Qualified Higher Court Advocate and Duty Solicitor who specialises in all areas of Criminal Law. Before joining SCM, Lucas worked as an Assistant Solicitor for Lloyd and Rowe Solicitors in Cardiff and thereafter for JA Hughes in Barry.Lucas was later made a Partner at JA Hughes, where he took charge of their Criminal Department.',
+                fullDescription: 'Lucas is a Qualified Higher Court Advocate and Duty Solicitor who specialises in all areas of Criminal Law. Before joining SCM, Lucas worked as an Assistant Solicitor for Lloyd and Rowe Solicitors in Cardiff and thereafter for JA Hughes in Barry.Lucas was later made a Partner at JA Hughes, where he took charge of their Criminal Department. Lucas represents clients at the Police Station, Youth Court, Magistrates Court and Crown Court. Lucas has represented clients for a wide range of offences such as Rape, Terrorism and Murder.',
+                emailAddress: 'lucas@scmlaw.co.uk',
+                phoneNumberString: 'Not specified',
+                phoneNumber: +447738703699
+            }
+        ];
         this.duty = [
             {
-                path: "phillip-thomas",
-                name: "Phillip Thomas LLB(Hons)",
+                path: 'phillip-thomas',
+                name: 'Phillip Thomas LLB(Hons)',
                 position: null,
-                initials: "PT",
-                backgroundImageUrl: "/assets/team/phil-profile.jpg",
-                imageUrl: "/assets/team/phil-profile.jpg",
-                shortDescription: "Phillip Thomas, a Specialist Qualified Criminal Lawyer, joined SCM as a Consultant Solicitor at it’s inception in 2016. Before moving to work at SCM, he had many years experience, formerly a Senior Partner and Consultant with Gwyn & Gwyn/Larby Williams (now JCP Solicitors), and also the Sole Principle of Phillip Thomas & Co, a criminal law firm in Bridgend.",
-                fullDescription: "Phillip Thomas, a Specialist Qualified Criminal Lawyer, joined SCM as a Consultant Solicitor at it’s inception in 2016. Before moving to work at SCM, he had many years experience, formerly a Senior Partner and Consultant with Gwyn & Gwyn/Larby Williams (now JCP Solicitors), and also the Sole Principle of Phillip Thomas & Co, a criminal law firm in Bridgend. He has also been a Chairman and Member of local and regional Duty Solicitor Committees. Outside of work, Phil is married, and has three daughters.",
-                emailAddress: "phil@scmlaw.co.uk",
-                phoneNumberString: "07976720367",
+                initials: 'PT',
+                backgroundImageUrl: '/assets/team/phil-profile.jpg',
+                imageUrl: '/assets/team/phil-profile.jpg',
+                shortDescription: 'Phillip Thomas, a Specialist Qualified Criminal Lawyer, joined SCM as a Consultant Solicitor at it’s inception in 2016. Before moving to work at SCM, he had many years experience, formerly a Senior Partner and Consultant with Gwyn & Gwyn/Larby Williams (now JCP Solicitors), and also the Sole Principle of Phillip Thomas & Co, a criminal law firm in Bridgend.',
+                fullDescription: 'Phillip Thomas, a Specialist Qualified Criminal Lawyer, joined SCM as a Consultant Solicitor at it’s inception in 2016. Before moving to work at SCM, he had many years experience, formerly a Senior Partner and Consultant with Gwyn & Gwyn/Larby Williams (now JCP Solicitors), and also the Sole Principle of Phillip Thomas & Co, a criminal law firm in Bridgend. He has also been a Chairman and Member of local and regional Duty Solicitor Committees. Outside of work, Phil is married, and has three daughters.',
+                emailAddress: 'phil@scmlaw.co.uk',
+                phoneNumberString: '07976720367',
                 phoneNumber: +447976720367
             },
             {
-                path: "richard-adamec",
-                name: "Richard Adamec LLB(Hons)",
+                path: 'richard-adamec',
+                name: 'Richard Adamec LLB(Hons)',
                 position: null,
-                initials: "DM",
-                backgroundImageUrl: "/assets/team/adamec-profile.jpg",
-                imageUrl: "/assets/team/adamec-profile.jpg",
-                shortDescription: "Grays Inn Barrister, called 1988. Magistrates legal adviser until 2012 specialising in family and criminal law. Vice chairman Vale Cricket Club.",
-                fullDescription: "Grays Inn Barrister, called 1988. Magistrates legal adviser until 2012 specialising in family and criminal law. Vice chairman Vale Cricket Club.",
-                emailAddress: "richard@scmlaw.co.uk",
-                phoneNumberString: "07912747112",
+                initials: 'DM',
+                backgroundImageUrl: '/assets/team/adamec-profile.jpg',
+                imageUrl: '/assets/team/adamec-profile.jpg',
+                shortDescription: 'Grays Inn Barrister, called 1988. Magistrates legal adviser until 2012 specialising in family and criminal law. Vice chairman Vale Cricket Club.',
+                fullDescription: 'Grays Inn Barrister, called 1988. Magistrates legal adviser until 2012 specialising in family and criminal law. Vice chairman Vale Cricket Club.',
+                emailAddress: 'richard@scmlaw.co.uk',
+                phoneNumberString: '07912747112',
                 phoneNumber: +447912747112
             },
             {
-                path: "denny-bryant",
-                name: "Denny Bryant LLB(Hons)",
+                path: 'denny-bryant',
+                name: 'Denny Bryant LLB(Hons)',
                 position: null,
-                initials: "DB",
-                backgroundImageUrl: "/assets/team/denny-profile.jpg",
-                imageUrl: "/assets/team/denny-profile.jpg",
-                shortDescription: "Born in the Cynon Valley, grew up in West Wales and now lives in Cardiff. Went to school in Christ College, Brecon then studied law at London University. Completed the Legal Practice course in Cardiff and has been a qualified solicitor since 1998.",
-                fullDescription: "Born in the Cynon Valley, Denny grew up in West Wales and now lives in Cardiff. He went to school in Christ College, Brecon then studied law at London University. Denny completed the Legal Practice course in Cardiff and has been a qualified solicitor since 1998. Denny practices exclusively in the field of Criminal Law. He has been a duty solicitor since 1999, and specialises in all matters of criminal law. He has represented clients in high profile murder cases, rape cases, drug and conspiracy offences, and he undertakes work in the Crown Court, Magistrates Court and the police station.",
-                emailAddress: "denny@scmlaw.co.uk",
-                phoneNumberString: "07771234567",
+                initials: 'DB',
+                backgroundImageUrl: '/assets/team/denny-profile.jpg',
+                imageUrl: '/assets/team/denny-profile.jpg',
+                shortDescription: 'Born in the Cynon Valley, grew up in West Wales and now lives in Cardiff. Went to school in Christ College, Brecon then studied law at London University. Completed the Legal Practice course in Cardiff and has been a qualified solicitor since 1998.',
+                fullDescription: 'Born in the Cynon Valley, Denny grew up in West Wales and now lives in Cardiff. He went to school in Christ College, Brecon then studied law at London University. Denny completed the Legal Practice course in Cardiff and has been a qualified solicitor since 1998. Denny practices exclusively in the field of Criminal Law. He has been a duty solicitor since 1999, and specialises in all matters of criminal law. He has represented clients in high profile murder cases, rape cases, drug and conspiracy offences, and he undertakes work in the Crown Court, Magistrates Court and the police station.',
+                emailAddress: 'denny@scmlaw.co.uk',
+                phoneNumberString: '07771234567',
                 phoneNumber: +447771234567
             }
-        ]; // Missing // Missing // Missing // Missing // Missing // Missing
+        ];
         this.admin = [
             {
-                path: "",
-                name: "Jackie James",
-                position: "Bridgend Office",
-                initials: "JA",
-                backgroundImageUrl: "/assets/team/jackie-profile.jpg",
-                imageUrl: "/assets/team/jackie-profile.jpg",
-                shortDescription: "",
-                fullDescription: "",
-                emailAddress: "jackie@scmlaw.co.uk",
-                phoneNumberString: "",
+                path: '',
+                name: 'Jackie James',
+                position: 'Bridgend Office',
+                initials: 'JA',
+                backgroundImageUrl: '/assets/team/jackie-profile.jpg',
+                imageUrl: '/assets/team/jackie-profile.jpg',
+                shortDescription: '',
+                fullDescription: '',
+                emailAddress: 'jackie@scmlaw.co.uk',
+                phoneNumberString: '',
                 phoneNumber: 0
             },
             {
-                path: "",
-                name: "Mary Bourke",
-                position: "Bridgend Office",
-                initials: "MA",
-                backgroundImageUrl: "/assets/team/mary-profile.jpg",
-                imageUrl: "/assets/team/mary-profile.jpg",
-                shortDescription: "",
-                fullDescription: "",
-                emailAddress: "mary@scmlaw.co.uk",
-                phoneNumberString: "",
+                path: '',
+                name: 'Mary Bourke',
+                position: 'Bridgend Office',
+                initials: 'MA',
+                backgroundImageUrl: '/assets/team/mary-profile.jpg',
+                imageUrl: '/assets/team/mary-profile.jpg',
+                shortDescription: '',
+                fullDescription: '',
+                emailAddress: 'mary@scmlaw.co.uk',
+                phoneNumberString: '',
                 phoneNumber: 0
             },
             {
-                path: "",
-                name: "Deborah Thomas",
-                position: "Cardiff Office",
-                initials: "DA",
-                backgroundImageUrl: "/assets/team/deb-profile.jpg",
-                imageUrl: "/assets/team/deb-profile.jpg",
-                shortDescription: "",
-                fullDescription: "",
-                emailAddress: "deb@scmlaw.co.uk",
-                phoneNumberString: "",
+                path: '',
+                name: 'Deborah Thomas',
+                position: 'Cardiff Office',
+                initials: 'DA',
+                backgroundImageUrl: '/assets/team/deb-profile.jpg',
+                imageUrl: '/assets/team/deb-profile.jpg',
+                shortDescription: '',
+                fullDescription: '',
+                emailAddress: 'deb@scmlaw.co.uk',
+                phoneNumberString: '',
                 phoneNumber: 0
             }
         ]; // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it
@@ -1467,7 +1625,7 @@ var TeamComponent = (function () {
     };
     TeamComponent.prototype.goToTeamDetail = function (_urlPath, _name, _position, _initials, _imageUrl, _shortDescription, _fullDescription, _emailAddress, _phoneNumberString, _phoneNumber) {
         // navigate to team detail.
-        this._router.navigate(["/team", _urlPath]);
+        this._router.navigate(['/team', _urlPath]);
         // pass data to shared storage
         this._dataStorageService.setTeamMember(_urlPath, _name, _position, _initials, _imageUrl, _shortDescription, _fullDescription, _emailAddress, _phoneNumberString, _phoneNumber);
     };
@@ -1478,7 +1636,7 @@ var TeamComponent = (function () {
 }());
 TeamComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: "team",
+        selector: 'team',
         template: __webpack_require__("../../../../../src/app/_pages/team/team.component.html"),
         styles: [__webpack_require__("../../../../../src/app/_pages/team/team.component.scss")]
     }),
