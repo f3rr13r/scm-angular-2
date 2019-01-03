@@ -12,8 +12,6 @@ interface NotableCase {
   templateUrl: 'notable-cases.component.html',
   styleUrls: ['notable-cases.component.scss']
 })
-
-/* -- updated notable cases -- */
 export class NotableCasesComponent {
   notableCases: [NotableCase] = [
     {
