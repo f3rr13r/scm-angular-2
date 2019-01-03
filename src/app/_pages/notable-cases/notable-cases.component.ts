@@ -18,13 +18,13 @@ export class NotableCasesComponent {
       title: 'R v B & OTHERS (2019)',
       subtitle: 'OPERATION RED DRAGON',
       description: 'Represented all 5 defendants in a conspiracy to supply half a million pounds of heroin',
-      court: 'Court not specified'
+      court: 'Cardiff Crown Court'
     },
     {
       title: 'R v A (2018)',
       subtitle: 'OPERATION BLUE KRCH',
       description: 'Widespread distribution of class A,B & C drugs with over 90,000 pages of served evidence',
-      court: 'Court not specified'
+      court: 'Cardiff Crown Court'
     },
     {
       title: 'R v A & OTHERS (2018)',
