@@ -11,6 +11,8 @@
   }
 
   &--content {
+    height: fit-content;
+
     h2 {
       font-family: $scm-font-helvetica-neue;
       background-color: $scm-blue;

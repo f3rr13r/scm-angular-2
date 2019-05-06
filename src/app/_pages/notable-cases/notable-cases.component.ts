@@ -97,7 +97,7 @@ export class NotableCasesComponent {
     },
     {
       title: 'R v J & others (2016)',
-      subtitle: '',
+      subtitle: 'N/A',
       description: 'Large scale 18 defendant conspiracy to produce large quantities of cannabis and money laundering',
       court: 'Merthyr Tydfil Crown Court'
     },
@@ -109,13 +109,13 @@ export class NotableCasesComponent {
     },
     {
       title: 'R v S (2016)',
-      subtitle: '',
+      subtitle: 'N/A',
       description: 'Murder',
       court: 'Cardiff Crown Court'
     },
     {
       title: 'R v S (2016)',
-      subtitle: '',
+      subtitle: 'N/A',
       description: 'Murder trial and retrial',
       court: 'Swansea Crown Court'
     },
@@ -128,7 +128,7 @@ export class NotableCasesComponent {
     },
     {
       title: 'R v S (2014)',
-      subtitle: '',
+      subtitle: 'N/A',
       description: 'Murder trial',
       court: 'Swansea Crown Court'
     },

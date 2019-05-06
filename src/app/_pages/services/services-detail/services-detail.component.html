@@ -3,15 +3,27 @@
   </div>
   <div class="service-detail--content">
     <h2>{{ service.title }}</h2>
-    <p [innerHTML]="service.description"></p>
-    <hr />
-    <ul class="service-detail--content__crime-list">
-      <li *ngFor="let crime of service.crimes">
-        <img src="/assets/services/list-arrow--icon.png" alt="list-item-arrow" /> {{ crime }}
-      </li>
-    </ul>
-    <hr />
-    <p>If you would like to discuss anything with us, please feel free to get in touch via our phone or email. Alternatively,
-      specific contact information for each of our solicitors is available within the 'team' section of our website.</p>
+
+    <!-- regular services -->
+    <ng-container *ngIf="service.title != 'Motoring Offences'">
+      <p [innerHTML]="service.description"></p>
+      <hr />
+      <ul class="service-detail--content__crime-list">
+        <li *ngFor="let crime of service.crimes">
+          <img src="/assets/services/list-arrow--icon.png" alt="list-item-arrow" /> {{ crime }}
+        </li>
+      </ul>
+      <hr />
+      <p>If you would like to discuss anything with us, please feel free to get in touch via our phone or email.
+        Alternatively,
+        specific contact information for each of our solicitors is available within the 'team' section of our website.
+      </p>
+    </ng-container>
+
+    <!-- motoring offences detail -->
+    <ng-container>
+      <iframe src="https://www.cpm21.consulting/scmlawmotoringoffencesfeepage051/" width="100%"
+        height="2000px"></iframe>
+    </ng-container>
   </div>
 </div>
