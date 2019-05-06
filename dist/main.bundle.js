@@ -100,7 +100,7 @@ FooterContactComponent = __decorate([
 /***/ "../../../../../src/app/_layout/footer/footer.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"footer\">\n  <footer-contact></footer-contact>\n  <div class=\"footer--main\">\n    <ul class=\"footer--main--icon footer--main--icon--social\">\n      <li class=\"facebook\">\n        <a href=\"https://www.facebook.com/pg/Sedgwick-Chudleigh-McKenna-Solicitors-222487694772423/about/\" target=\"_blank\"><img\n            class=\"facebook--logo\" src=\"/assets/footer-facebook-logo.png\" /></a>\n      </li>\n      <li class=\"linkedin\">\n        <a href=\"https://www.linkedin.com/company/sedgwick-chudleigh-mckenna-solicitors\" target=\"_blank\"><img class=\"linkedin--logo\"\n            src=\"/assets/footer-linkedin-logo.png\" /></a>\n      </li>\n    </ul>\n    <img (click)=\"navigateToHome()\" class=\"footer--main--icon footer--main--icon__scm\" src=\"/assets/scm-logo--small.png\" />\n    <img class=\"footer--main--icon\" src=\"/assets/footer-lexcel-logo.png\" />\n  </div>\n  <div class=\"footer--info\">\n    <ul class=\"footer--info--list\">\n      <li class=\"footer--info--list--item\">This firm is regulated by the Solicitors Regulation Authority</li>\n      <li class=\"footer--info--list--item\">Company Registration Number: 6519150</li>\n      <li class=\"footer--info--list--item\">SRA Number: 485534</li>\n      <li class=\"footer--info--list--item\">VAT Registration Number: 811 2016 92</li>\n      <li class=\"footer--info--list--item\">Sedgwick Chudleigh McKenna Solicitors is the trading name of David Sedgwick\n        Solicitors Limited</li>\n    </ul>\n  </div>\n  <div class=\"footer__bottom\">\n    <a class=\"link\" routerLink=\"/site-management-policy\">Site Management Policy</a>\n    <a class=\"link\" routerLink=\"/privacy-policy\">Privacy Policy</a>\n  </div>\n</div>\n"
+module.exports = "<div class=\"footer\">\n  <footer-contact></footer-contact>\n  <div class=\"footer--main\">\n    <ul class=\"footer--main--icon footer--main--icon--social\">\n      <li class=\"facebook\">\n        <a href=\"https://www.facebook.com/pg/Sedgwick-Chudleigh-McKenna-Solicitors-222487694772423/about/\"\n          target=\"_blank\"><img class=\"facebook--logo\" src=\"/assets/footer-facebook-logo.png\" /></a>\n      </li>\n      <li class=\"linkedin\">\n        <a href=\"https://www.linkedin.com/company/sedgwick-chudleigh-mckenna-solicitors\" target=\"_blank\"><img\n            class=\"linkedin--logo\" src=\"/assets/footer-linkedin-logo.png\" /></a>\n      </li>\n    </ul>\n    <img (click)=\"navigateToHome()\" class=\"footer--main--icon footer--main--icon__scm\"\n      src=\"/assets/scm-logo--small.png\" />\n    <img class=\"footer--main--icon\" src=\"/assets/footer-lexcel-logo.png\" />\n  </div>\n  <div class=\"footer--info\">\n    <ul class=\"footer--info--list\">\n      <li class=\"footer--info--list--item\">This firm is regulated by the Solicitors Regulation Authority</li>\n      <li class=\"footer--info--list--item\">Company Registration Number: 6519150</li>\n      <li class=\"footer--info--list--item\">SRA Number: 485534</li>\n      <li class=\"footer--info--list--item\">VAT Registration Number: 811 2016 92</li>\n      <li class=\"footer--info--list--item\">Sedgwick Chudleigh McKenna Solicitors is the trading name of David Sedgwick\n        Solicitors Limited</li>\n    </ul>\n  </div>\n  <div class=\"footer__bottom\">\n    <a class=\"link\" routerLink=\"/site-management-policy\">Site Management Policy</a>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -112,7 +112,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "/*------------\nVariables:\n- For use throughout the app.\nTo use any of these you must import this stylesheet into the component stylesheet.\n------------*/\n/*-- typography --*/\n/*-- font family --*/\n.footer {\n  min-width: 100%; }\n  .footer--main {\n    height: 60px;\n    background-color: #002E52;\n    display: -ms-flexbox;\n    display: flex;\n    -ms-flex-direction: row;\n        flex-direction: row;\n    -ms-flex-pack: justify;\n        justify-content: space-between;\n    -ms-flex-align: center;\n        align-items: center; }\n    .footer--main--icon {\n      height: 50px;\n      margin: 0px 10px; }\n      .footer--main--icon--social {\n        list-style: none;\n        height: 40px;\n        padding: 0; }\n        .footer--main--icon--social .facebook,\n        .footer--main--icon--social .linkedin {\n          display: inline-block;\n          border: 2px solid white;\n          border-radius: 50%;\n          margin-right: 5px; }\n          .footer--main--icon--social .facebook--logo,\n          .footer--main--icon--social .linkedin--logo {\n            width: 20px;\n            height: 20px;\n            padding: 6px 8px; }\n      .footer--main--icon__scm {\n        cursor: pointer; }\n  .footer--info {\n    height: 140px;\n    background-color: #F1F1F1; }\n    .footer--info--list {\n      margin: 0;\n      padding: 0;\n      background-color: #F1F1F1;\n      height: 100%;\n      display: -ms-flexbox;\n      display: flex;\n      -ms-flex-direction: column;\n          flex-direction: column;\n      -ms-flex-align: center;\n          align-items: center;\n      list-style: none;\n      padding: 10px 0; }\n      .footer--info--list--item {\n        text-align: center;\n        padding: 4px 0;\n        font-family: \"Helvetica Neue\";\n        font-weight: 400;\n        font-size: 14px;\n        color: #888888; }\n        .footer--info--list--item:first-child {\n          padding-top: 0px; }\n        .footer--info--list--item:last-child {\n          padding-bottom: 0px; }\n  .footer__bottom {\n    padding: 18px 0;\n    background-color: #888888;\n    display: -ms-flexbox;\n    display: flex;\n    width: 100%;\n    -ms-flex-pack: center;\n        justify-content: center;\n    -ms-flex-align: center;\n        align-items: center; }\n    .footer__bottom .link {\n      text-decoration: none;\n      font-weight: 400;\n      font-size: 14px;\n      font-family: \"Helvetica Neue\";\n      color: #F1F1F1; }\n      .footer__bottom .link:first-of-type::after {\n        padding: 0 10px;\n        content: '|'; }\n\n@media screen and (max-width: 608px) {\n  .footer {\n    bottom: 0px;\n    width: 100%;\n    background-color: #F1F1F1; }\n  .footer--info--list--item {\n    font-size: 12px; } }\n", ""]);
+exports.push([module.i, "/*------------\nVariables:\n- For use throughout the app.\nTo use any of these you must import this stylesheet into the component stylesheet.\n------------*/\n/*-- typography --*/\n/*-- font family --*/\n.footer {\n  min-width: 100%; }\n  .footer--main {\n    height: 60px;\n    background-color: #002E52;\n    display: -ms-flexbox;\n    display: flex;\n    -ms-flex-direction: row;\n        flex-direction: row;\n    -ms-flex-pack: justify;\n        justify-content: space-between;\n    -ms-flex-align: center;\n        align-items: center; }\n    .footer--main--icon {\n      height: 50px;\n      margin: 0px 10px; }\n      .footer--main--icon--social {\n        list-style: none;\n        height: 40px;\n        padding: 0; }\n        .footer--main--icon--social .facebook,\n        .footer--main--icon--social .linkedin {\n          display: inline-block;\n          border: 2px solid white;\n          border-radius: 50%;\n          margin-right: 5px; }\n          .footer--main--icon--social .facebook--logo,\n          .footer--main--icon--social .linkedin--logo {\n            width: 20px;\n            height: 20px;\n            padding: 6px 8px; }\n      .footer--main--icon__scm {\n        cursor: pointer; }\n  .footer--info {\n    height: 140px;\n    background-color: #F1F1F1; }\n    .footer--info--list {\n      margin: 0;\n      padding: 0;\n      background-color: #F1F1F1;\n      height: 100%;\n      display: -ms-flexbox;\n      display: flex;\n      -ms-flex-direction: column;\n          flex-direction: column;\n      -ms-flex-align: center;\n          align-items: center;\n      list-style: none;\n      padding: 10px 0; }\n      .footer--info--list--item {\n        text-align: center;\n        padding: 4px 0;\n        font-family: \"Helvetica Neue\";\n        font-weight: 400;\n        font-size: 14px;\n        color: #888888; }\n        .footer--info--list--item:first-child {\n          padding-top: 0px; }\n        .footer--info--list--item:last-child {\n          padding-bottom: 0px; }\n  .footer__bottom {\n    padding: 18px 0;\n    background-color: #888888;\n    display: -ms-flexbox;\n    display: flex;\n    width: 100%;\n    -ms-flex-pack: center;\n        justify-content: center;\n    -ms-flex-align: center;\n        align-items: center; }\n    .footer__bottom .link {\n      text-decoration: none;\n      font-weight: 400;\n      font-size: 14px;\n      font-family: \"Helvetica Neue\";\n      color: #F1F1F1; }\n\n@media screen and (max-width: 608px) {\n  .footer {\n    bottom: 0px;\n    width: 100%;\n    background-color: #F1F1F1; }\n  .footer--info--list--item {\n    font-size: 12px; } }\n", ""]);
 
 // exports
 
@@ -582,13 +582,13 @@ var NotableCasesComponent = (function () {
                 title: 'R v B & OTHERS (2019)',
                 subtitle: 'OPERATION RED DRAGON',
                 description: 'Represented all 5 defendants in a conspiracy to supply half a million pounds of heroin',
-                court: 'Court not specified'
+                court: 'Cardiff Crown Court'
             },
             {
                 title: 'R v A (2018)',
                 subtitle: 'OPERATION BLUE KRCH',
                 description: 'Widespread distribution of class A,B & C drugs with over 90,000 pages of served evidence',
-                court: 'Court not specified'
+                court: 'Cardiff Crown Court'
             },
             {
                 title: 'R v A & OTHERS (2018)',
@@ -658,7 +658,7 @@ var NotableCasesComponent = (function () {
             },
             {
                 title: 'R v J & others (2016)',
-                subtitle: '',
+                subtitle: 'N/A',
                 description: 'Large scale 18 defendant conspiracy to produce large quantities of cannabis and money laundering',
                 court: 'Merthyr Tydfil Crown Court'
             },
@@ -670,13 +670,13 @@ var NotableCasesComponent = (function () {
             },
             {
                 title: 'R v S (2016)',
-                subtitle: '',
+                subtitle: 'N/A',
                 description: 'Murder',
                 court: 'Cardiff Crown Court'
             },
             {
                 title: 'R v S (2016)',
-                subtitle: '',
+                subtitle: 'N/A',
                 description: 'Murder trial and retrial',
                 court: 'Swansea Crown Court'
             },
@@ -688,7 +688,7 @@ var NotableCasesComponent = (function () {
             },
             {
                 title: 'R v S (2014)',
-                subtitle: '',
+                subtitle: 'N/A',
                 description: 'Murder trial',
                 court: 'Swansea Crown Court'
             },
@@ -739,7 +739,6 @@ NotableCasesComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__team_team_component__ = __webpack_require__("../../../../../src/app/_pages/team/team.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__notable_cases_notable_cases_component__ = __webpack_require__("../../../../../src/app/_pages/notable-cases/notable-cases.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__site_management_policy_site_management_policy_component__ = __webpack_require__("../../../../../src/app/_pages/site-management-policy/site-management-policy.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__privacy_policy_privacy_policy_component__ = __webpack_require__("../../../../../src/app/_pages/privacy-policy/privacy-policy.component.ts");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PagesModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -756,7 +755,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-
 var companyRoutes = [
     { path: 'home', component: __WEBPACK_IMPORTED_MODULE_5__home_home_component__["a" /* HomeComponent */] },
     { path: 'services', component: __WEBPACK_IMPORTED_MODULE_4__services_services_component__["a" /* ServicesComponent */] },
@@ -764,8 +762,7 @@ var companyRoutes = [
     { path: 'find-us', component: __WEBPACK_IMPORTED_MODULE_3__find_us_find_us_component__["a" /* FindUsComponent */] },
     { path: 'find-us/:location', component: __WEBPACK_IMPORTED_MODULE_3__find_us_find_us_component__["a" /* FindUsComponent */] },
     { path: 'team', component: __WEBPACK_IMPORTED_MODULE_6__team_team_component__["a" /* TeamComponent */] },
-    { path: 'site-management-policy', component: __WEBPACK_IMPORTED_MODULE_8__site_management_policy_site_management_policy_component__["a" /* SiteManagementPolicyComponent */] },
-    { path: 'privacy-policy', component: __WEBPACK_IMPORTED_MODULE_9__privacy_policy_privacy_policy_component__["a" /* PrivacyPolicyComponent */] }
+    { path: 'site-management-policy', component: __WEBPACK_IMPORTED_MODULE_8__site_management_policy_site_management_policy_component__["a" /* SiteManagementPolicyComponent */] }
 ];
 var PagesModule = (function () {
     function PagesModule() {
@@ -782,75 +779,13 @@ PagesModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_4__services_services_component__["a" /* ServicesComponent */],
             __WEBPACK_IMPORTED_MODULE_7__notable_cases_notable_cases_component__["a" /* NotableCasesComponent */],
             __WEBPACK_IMPORTED_MODULE_3__find_us_find_us_component__["a" /* FindUsComponent */],
-            __WEBPACK_IMPORTED_MODULE_8__site_management_policy_site_management_policy_component__["a" /* SiteManagementPolicyComponent */],
-            __WEBPACK_IMPORTED_MODULE_9__privacy_policy_privacy_policy_component__["a" /* PrivacyPolicyComponent */]
+            __WEBPACK_IMPORTED_MODULE_8__site_management_policy_site_management_policy_component__["a" /* SiteManagementPolicyComponent */]
         ],
         providers: []
     })
 ], PagesModule);
 
 //# sourceMappingURL=pages.module.js.map
-
-/***/ }),
-
-/***/ "../../../../../src/app/_pages/privacy-policy/privacy-policy.component.html":
-/***/ (function(module, exports) {
-
-module.exports = "<p>\n  privacy-policy works!\n</p>\n"
-
-/***/ }),
-
-/***/ "../../../../../src/app/_pages/privacy-policy/privacy-policy.component.scss":
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ "../../../../../src/app/_pages/privacy-policy/privacy-policy.component.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrivacyPolicyComponent; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var PrivacyPolicyComponent = (function () {
-    function PrivacyPolicyComponent() {
-    }
-    PrivacyPolicyComponent.prototype.ngOnInit = function () {
-    };
-    return PrivacyPolicyComponent;
-}());
-PrivacyPolicyComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: 'app-privacy-policy',
-        template: __webpack_require__("../../../../../src/app/_pages/privacy-policy/privacy-policy.component.html"),
-        styles: [__webpack_require__("../../../../../src/app/_pages/privacy-policy/privacy-policy.component.scss")]
-    }),
-    __metadata("design:paramtypes", [])
-], PrivacyPolicyComponent);
-
-//# sourceMappingURL=privacy-policy.component.js.map
 
 /***/ }),
 
@@ -902,7 +837,7 @@ DataStorageService = __decorate([
 /***/ "../../../../../src/app/_pages/services/services-detail/services-detail.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"service-detail\">\n  <div class=\"service-detail--title\" [ngStyle]=\"{ 'background-image': service.imageUrl }\">\n  </div>\n  <div class=\"service-detail--content\">\n    <h2>{{ service.title }}</h2>\n    <p [innerHTML]=\"service.description\"></p>\n    <hr />\n    <ul class=\"service-detail--content__crime-list\">\n      <li *ngFor=\"let crime of service.crimes\">\n        <img src=\"/assets/services/list-arrow--icon.png\" alt=\"list-item-arrow\" /> {{ crime }}\n      </li>\n    </ul>\n    <hr />\n    <p>If you would like to discuss anything with us, please feel free to get in touch via our phone or email. Alternatively,\n      specific contact information for each of our solicitors is available within the 'team' section of our website.</p>\n  </div>\n</div>\n"
+module.exports = "<div class=\"service-detail\">\n  <div class=\"service-detail--title\" [ngStyle]=\"{ 'background-image': service.imageUrl }\">\n  </div>\n  <div class=\"service-detail--content\">\n    <h2>{{ service.title }}</h2>\n\n    <!-- regular services -->\n    <ng-container *ngIf=\"service.title != 'Motoring Offences'\">\n      <p [innerHTML]=\"service.description\"></p>\n      <hr />\n      <ul class=\"service-detail--content__crime-list\">\n        <li *ngFor=\"let crime of service.crimes\">\n          <img src=\"/assets/services/list-arrow--icon.png\" alt=\"list-item-arrow\" /> {{ crime }}\n        </li>\n      </ul>\n      <hr />\n      <p>If you would like to discuss anything with us, please feel free to get in touch via our phone or email.\n        Alternatively,\n        specific contact information for each of our solicitors is available within the 'team' section of our website.\n      </p>\n    </ng-container>\n\n    <!-- motoring offences detail -->\n    <ng-container>\n      <iframe src=\"https://www.cpm21.consulting/scmlawmotoringoffencesfeepage051/\" width=\"100%\"\n        height=\"2000px\"></iframe>\n    </ng-container>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -914,7 +849,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "/*------------\nVariables:\n- For use throughout the app.\nTo use any of these you must import this stylesheet into the component stylesheet.\n------------*/\n/*-- typography --*/\n/*-- font family --*/\n.service-detail {\n  margin-top: 130px; }\n  .service-detail--title {\n    width: 100%;\n    height: 200px;\n    background-position: center;\n    background-size: cover; }\n  .service-detail--content h2 {\n    font-family: \"Helvetica Neue\";\n    background-color: #002E52;\n    color: #F1F1F1;\n    text-align: center;\n    font-size: 28px;\n    padding: 10px;\n    margin: 0; }\n  .service-detail--content p {\n    padding: 10px 40px;\n    font-family: \"Helvetica Neue\";\n    text-align: justify;\n    color: #888888;\n    font-weight: 400; }\n    .service-detail--content p:last-of-type {\n      color: black;\n      font-size: 12px;\n      font-weight: 400;\n      padding-top: 16px; }\n  .service-detail--content hr {\n    width: 140px;\n    height: 2px;\n    border: none;\n    color: #002E52;\n    background-color: #1B5DD1; }\n  .service-detail--content__crime-list {\n    list-style: none; }\n    .service-detail--content__crime-list li {\n      display: -ms-flexbox;\n      display: flex;\n      -ms-flex-direction: row;\n          flex-direction: row;\n      -ms-flex-align: center;\n          align-items: center;\n      font-family: \"Helvetica Neue\";\n      font-size: 20px;\n      color: #002E52;\n      padding: 4px 0; }\n      .service-detail--content__crime-list li img {\n        width: 24px;\n        height: 24px;\n        margin-right: 20px; }\n\n@media screen and (max-width: 608px) {\n  .service-detail {\n    margin-top: 180px; }\n    .service-detail--title h2 {\n      margin-top: 40px; }\n    .service-detail--content h2 {\n      font-size: 24px; }\n    .service-detail--content p {\n      font-size: 14px;\n      padding: 10px 14px; }\n    .service-detail li {\n      font-size: 12px; } }\n", ""]);
+exports.push([module.i, "/*------------\nVariables:\n- For use throughout the app.\nTo use any of these you must import this stylesheet into the component stylesheet.\n------------*/\n/*-- typography --*/\n/*-- font family --*/\n.service-detail {\n  margin-top: 130px; }\n  .service-detail--title {\n    width: 100%;\n    height: 200px;\n    background-position: center;\n    background-size: cover; }\n  .service-detail--content {\n    height: -webkit-fit-content;\n    height: -moz-fit-content;\n    height: fit-content; }\n    .service-detail--content h2 {\n      font-family: \"Helvetica Neue\";\n      background-color: #002E52;\n      color: #F1F1F1;\n      text-align: center;\n      font-size: 28px;\n      padding: 10px;\n      margin: 0; }\n    .service-detail--content p {\n      padding: 10px 40px;\n      font-family: \"Helvetica Neue\";\n      text-align: justify;\n      color: #888888;\n      font-weight: 400; }\n      .service-detail--content p:last-of-type {\n        color: black;\n        font-size: 12px;\n        font-weight: 400;\n        padding-top: 16px; }\n    .service-detail--content hr {\n      width: 140px;\n      height: 2px;\n      border: none;\n      color: #002E52;\n      background-color: #1B5DD1; }\n    .service-detail--content__crime-list {\n      list-style: none; }\n      .service-detail--content__crime-list li {\n        display: -ms-flexbox;\n        display: flex;\n        -ms-flex-direction: row;\n            flex-direction: row;\n        -ms-flex-align: center;\n            align-items: center;\n        font-family: \"Helvetica Neue\";\n        font-size: 20px;\n        color: #002E52;\n        padding: 4px 0; }\n        .service-detail--content__crime-list li img {\n          width: 24px;\n          height: 24px;\n          margin-right: 20px; }\n\n@media screen and (max-width: 608px) {\n  .service-detail {\n    margin-top: 180px; }\n    .service-detail--title h2 {\n      margin-top: 40px; }\n    .service-detail--content h2 {\n      font-size: 24px; }\n    .service-detail--content p {\n      font-size: 14px;\n      padding: 10px 14px; }\n    .service-detail li {\n      font-size: 12px; } }\n", ""]);
 
 // exports
 
@@ -1032,108 +967,98 @@ var ServicesComponent = (function () {
         window.scrollTo(0, 0);
         this.services = [
             {
-                path: "violent-crime-offences",
-                title: "Violent Crime Offences",
-                description: "Violent crime offences range from a minor punch (common assault, a punch which leaves a minor cut or a bruise (Actual Bodily Harm), a serious injury casued by recklessness (Section 20 Grevious Bodily Harm), or a serious injury caused intentionally to seriously harm another person (Section 18 Grevious Bodily Harm). <br><br>Whatever type of allegation is made against you, our Serious Crime Solicitors have the knowledge and expertise to defend you.We will scrutinise the evidence and chase witnesses or CCTV evidence if it is available.Furthermore, our Lawyers' creative minds will be working with you to find evidence or arguments which will increase your chances of an acquittal.",
+                path: 'violent-crime-offences',
+                title: 'Violent Crime Offences',
+                description: "Violent crime offences range from a minor punch (common assault, a punch which leaves a minor cut or a bruise (Actual Bodily Harm), a serious injury casued by recklessness (Section 20 Grevious Bodily Harm), or a serious injury caused intentionally to seriously harm another person (Section 18 Grevious Bodily Harm). <br><br>Whatever type of allegation is made against you, our solicitors have the knowledge and expertise to defend you.We will scrutinise the evidence and chase witnesses or CCTV evidence if it is available.Furthermore, our Lawyers' creative minds will be working with you to find evidence or arguments which will increase your chances of an acquittal.",
                 imageUrl: 'url("/assets/services/violent-crime.jpg")',
                 crimes: [
-                    "Murder",
-                    "Section 18 grievous bodily harm with intent",
-                    "Section 20 grievous bodily harm",
-                    "Actual body harm",
-                    "Common Assault"
+                    'Murder',
+                    'Section 18 grievous bodily harm with intent',
+                    'Section 20 grievous bodily harm',
+                    'Actual body harm',
+                    'Common Assault'
                 ]
             },
             {
-                path: "sexual-crime-offences",
-                title: "Sexual Crime Offences",
+                path: 'sexual-crime-offences',
+                title: 'Sexual Crime Offences',
                 description: "SCM's specialist sexual offence solicitors understand that an allegation of a sexual nature can be emotionally stressful and take its toll on those around you. We understand the need for you and your family to be advised and informed on how court proceedings work and that such procedures may be unfamiliar to you.<br><br>Often these offences are based purely on the issue of consent and presenting accurate and factual legal arguments to support this is key.<br><br>Below are some, but not all, offences that we cover here at SCM.",
                 imageUrl: 'url("/assets/services/sexual-offences.jpg")',
                 crimes: [
-                    "Rape",
-                    "Sexual Assault",
-                    "Sexual Offences against children",
-                    "Possessing indecent images of children",
-                    "Child grooming",
-                    "Exposure / Voyerism"
+                    'Rape',
+                    'Sexual Assault',
+                    'Sexual Offences against children',
+                    'Possessing indecent images of children',
+                    'Child grooming',
+                    'Exposure / Voyerism'
                 ]
             },
             {
-                path: "drugs-offences",
-                title: "Drugs Offences",
-                description: "SCM Solicitors have defended those accused of importing, producing, distributing, supplying and possessing all classes of drugs for more than 30 years. Either you are uncontrollably addicted to the use of drugs, helpless due to the very real and painful physical effects of long term use; or you are engrossed in a vicious lifestyle cycle.<br><br>Wherever you fit, the Serious Crime Solicitors at this firm will be able to assist you in the preparation of your case at every step of the way. Below is a list of just some of the alleged offences that we can assist you with.",
+                path: 'drugs-offences',
+                title: 'Drugs Offences',
+                description: 'SCM Solicitors have defended those accused of importing, producing, distributing, supplying and possessing all classes of drugs for more than 30 years. Either you are uncontrollably addicted to the use of drugs, helpless due to the very real and painful physical effects of long term use; or you are engrossed in a vicious lifestyle cycle.<br><br>Wherever you fit, our solicitors at this firm will be able to assist you in the preparation of your case at every step of the way. Below is a list of just some of the alleged offences that we can assist you with.',
                 imageUrl: 'url("/assets/services/drugs-offences.jpg")',
                 crimes: [
-                    "Conspiracy to supply",
-                    "Possession with intent to supply",
-                    "Production of controlled drugs",
-                    "Permitting premises to be used",
-                    "Possessing controlled drugs"
+                    'Conspiracy to supply',
+                    'Possession with intent to supply',
+                    'Production of controlled drugs',
+                    'Permitting premises to be used',
+                    'Possessing controlled drugs'
                 ]
             },
             {
-                path: "fraud-offences",
-                title: "Fraud Offences",
-                description: "Whether you are a business or an individual, SCM will create a tailored strategy to meet your end-goals. Having handled cases a multitude of cases, we have the experience of dealing with a spectrum of offences under this legislation.<br><br>We are renowned for our commitment to taking early action in any investigation and advising on preventative steps which may be taken to resolve the case without the need for formal court proceedings.We will be responsible for pursuing all possible lines of enquiry which could yield that vital grain of evidence to prove your innocence or sway the jury in your favour.<br><br>We have excellent relationships with truly gifted Barristers and QCs who we will engage to support your team. We have access to forensic experts, to accountants, to mobile phone analysis experts who can all be called in to give evidence to bolster your defence.",
+                path: 'fraud-offences',
+                title: 'Fraud Offences',
+                description: 'Whether you are a business or an individual, SCM will create a tailored strategy to meet your end-goals. Having handled a multitude of cases, we have the experience of dealing with a spectrum of offences under this legislation.<br><br>We are renowned for our commitment to taking early action in any investigation and advising on preventative steps which may be taken to resolve the case without the need for formal court proceedings.We will be responsible for pursuing all possible lines of enquiry which could yield that vital grain of evidence to prove your innocence or sway the jury in your favour.<br><br>We have excellent relationships with truly gifted Barristers and QCs who we will engage to support your team. We have access to forensic experts, to accountants, to mobile phone analysis experts who can all be called in to give evidence to bolster your defence.',
                 imageUrl: 'url("/assets/services/fraud-offences.jpg")',
-                crimes: [
-                    "Conspiracy to defraud",
-                    "False representation",
-                    "Bribery",
-                    "Money Laundering",
-                    "TAX / Benefit fraud"
-                ]
+                crimes: ['Conspiracy to defraud', 'False representation', 'Bribery', 'Money Laundering', 'TAX / Benefit fraud']
             },
             {
-                path: "theft-and-dishonesty-offences",
-                title: "Theft & Dishonesty Offences",
-                description: "The solicitors at SCM have a wealth of experience in dealing with offences of theft. If you are accused of theft we can help you. If the police want to interview you we can advise you about that.<br><br>Theft is a crime of dishonesty and can have a significant impact on your employment, future employment and many applications to financial institutions.We understand the importance and the consequences of theft allegations, and specialise in, but are not limited to, the following:",
+                path: 'theft-and-dishonesty-offences',
+                title: 'Theft & Dishonesty Offences',
+                description: 'The solicitors at SCM have a wealth of experience in dealing with offences of theft. If you are accused of theft we can help you. If the police want to interview you we can advise you about that.<br><br>Theft is a crime of dishonesty and can have a significant impact on your employment, future employment and many applications to financial institutions.We understand the importance and the consequences of theft allegations, and specialise in, but are not limited to, the following:',
                 imageUrl: 'url("/assets/services/theft-offences.jpg")',
                 crimes: [
-                    "Burglary",
-                    "Shoplifting",
-                    "Theft from employer",
-                    "Handling stolen goods",
-                    "Making off without payment"
+                    'Burglary',
+                    'Shoplifting',
+                    'Theft from employer',
+                    'Handling stolen goods',
+                    'Making off without payment'
                 ]
             },
+            // {
+            //   path: 'cyber-offences',
+            //   title: 'Cyber Offences',
+            //   description:
+            //     'Cyber crime is a relatively new and constantly developing field. Investigations with an online or digital element are invariably technically challenging and complex. Many cases have an international element and investigations in the UK are often merely one part of coordinated action by law enforcement bodies across the globe. These issues, together with the sheer volume of data that is invariably seized during a computer based investigation, pose real challenges to law enforcement agencies.<br><br>We at SCM are here as professionals to assist in fields such as:',
+            //   imageUrl: 'url("/assets/services/cyber-offences.jpg")',
+            //   crimes: ['Child pornography', 'Espionage', 'Copyright Infringement', 'Financial Theft']
+            // },
             {
-                path: "cyber-offences",
-                title: "Cyber Offences",
-                description: "Cyber crime is relatively new and constantly developing field. Investigations with an online or digital element are invariably technically challenging and complex. Many cases have an international element and investigations in the UK are often merely one part of coordinated action by law enforcement bodies across the globe, and particularly the FBI. These issues, together with the sheer volume of data that is invariably seized during a computer based investigation, pose real challenges to law enforcement agencies.<br><br>We at SCM are here as professionals to assist in fields such as:",
-                imageUrl: 'url("/assets/services/cyber-offences.jpg")',
-                crimes: [
-                    "Child pornography",
-                    "Espionage",
-                    "Copyright Infringement",
-                    "Financial Theft"
-                ]
-            },
-            {
-                path: "regulatory-offences",
-                title: "Regulatory Offences",
-                description: "If you are in business, you will know that regulations have a huge impact on how you carry out day-to-day operations. Directors, partners and other staff can face individual criminal prosecutions for alleged breaches of certain rules. Our regulatory offences solicitors have the expertise and resources to assist individuals and companies under investigation by a regulatory body.<br><br>Below is a list of just some of the alleged offenses we here at SCM can assist you with:",
+                path: 'regulatory-offences',
+                title: 'Regulatory Offences',
+                description: 'If you are in business, you will know that regulations have a huge impact on how you carry out day-to-day operations. Directors, partners and other staff can face individual criminal prosecutions for alleged breaches of certain rules. Our solicitors have the expertise and resources to assist individuals and companies under investigation by a regulatory body.<br><br>Below is a list of just some of the alleged offenses we here at SCM can assist you with:',
                 imageUrl: 'url("/assets/services/regulatory-offences.jpg")',
                 crimes: [
-                    "Health and safety offences",
-                    "Food hygiene offences",
-                    "Trading Standards offences",
-                    "Licensing offences",
-                    "Environment offences"
+                    'Health and safety offences',
+                    'Food hygiene offences',
+                    'Trading Standards offences',
+                    'Licensing offences',
+                    'Environment offences'
                 ]
             },
             {
-                path: "motoring-offences",
-                title: "Motoring Offences",
-                description: "Our specialist motor offence solicitors can advise you on all aspects of motoring and road traffic law throughout England and Wales.<br><br>We assist our clients in defending against an array of driving offences from the most minor motoring offence to those arising from fatal driving accidents. We pride ourselves on attention to detail and have specialist experience in the following areas:",
+                path: 'motoring-offences',
+                title: 'Motoring Offences',
+                description: 'Our specialist motor offence solicitors can advise you on all aspects of motoring and road traffic law throughout England and Wales.<br><br>We assist our clients in defending against an array of driving offences from the most minor motoring offence to those arising from fatal driving accidents. We pride ourselves on attention to detail and have specialist experience in the following areas:',
                 imageUrl: 'url("/assets/services/motoring-offences.jpg")',
                 crimes: [
-                    "Dangerous and careless driving",
-                    "Driving while under the influence of drink/drugs",
-                    "Speeding",
-                    "Driving without a license",
-                    "Driving without insurance",
-                    "Driving whilst disqualified"
+                    'Dangerous and careless driving',
+                    'Driving while under the influence of drink/drugs',
+                    'Speeding',
+                    'Driving without a license',
+                    'Driving without insurance',
+                    'Driving whilst disqualified'
                 ]
             }
         ];
@@ -1148,16 +1073,16 @@ var ServicesComponent = (function () {
         // pass data to shared storage
         this._dataStorageService.setService(_path, _title, _description, _imageUrl, _crimes);
         // navigate to services detail.
-        this._router.navigate(["/services", _path]);
+        this._router.navigate(['/services', _path]);
     };
     ServicesComponent.prototype.goToNotableCases = function () {
-        this._router.navigateByUrl("/notable-cases");
+        this._router.navigateByUrl('/notable-cases');
     };
     return ServicesComponent;
 }());
 ServicesComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-        selector: "services",
+        selector: 'services',
         template: __webpack_require__("../../../../../src/app/_pages/services/services.component.html"),
         styles: [__webpack_require__("../../../../../src/app/_pages/services/services.component.scss")]
     }),
@@ -1522,13 +1447,13 @@ var TeamComponent = (function () {
                 name: 'Lucas Edwards',
                 position: null,
                 initials: 'LE',
-                backgroundImageUrl: '/assets/team/scm-placeholder.png',
-                imageUrl: '/assets/team/scm-placeholder.png',
+                backgroundImageUrl: '/assets/team/lucas-profile.jpg',
+                imageUrl: '/assets/team/lucas-profile.jpg',
                 shortDescription: 'Lucas is a Qualified Higher Court Advocate and Duty Solicitor who specialises in all areas of Criminal Law. Before joining SCM, Lucas worked as an Assistant Solicitor for Lloyd and Rowe Solicitors in Cardiff and thereafter for JA Hughes in Barry.Lucas was later made a Partner at JA Hughes, where he took charge of their Criminal Department.',
-                fullDescription: 'Lucas is a Qualified Higher Court Advocate and Duty Solicitor who specialises in all areas of Criminal Law. Before joining SCM, Lucas worked as an Assistant Solicitor for Lloyd and Rowe Solicitors in Cardiff and thereafter for JA Hughes in Barry.Lucas was later made a Partner at JA Hughes, where he took charge of their Criminal Department. Lucas represents clients at the Police Station, Youth Court, Magistrates Court and Crown Court. Lucas has represented clients for a wide range of offences such as Rape, Terrorism and Murder.',
+                fullDescription: 'Lucas is a Qualified Higher Court Advocate and Duty Solicitor who specialises in all areas of Criminal Law. Before joining SCM, Lucas worked as an Assistant Solicitor for Lloyd and Rowe Solicitors in Cardiff and thereafter for JA Hughes in Barry. Lucas was later made a Partner at JA Hughes, where he took charge of their Criminal Department. Lucas represents clients at the Police Station, Youth Court, Magistrates Court and Crown Court. Lucas has represented clients for a wide range of offences such as Rape, Terrorism and Murder.',
                 emailAddress: 'lucas@scmlaw.co.uk',
-                phoneNumberString: 'Not specified',
-                phoneNumber: +447738703699
+                phoneNumberString: '07813568339',
+                phoneNumber: +447813568339
             }
         ];
         this.duty = [
