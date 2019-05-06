@@ -8,7 +8,6 @@ import { HomeComponent } from './home/home.component';
 import { TeamComponent } from './team/team.component';
 import { NotableCasesComponent } from './notable-cases/notable-cases.component';
 import { SiteManagementPolicyComponent } from './site-management-policy/site-management-policy.component';
-import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 
 const companyRoutes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -17,8 +16,7 @@ const companyRoutes: Routes = [
   { path: 'find-us', component: FindUsComponent },
   { path: 'find-us/:location', component: FindUsComponent },
   { path: 'team', component: TeamComponent },
-  { path: 'site-management-policy', component: SiteManagementPolicyComponent },
-  { path: 'privacy-policy', component: PrivacyPolicyComponent }
+  { path: 'site-management-policy', component: SiteManagementPolicyComponent }
 ];
 
 @NgModule({
@@ -30,8 +28,7 @@ const companyRoutes: Routes = [
     ServicesComponent,
     NotableCasesComponent,
     FindUsComponent,
-    SiteManagementPolicyComponent,
-    PrivacyPolicyComponent
+    SiteManagementPolicyComponent
   ],
   providers: []
 })

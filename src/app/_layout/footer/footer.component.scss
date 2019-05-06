@@ -92,13 +92,6 @@
       font-size: 14px;
       font-family: $scm-font-helvetica-neue;
       color: $scm-light-off-white;
-
-      &:first-of-type {
-        &::after {
-          padding: 0 10px;
-          content: '|';
-        }
-      }
     }
   }
 }

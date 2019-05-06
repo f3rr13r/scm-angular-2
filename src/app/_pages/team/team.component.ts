@@ -101,15 +101,15 @@ export class TeamComponent implements OnInit {
         name: 'Lucas Edwards',
         position: null,
         initials: 'LE',
-        backgroundImageUrl: '/assets/team/scm-placeholder.png',
-        imageUrl: '/assets/team/scm-placeholder.png',
+        backgroundImageUrl: '/assets/team/lucas-profile.jpg',
+        imageUrl: '/assets/team/lucas-profile.jpg',
         shortDescription:
           'Lucas is a Qualified Higher Court Advocate and Duty Solicitor who specialises in all areas of Criminal Law. Before joining SCM, Lucas worked as an Assistant Solicitor for Lloyd and Rowe Solicitors in Cardiff and thereafter for JA Hughes in Barry.Lucas was later made a Partner at JA Hughes, where he took charge of their Criminal Department.',
         fullDescription:
-          'Lucas is a Qualified Higher Court Advocate and Duty Solicitor who specialises in all areas of Criminal Law. Before joining SCM, Lucas worked as an Assistant Solicitor for Lloyd and Rowe Solicitors in Cardiff and thereafter for JA Hughes in Barry.Lucas was later made a Partner at JA Hughes, where he took charge of their Criminal Department. Lucas represents clients at the Police Station, Youth Court, Magistrates Court and Crown Court. Lucas has represented clients for a wide range of offences such as Rape, Terrorism and Murder.',
+          'Lucas is a Qualified Higher Court Advocate and Duty Solicitor who specialises in all areas of Criminal Law. Before joining SCM, Lucas worked as an Assistant Solicitor for Lloyd and Rowe Solicitors in Cardiff and thereafter for JA Hughes in Barry. Lucas was later made a Partner at JA Hughes, where he took charge of their Criminal Department. Lucas represents clients at the Police Station, Youth Court, Magistrates Court and Crown Court. Lucas has represented clients for a wide range of offences such as Rape, Terrorism and Murder.',
         emailAddress: 'lucas@scmlaw.co.uk',
-        phoneNumberString: 'Not specified',
-        phoneNumber: +447738703699
+        phoneNumberString: '07813568339',
+        phoneNumber: +447813568339
       }
     ];
 
