@@ -15,6 +15,18 @@ interface NotableCase {
 export class NotableCasesComponent {
   notableCases: [NotableCase] = [
     {
+      title: 'R v G (2019)',
+      subtitle: 'N/A',
+      description: 'Defendant prosecuted with 40 counts contrary to the explosive substances act',
+      court: 'Swansea Crown Court'
+    },
+    {
+      title: 'R v L (2019)',
+      subtitle: 'N/A',
+      description: 'Represented 3 defendants in an £800k conspiracy to defraud/mortgage fraud',
+      court: 'Cardiff Crown Court'
+    },
+    {
       title: 'R v B & OTHERS (2019)',
       subtitle: 'OPERATION RED DRAGON',
       description: 'Represented all 5 defendants in a conspiracy to supply half a million pounds of heroin',

@@ -35,7 +35,7 @@ export class TeamComponent implements OnInit {
     this.partner = [
       {
         path: 'david-sedgewick',
-        name: 'David Sedgewick',
+        name: 'David Sedgwick',
         position: 'Bridgend Office',
         initials: 'DS',
         backgroundImageUrl: '/assets/team/scm-placeholder.png',
@@ -93,7 +93,7 @@ export class TeamComponent implements OnInit {
         phoneNumberString: '07738703699',
         phoneNumber: +447738703699
       }
-    ]; // needs bio // needs bio
+    ];
 
     this.associates = [
       {
@@ -115,23 +115,23 @@ export class TeamComponent implements OnInit {
 
     this.duty = [
       {
-        path: 'phillip-thomas',
-        name: 'Phillip Thomas LLB(Hons)',
+        path: 'philip-thomas',
+        name: 'Philip Thomas',
         position: null,
         initials: 'PT',
         backgroundImageUrl: '/assets/team/phil-profile.jpg',
         imageUrl: '/assets/team/phil-profile.jpg',
         shortDescription:
-          'Phillip Thomas, a Specialist Qualified Criminal Lawyer, joined SCM as a Consultant Solicitor at it’s inception in 2016. Before moving to work at SCM, he had many years experience, formerly a Senior Partner and Consultant with Gwyn & Gwyn/Larby Williams (now JCP Solicitors), and also the Sole Principle of Phillip Thomas & Co, a criminal law firm in Bridgend.',
+          'Philip Thomas, a Specialist Qualified Criminal Lawyer, joined SCM as a Consultant Solicitor at it’s inception in 2016. Before moving to work at SCM, he had many years experience, formerly a Senior Partner and Consultant with Gwyn & Gwyn/Larby Williams (now JCP Solicitors), and also the Sole Principle of Philip Thomas & Co, a criminal law firm in Bridgend.',
         fullDescription:
-          'Phillip Thomas, a Specialist Qualified Criminal Lawyer, joined SCM as a Consultant Solicitor at it’s inception in 2016. Before moving to work at SCM, he had many years experience, formerly a Senior Partner and Consultant with Gwyn & Gwyn/Larby Williams (now JCP Solicitors), and also the Sole Principle of Phillip Thomas & Co, a criminal law firm in Bridgend. He has also been a Chairman and Member of local and regional Duty Solicitor Committees. Outside of work, Phil is married, and has three daughters.',
+          'Philip Thomas, a Specialist Qualified Criminal Lawyer, joined SCM as a Consultant Solicitor at it’s inception in 2016. Before moving to work at SCM, he had many years experience, formerly a Senior Partner and Consultant with Gwyn & Gwyn/Larby Williams (now JCP Solicitors), and also the Sole Principle of Philip Thomas & Co, a criminal law firm in Bridgend. He has also been a Chairman and Member of local and regional Duty Solicitor Committees. Outside of work, Phil is married, and has three daughters.',
         emailAddress: 'phil@scmlaw.co.uk',
         phoneNumberString: '07976720367',
         phoneNumber: +447976720367
       },
       {
         path: 'richard-adamec',
-        name: 'Richard Adamec LLB(Hons)',
+        name: 'Richard Adamec',
         position: null,
         initials: 'DM',
         backgroundImageUrl: '/assets/team/adamec-profile.jpg',
@@ -143,21 +143,6 @@ export class TeamComponent implements OnInit {
         emailAddress: 'richard@scmlaw.co.uk',
         phoneNumberString: '07912747112',
         phoneNumber: +447912747112
-      },
-      {
-        path: 'denny-bryant',
-        name: 'Denny Bryant LLB(Hons)',
-        position: null,
-        initials: 'DB',
-        backgroundImageUrl: '/assets/team/denny-profile.jpg',
-        imageUrl: '/assets/team/denny-profile.jpg',
-        shortDescription:
-          'Born in the Cynon Valley, grew up in West Wales and now lives in Cardiff. Went to school in Christ College, Brecon then studied law at London University. Completed the Legal Practice course in Cardiff and has been a qualified solicitor since 1998.',
-        fullDescription:
-          'Born in the Cynon Valley, Denny grew up in West Wales and now lives in Cardiff. He went to school in Christ College, Brecon then studied law at London University. Denny completed the Legal Practice course in Cardiff and has been a qualified solicitor since 1998. Denny practices exclusively in the field of Criminal Law. He has been a duty solicitor since 1999, and specialises in all matters of criminal law. He has represented clients in high profile murder cases, rape cases, drug and conspiracy offences, and he undertakes work in the Crown Court, Magistrates Court and the police station.',
-        emailAddress: 'denny@scmlaw.co.uk',
-        phoneNumberString: '07771234567',
-        phoneNumber: +447771234567
       }
     ];
 
@@ -201,7 +186,7 @@ export class TeamComponent implements OnInit {
         phoneNumberString: '',
         phoneNumber: 0
       }
-    ]; // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it // Don't need it
+    ];
   }
 
   onTeamHover() {
