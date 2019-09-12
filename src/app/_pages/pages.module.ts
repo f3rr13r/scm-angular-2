@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { _SharedModule } from '../_shared/shared.module';
+import { SharedModule } from '../_shared/shared.module';
 
 import { FindUsComponent } from './find-us/find-us.component';
 import { ServicesComponent } from './services/services.component';
@@ -20,7 +20,7 @@ const companyRoutes: Routes = [
 ];
 
 @NgModule({
-  imports: [_SharedModule, RouterModule.forChild(companyRoutes)],
+  imports: [SharedModule, RouterModule.forChild(companyRoutes)],
   exports: [],
   declarations: [
     HomeComponent,

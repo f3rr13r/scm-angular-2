@@ -10,7 +10,7 @@ import { TeamMember } from './models/team-data.interface';
 import { DataStorageService } from './data/data.storage';
 
 @Component({
-  selector: 'team',
+  selector: 'scm-team',
   templateUrl: 'team.component.html',
   styleUrls: ['team.component.scss']
 })

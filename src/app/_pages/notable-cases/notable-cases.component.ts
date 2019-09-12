@@ -8,12 +8,12 @@ interface NotableCase {
 }
 
 @Component({
-  selector: 'notable-cases',
+  selector: 'scm-notable-cases',
   templateUrl: 'notable-cases.component.html',
   styleUrls: ['notable-cases.component.scss']
 })
 export class NotableCasesComponent {
-  notableCases: [NotableCase] = [
+  notableCases: NotableCase[] = [
     {
       title: 'R v G (2019)',
       subtitle: 'N/A',

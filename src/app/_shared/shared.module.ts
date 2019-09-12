@@ -4,13 +4,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 // google maps
-import { AgmCoreModule } from 'angular2-google-maps/core';
+import { AgmCoreModule } from '@agm/core';
 
 // modules
 
 // components
 import { GoogleMapsComponent } from './google-maps/google-maps.component';
-
 
 @NgModule({
   imports: [
@@ -28,6 +27,6 @@ import { GoogleMapsComponent } from './google-maps/google-maps.component';
     RouterModule,
     GoogleMapsComponent
   ],
-  declarations: [ GoogleMapsComponent ]
+  declarations: [GoogleMapsComponent]
 })
-export class _SharedModule { }
+export class SharedModule {}

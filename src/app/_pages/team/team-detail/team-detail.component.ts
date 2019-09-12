@@ -1,15 +1,15 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit } from '@angular/core';
 
 // models
-import { TeamMember } from "../models/team-data.interface";
+import { TeamMember } from '../models/team-data.interface';
 
 // shared data service
-import { DataStorageService } from "../data/data.storage";
+import { DataStorageService } from '../data/data.storage';
 
 @Component({
-  selector: "team-detail",
-  templateUrl: "team-detail.component.html",
-  styleUrls: ["team-detail.component.scss"]
+  selector: 'scm-team-detail',
+  templateUrl: 'team-detail.component.html',
+  styleUrls: ['team-detail.component.scss']
 })
 export class TeamDetailComponent implements OnInit {
   // properties

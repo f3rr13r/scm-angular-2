@@ -8,16 +8,15 @@ import { NotFoundComponent } from './404/not-found.component';
 const appRoutes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: '**', component: NotFoundComponent }
-]
+];
 
 @NgModule({
-	imports: [
-		RouterModule.forRoot(appRoutes)
-	],
-	exports: [
-		RouterModule
-	]
+  imports: [
+    RouterModule.forRoot(appRoutes, {
+      onSameUrlNavigation: 'reload',
+      scrollPositionRestoration: 'enabled'
+    })
+  ],
+  exports: [RouterModule]
 })
-export class AppRoutingModule { }
-
-
+export class AppRoutingModule {}

@@ -5,19 +5,15 @@ import { FormsModule } from '@angular/forms';
 import { Http, HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 
-// 3rd party
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
-
 /* -- shared & layout -- */
-import { _SharedModule } from './_shared/shared.module';
+import { SharedModule } from './_shared/shared.module';
 import { LayoutModule } from './_layout/layout.module';
 
 // app modules
 import { AppRoutingModule } from './app.routing.module';
 import { PagesModule } from './_pages/pages.module';
 import { ServicesModule } from './_pages/services/services.module';
-import { TeamModule } from './_pages/team/team.module'; 
+import { TeamModule } from './_pages/team/team.module';
 
 // app components
 import { AppComponent } from './app.component';
@@ -30,7 +26,7 @@ import { HomeComponent } from './_pages/home/home.component';
 const appRoutes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: '**', component: NotFoundComponent }
-]
+];
 
 @NgModule({
   imports: [
@@ -39,10 +35,9 @@ const appRoutes: Routes = [
     FormsModule,
     HttpModule,
     RouterModule.forRoot(appRoutes),
-    NgbModule.forRoot(),
 
     // core, shared & layout
-    _SharedModule,
+    SharedModule,
     LayoutModule,
 
     // pages modules
@@ -50,13 +45,8 @@ const appRoutes: Routes = [
     ServicesModule,
     TeamModule
   ],
-  declarations: [
-    AppComponent,
-    NotFoundComponent,
-  ],
-  providers: [
-  ],
+  declarations: [AppComponent, NotFoundComponent],
+  providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
-
+export class AppModule {}

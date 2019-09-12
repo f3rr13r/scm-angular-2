@@ -11,30 +11,27 @@ import { Service } from '../models/services-data.interface';
 import { DataStorageService } from '../data/data.storage';
 
 @Component({
-    selector: 'services-detail',
-    templateUrl: 'services-detail.component.html',
-    styleUrls: [ 'services-detail.component.scss' ]
+  selector: 'scm-services-detail',
+  templateUrl: 'services-detail.component.html',
+  styleUrls: ['services-detail.component.scss']
 })
-
 export class ServicesDetailComponent implements OnInit {
+  // properties
+  serviceName: string;
 
-    // properties
-    serviceName: string;
+  service: Service;
 
-    service: Service;
+  constructor(private _dataStorageService: DataStorageService, private _location: Location) {}
 
-    constructor(private _dataStorageService: DataStorageService,
-                private _location: Location) { }
+  ngOnInit() {
+    // make sure we always arrive back at top of page.
+    window.scrollTo(0, 0);
 
-    ngOnInit() {
-        // make sure we always arrive back at top of page.
-        window.scrollTo(0, 0);
+    // get data from shared service
+    this.service = this._dataStorageService.getService();
+  }
 
-        // get data from shared service
-        this.service = this._dataStorageService.getService();
-    }
-
-    goBack() {
-        this._location.back();
-    }
+  goBack() {
+    this._location.back();
+  }
 }

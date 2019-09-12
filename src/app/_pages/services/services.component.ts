@@ -10,7 +10,7 @@ import { Service } from './models/services-data.interface';
 import { DataStorageService } from './data/data.storage';
 
 @Component({
-  selector: 'services',
+  selector: 'scm-services',
   templateUrl: 'services.component.html',
   styleUrls: ['services.component.scss']
 })

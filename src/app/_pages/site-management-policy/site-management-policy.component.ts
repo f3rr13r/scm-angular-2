@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-site-management-policy',
+  selector: 'scm-site-management-policy',
   templateUrl: './site-management-policy.component.html',
   styleUrls: ['./site-management-policy.component.scss']
 })

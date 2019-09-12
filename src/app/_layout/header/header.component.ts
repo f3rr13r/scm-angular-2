@@ -1,15 +1,15 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit } from '@angular/core';
 
 // routing
-import { Router } from "@angular/router";
+import { Router } from '@angular/router';
 
 // components
-import { HeaderContactComponent } from "./header-contact/header-contact.component";
+import { HeaderContactComponent } from './header-contact/header-contact.component';
 
 @Component({
-  selector: "header",
-  templateUrl: "header.component.html",
-  styleUrls: ["header.component.scss"]
+  selector: 'scm-header',
+  templateUrl: 'header.component.html',
+  styleUrls: ['header.component.scss']
 })
 export class HeaderComponent implements OnInit {
   isHomeSelected: boolean;
@@ -17,7 +17,7 @@ export class HeaderComponent implements OnInit {
   isTeamSelected: boolean;
   isFindUsSelected: boolean;
 
-  constructor(private _router: Router) {}
+  constructor(public _router: Router) {}
 
   ngOnInit() {
     // show home page by default.
@@ -26,18 +26,18 @@ export class HeaderComponent implements OnInit {
 
   // routing
   navigateToHome() {
-    this._router.navigateByUrl("/");
+    this._router.navigateByUrl('/');
   }
 
   navigateToServices() {
-    this._router.navigateByUrl("services");
+    this._router.navigateByUrl('services');
   }
 
   navigateToTeam() {
-    this._router.navigateByUrl("team");
+    this._router.navigateByUrl('team');
   }
 
   navigateToFindUs() {
-    this._router.navigateByUrl("find-us");
+    this._router.navigateByUrl('find-us');
   }
 }

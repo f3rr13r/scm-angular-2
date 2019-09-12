@@ -5,17 +5,14 @@ import { Router } from '@angular/router';
 import { FooterContactComponent } from './footer-contact/footer-contact.component';
 
 @Component({
-    selector: 'footer',
-    templateUrl: 'footer.component.html',
-    styleUrls: [ 'footer.component.scss' ]
+  selector: 'scm-footer',
+  templateUrl: 'footer.component.html',
+  styleUrls: ['footer.component.scss']
 })
-
 export class FooterComponent {
+  constructor(private _router: Router) {}
 
-    constructor(private _router: Router) { }
-
-    navigateToHome() {
-        this._router.navigateByUrl('/');
-    }
-
+  navigateToHome() {
+    this._router.navigateByUrl('/');
+  }
 }
