@@ -31,7 +31,7 @@ const appRoutes: Routes = [
 @NgModule({
   imports: [
     // angular
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     FormsModule,
     HttpModule,
     RouterModule.forRoot(appRoutes),
