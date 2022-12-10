@@ -23,7 +23,7 @@
     "angular2-google-maps": "^0.17.0",
     "body-parser": "^1.17.2",
     "core-js": "^2.4.1",
-    "express": "^4.15.3",
+    "express": "^4.17.3",
     "node-sass": "^3.3.3",
     "preboot": "^5.0.0-rc.13",
     "rxjs": "^5.1.0",
